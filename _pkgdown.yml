@@ -1,0 +1,27 @@
+# _pkgdown.yml
+template:
+  bootstrap: 5
+  bootswatch: united
+
+reference:
+  - title: "Functions"
+    contents:
+      - load_schema
+      - validate_schema
+      # Uncomment the next line if `document_schema` is available
+      # - document_schema
+  - title: "Datasets"
+    contents:
+      - user_schema
+
+articles:
+  - title: "Using PIFDataModel: Managing and Validating JSON Schemas"
+    contents:
+      - JsonSchemas
+
+output_dir: docs
+
+extra_files:
+  - inst/schemas/user_schema.json
+
+url: https://fsqanalytics.github.io/PIFDataModel/

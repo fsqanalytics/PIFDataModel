@@ -1,0 +1,30 @@
+Package: PIFDataModel
+Type: Package
+Title: Manage and Document JSON Schemas in R
+Version: 0.0.0.9000
+Authors@R: 
+    person("Vasco", "Cadavez", email = "vcadavez@ipb.pt", role = c("aut", "cre"))
+Description: Provides tools to store, validate, and document JSON schemas for use in R.
+License: GPL-3
+Encoding: UTF-8
+LazyLoad: yes
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+NeedsCompilation: no
+Imports:
+    Rdpack,
+    jsonlite,
+    jsonvalidate,
+    knitr
+RdMacros: Rdpack
+Suggests:
+    testthat,
+    rmarkdown
+VignetteBuilder: knitr
+Maintainer: Vasco Cadavez <vcadavez@ipb.pt>
+URL: https://fsqanalytics.github.io/PIFDataModel,
+     https://github.com/fsqanalytics/PIFDataModel
+BugReports: https://github.com/fsqanalytics/PIFDataModel/issues
+Packaged: 2024-04-11 10:00:43 UTC; vc
+Config/testthat/edition: 3

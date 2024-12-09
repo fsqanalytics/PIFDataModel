@@ -1,0 +1,66 @@
+---
+title: "Using PIFDataModel: Managing and Validating JSON Schemas"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using PIFDataModel: Managing and Validating JSON Schemas}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+The `PIFDataModel` package provides tools to manage, validate, and document JSON schemas in R. This vignette demonstrates how to:
+1. Load a JSON schema from the package.
+2. Validate JSON data against the schema.
+3. Generate documentation for a schema.
+
+The package is designed to facilitate the integration and validation of structured JSON data in R workflows.
+
+## Loading a Schema
+
+The first step is to load a schema using the `load_schema()` function. This function reads a JSON schema file from the package's `inst/schemas/` directory and converts it into an R object.
+
+```{r, eval=FALSE}
+# Load a schema
+schema <- load_schema("user_schema.json")
+print(schema)
+```
+
+## Validating JSON Data
+
+Use the validate_schema() function to check if a JSON object conforms to a specific schema. The input can be a JSON string or an R object (converted to JSON).
+
+```{r, eval=FALSE}
+# JSON data as a string
+json_data <- '{"id": 1, "name": "Alice", "email": "alice@example.com"}'
+
+# Validate the JSON data against the schema
+validate_schema(json_data, "user_schema.json")
+```
+
+## Generating Documentation
+
+The document_schema() function creates a human-readable description of a schema in markdown format. This is useful for sharing or documenting the structure of your schemas.
+
+```{r, eval=FALSE}
+# Generate markdown documentation for the schema
+doc <- document_schema("user_schema.json")
+cat(doc)
+```
+
+
+## User Schema
+
+This schema validates user objects.
+
+### Properties
+
+- `id`: Integer, required.
+- `name`: String, required.
+- `email`: String, must be a valid email.
+
+
+
+
+
+

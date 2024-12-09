@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/",
+  out.width="100%"
+)
+```
+
+# PIFDataModel
+
+The `PIFDataModel` package ([https://github.com/fsqanalytics/PIFDataModel.git](https://github.com/fsqanalytics/PIFDataModel.git)) helps manage and document JSON schemas in R. It supports loading, validating, and generating documentation for JSON schemas.
+
+## Installation
+
+```{r, eval=FALSE}
+# Install development version
+devtools::install_github("fsqanalytics/PIFDataModel")
+```
+
+## Usage
+
+```{r, eval=FALSE}
+library(PIFDataModel)
+```
+
+### Load a schema
+
+```{r, eval=FALSE}
+schema <- load_schema("user_schema.json")
+```
+
+### Validate JSON data
+
+```{r, eval=FALSE}
+json_data <- '{"id": 1, "name": "Alice", "email": "alice@example.com"}'
+validate_schema(json_data, "user_schema.json")
+
+### Generate documentation
+
+```{r, eval=FALSE}
+document_schema("user_schema.json")
+```
+
