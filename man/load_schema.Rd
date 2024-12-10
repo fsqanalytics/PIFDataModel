@@ -3,20 +3,27 @@
 \name{load_schema}
 \alias{load_schema}
 \title{Load a JSON Schema}
+\source{
+\url{https://github.com/yourusername/PIFDataModel/blob/main/inst/schemas/user_schema.json}
+}
 \usage{
 load_schema(schema_name)
 }
 \arguments{
-\item{schema_name}{The name of the JSON schema file (e.g., "user_schema.json").}
+\item{schema_name}{A string representing the name of the JSON schema file (e.g., "user_schema.json").}
 }
 \value{
-A list representing the schema.
+A list representing the schema, with attributes \code{"schema_name"} and \code{"schema_path"} for metadata.
 }
 \description{
 Loads a JSON schema from the package's \verb{inst/schemas/} directory.
 }
 \examples{
-\dontrun{
-  schema <- load_schema("user_schema.json")
-}
+\dontshow{if (interactive()) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+# View the contents of the schema file (if available)
+cat(readLines(system.file("schemas", "user_schema.json", package = "PIFDataModel")), sep = "\n")
+
+# Load the schema
+schema <- load_schema("user_schema.json")
+\dontshow{\}) # examplesIf}
 }

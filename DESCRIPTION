@@ -16,7 +16,8 @@ Imports:
     Rdpack,
     jsonlite,
     jsonvalidate,
-    knitr
+    knitr,
+    mongolite
 RdMacros: Rdpack
 Suggests:
     testthat,

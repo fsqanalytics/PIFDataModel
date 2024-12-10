@@ -2,14 +2,16 @@
 template:
   bootstrap: 5
   bootswatch: united
+  params:
+    assets:
+      - inst/schemas/user_schema.json
 
 reference:
   - title: "Functions"
     contents:
       - load_schema
       - validate_schema
-      # Uncomment the next line if `document_schema` is available
-      # - document_schema
+      - document_schema
   - title: "Datasets"
     contents:
       - user_schema

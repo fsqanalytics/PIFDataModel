@@ -4,6 +4,7 @@
 #'
 #' @param json_data A JSON string or an R object that can be serialized to JSON.
 #' @param schema_name The name of the JSON schema file in `inst/schemas/`.
+#' @param verbose Logical. If `TRUE`, provides detailed error messages on validation failure.
 #' @return Logical `TRUE` if validation succeeds; otherwise, an error is thrown.
 #' @examples
 #' \dontrun{
@@ -11,7 +12,12 @@
 #'   validate_schema(json_data, "user_schema.json")
 #' }
 #' @export
-validate_schema <- function(json_data, schema_name) {
+validate_schema <- function(json_data, schema_name, verbose = FALSE) {
+  # Validate input
+  if (!is.character(schema_name) || length(schema_name) != 1) {
+    stop("'schema_name' must be a single string.")
+  }
+  
   # Get the schema file path
   schema_path <- system.file("schemas", schema_name, package = "PIFDataModel")
   
@@ -26,10 +32,10 @@ validate_schema <- function(json_data, schema_name) {
   }
   
   # Validate the JSON data against the schema file
-  result <- jsonvalidate::json_validate(json_data, schema_path, verbose = TRUE)
+  validation_result <- jsonvalidate::json_validate(json_data, schema_path, verbose = verbose)
   
-  if (!result) {
-    stop("Validation failed.")
+  if (!validation_result) {
+    stop("Validation failed. Check the JSON data and schema for compatibility.")
   }
   
   return(TRUE)

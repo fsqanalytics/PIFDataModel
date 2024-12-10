@@ -39,7 +39,7 @@
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">validate_schema</span><span class="op">(</span><span class="va">json_data</span>, <span class="va">schema_name</span><span class="op">)</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">validate_schema</span><span class="op">(</span><span class="va">json_data</span>, <span class="va">schema_name</span>, verbose <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -52,6 +52,10 @@
 
 <dt id="arg-schema-name">schema_name<a class="anchor" aria-label="anchor" href="#arg-schema-name"></a></dt>
 <dd><p>The name of the JSON schema file in <code>inst/schemas/</code>.</p></dd>
+
+
+<dt id="arg-verbose">verbose<a class="anchor" aria-label="anchor" href="#arg-verbose"></a></dt>
+<dd><p>Logical. If <code>TRUE</code>, provides detailed error messages on validation failure.</p></dd>
 
 </dl></div>
     <div class="section level2">

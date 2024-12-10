@@ -4,12 +4,14 @@
 \alias{validate_schema}
 \title{Validate JSON Data Against a Schema}
 \usage{
-validate_schema(json_data, schema_name)
+validate_schema(json_data, schema_name, verbose = FALSE)
 }
 \arguments{
 \item{json_data}{A JSON string or an R object that can be serialized to JSON.}
 
 \item{schema_name}{The name of the JSON schema file in \verb{inst/schemas/}.}
+
+\item{verbose}{Logical. If \code{TRUE}, provides detailed error messages on validation failure.}
 }
 \value{
 Logical \code{TRUE} if validation succeeds; otherwise, an error is thrown.

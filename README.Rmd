@@ -32,19 +32,36 @@ library(PIFDataModel)
 
 ### Load a schema
 
-```{r, eval=FALSE}
+```{r, eval=TRUE}
+# Assuming the package is installed and `inst/schemas/` contains `user_schema.json`
 schema <- load_schema("user_schema.json")
+print(schema)
+
 ```
 
 ### Validate JSON data
 
-```{r, eval=FALSE}
-json_data <- '{"id": 1, "name": "Alice", "email": "alice@example.com"}'
+- Success
+
+```{r, eval=TRUE}
+json_data <- list(id = 1, name = "Alice")
 validate_schema(json_data, "user_schema.json")
+# [1] TRUE
+```
+
+
+- Failure
+
+```{r, eval=TRUE}
+json_data <- list(id = "not_numeric", name = "Alice")
+validate_schema(json_data, "user_schema.json", verbose = TRUE)
+# Error: Validation failed. Check the JSON data and schema for compatibility.
+```
 
 ### Generate documentation
 
-```{r, eval=FALSE}
-document_schema("user_schema.json")
+```{r, eval=TRUE}
+schema <- document_schema()
+print(schema)
 ```
 

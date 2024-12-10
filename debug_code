@@ -1,0 +1,22 @@
+# debugg code
+
+library(fs)
+library(pkgdown)
+library(jsonlite)
+
+# Check if the JSON file exists
+json_path <- system.file("schemas", "user_schema.json", package = "PIFDataModel")
+if (!file_exists(json_path)) {
+  stop("JSON file not found. Ensure it is in 'inst/schemas/'.")
+}
+
+# Check the contents of the schemas directory
+print(dir_ls(system.file("schemas", package = "PIFDataModel")))
+
+# Build the pkgdown site
+pkgdown::build_site()
+
+# Validate the schema file content
+schema <- fromJSON(json_path)
+print(schema)
+
