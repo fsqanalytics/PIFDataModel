@@ -2,3 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
+inst/doc
+/doc/
+/Meta/
+examples.R
+debug_code
+user_schema.json
+README.Rmd

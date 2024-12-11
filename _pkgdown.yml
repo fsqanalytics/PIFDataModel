@@ -6,24 +6,41 @@ template:
     assets:
       - inst/schemas/user_schema.json
 
+navbar:
+  structure:
+    left:
+      - reference
+      - articles
+      - "articles/custom-page.html"
+
 reference:
   - title: "Functions"
     contents:
       - load_schema
       - validate_schema
       - document_schema
+      - display_json_schema
+      - generate_html_tree
+      - generate_schema_diagram
+      - run_schema_viewer
+      - read_json_schema
   - title: "Datasets"
     contents:
       - user_schema
+      - person_schema
 
 articles:
   - title: "Using PIFDataModel: Managing and Validating JSON Schemas"
     contents:
       - JsonSchemas
-
+  - title: "json_schemas"
+    contents:
+      - json_schemas
+      
 output_dir: docs
 
 extra_files:
   - inst/schemas/user_schema.json
+  - inst/schemas/person_schema.json
 
 url: https://fsqanalytics.github.io/PIFDataModel/

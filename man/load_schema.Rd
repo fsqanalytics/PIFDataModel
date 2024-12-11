@@ -4,7 +4,7 @@
 \alias{load_schema}
 \title{Load a JSON Schema}
 \source{
-\url{https://github.com/yourusername/PIFDataModel/blob/main/inst/schemas/user_schema.json}
+\url{https://github.com/fsqanalytics/PIFDataModel/blob/main/inst/schemas/user_schema.json}
 }
 \usage{
 load_schema(schema_name)

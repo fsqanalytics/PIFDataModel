@@ -13,11 +13,8 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 NeedsCompilation: no
 Imports:
-    Rdpack,
-    jsonlite,
-    jsonvalidate,
-    knitr,
-    mongolite
+    Rdpack, jsonlite, jsonvalidate, knitr,
+    DiagrammeR, htmltools, shiny, digest
 RdMacros: Rdpack
 Suggests:
     testthat,

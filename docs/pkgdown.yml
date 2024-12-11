@@ -2,8 +2,9 @@ pandoc: '3.2'
 pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
+  json_schemas: json_schemas.html
   JsonSchemas: JsonSchemas.html
-last_built: 2024-12-10T14:54Z
+last_built: 2024-12-11T18:16Z
 urls:
   reference: https://fsqanalytics.github.io/PIFDataModel/reference
   article: https://fsqanalytics.github.io/PIFDataModel/articles

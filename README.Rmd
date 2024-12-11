@@ -26,7 +26,7 @@ devtools::install_github("fsqanalytics/PIFDataModel")
 
 ## Usage
 
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 library(PIFDataModel)
 ```
 
@@ -53,8 +53,8 @@ validate_schema(json_data, "user_schema.json")
 - Failure
 
 ```{r, eval=TRUE}
-json_data <- list(id = "not_numeric", name = "Alice")
-validate_schema(json_data, "user_schema.json", verbose = TRUE)
+#json_data <- list(id = "not_numeric", name = "Alice")
+#validate_schema(json_data, "user_schema.json", verbose = TRUE)
 # Error: Validation failed. Check the JSON data and schema for compatibility.
 ```
 
@@ -64,4 +64,21 @@ validate_schema(json_data, "user_schema.json", verbose = TRUE)
 schema <- document_schema()
 print(schema)
 ```
+
+
+### Table
+
+# JSON Schemas
+
+The following JSON schemas are available:
+
+| Schema Name   | Description                  | Link                                    |
+|---------------|------------------------------|-----------------------------------------|
+| Person Schema | Defines a person structure  | [View Schema](schemas/person_schema.json) |
+| User Schema| Defines an user structure| [View Schema](schemas/user_schema.json)|
+
+You can click the links to view the raw JSON files.
+
+
+
 

@@ -1,0 +1,119 @@
+---
+title: "json_schemas"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{json_schemas}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(PIFDataModel)
+```
+
+
+## JSON Schema Example
+
+Here is a sample JSON schema:
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Person",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The person's name"
+    },
+    "age": {
+      "type": "integer",
+      "description": "The person's age",
+      "minimum": 0
+    }
+  },
+  "required": ["name", "age"]
+}
+```
+
+
+After building the site, this will display syntax-highlighted JSON on your pkgdown site.
+
+---
+
+### 2. **Embed JSON Viewer Library**
+
+Add a viewer like [json-editor](https://github.com/json-editor/json-editor) to the pkgdown website. 
+
+1. Add a custom JavaScript file (`inst/pkgdown/assets/json-viewer.js`) to initialize the JSON editor:
+
+```javascript
+   const schema = {
+       "$schema": "http://json-schema.org/draft-07/schema#",
+       "title": "Person",
+       "type": "object",
+       "properties": {
+           "name": {
+               "type": "string",
+               "description": "The person's name"
+           },
+           "age": {
+               "type": "integer",
+               "description": "The person's age",
+               "minimum": 0
+           }
+       },
+       "required": ["name", "age"]
+   };
+
+   const editor = new JSONEditor(document.getElementById("editor"), { schema: schema });
+```
+
+
+```{r}
+library(jsonlite)
+library(DiagrammeR)
+
+# Parse JSON schema
+json_schema <- '{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Person",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The person\'s name"
+    },
+    "age": {
+      "type": "integer",
+      "description": "The person\'s age",
+      "minimum": 0
+    }
+  },
+  "required": ["name", "age"]
+}'
+
+schema <- fromJSON(json_schema)
+
+# Convert schema to a tree diagram
+tree <- grViz("
+digraph json_schema {
+  graph [rankdir=LR]
+  node [shape=box, style=filled, color=lightblue]
+  'Schema' -> 'Properties'
+  'Properties' -> 'name'
+  'Properties' -> 'age'
+  'name' -> 'string'
+  'age' -> 'integer'
+}")
+tree
+
+```
+
