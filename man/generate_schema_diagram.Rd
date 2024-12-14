@@ -4,7 +4,7 @@
 \alias{generate_schema_diagram}
 \title{Generate Diagram from JSON Schema}
 \usage{
-generate_schema_diagram(schema_file, debug = FALSE)
+generate_schema_diagram(schema_file)
 }
 \arguments{
 \item{schema_file}{Path to the JSON schema file.}
@@ -16,6 +16,7 @@ A DiagrammeR graph object.
 Generates a graph representation of a JSON schema using the DiagrammeR package.
 }
 \examples{
-# Example usage:
-# generate_schema_diagram("user_schema.json")
+schema_file <- system.file("schemas", "person_schema.json", package = "PIFDataModel")
+generate_schema_diagram(schema_file)
+
 }

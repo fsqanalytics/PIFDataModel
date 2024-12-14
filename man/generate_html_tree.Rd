@@ -7,11 +7,20 @@
 generate_html_tree(schema_file)
 }
 \arguments{
-\item{schema_file}{Path to the JSON schema file (relative to \code{inst/json_schemas}).}
+\item{schema_file}{A file path to a JSON schema. If the file is part of a
+package, use \code{system.file} to locate it.}
 }
 \value{
-An HTML representation of the schema.
+A character string containing the HTML tree.
 }
 \description{
-Creates an HTML tree representation of a JSON schema.
+This function takes a JSON schema file as input and generates an HTML tree
+representation of the schema.
+}
+\examples{
+schema_file <- system.file("schemas/user_schema.json", package = "PIFDataModel")
+html_representation <- generate_html_tree(schema_file)
+cat(html_representation) # Output to console, or write to a file
+# write(html_representation, file = "schema_tree.html")
+
 }

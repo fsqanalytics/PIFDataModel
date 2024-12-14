@@ -10,13 +10,14 @@ read_json_schema(schema_path)
 \item{schema_path}{A character string specifying the file path to the JSON schema.}
 }
 \value{
-A list representing the parsed JSON schema.
+A list representing the parsed JSON schema. Returns an error if the file is not found or contains invalid JSON.
 }
 \description{
 Reads and parses a JSON schema from a file, returning it as a structured R list.
 }
 \examples{
-schema_path <- system.file("schemas/user_schema.json", package = "PIFDataModel")
-schema <- read_json_schema(schema_path)
-print(schema$title)  # Access the title of the schema
+schema_file <- system.file("schemas/user_schema.json", package = "PIFDataModel")
+schema <- read_json_schema(schema_file)
+# Print the schema (optional)
+print(schema)
 }

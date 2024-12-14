@@ -2,78 +2,64 @@
 #'
 #' Generates a graph representation of a JSON schema using the DiagrammeR package.
 #' @param schema_file Path to the JSON schema file.
-#' @param debug Logical, whether to print debug information.
 #' @return A DiagrammeR graph object.
 #' @examples
-#' # Example usage:
-#' # generate_schema_diagram("user_schema.json")
+#' schema_file <- system.file("schemas", "person_schema.json", package = "PIFDataModel")
+#' generate_schema_diagram(schema_file)
+#' 
 #' @export
-generate_schema_diagram <- function(schema_file, debug = FALSE) {
-  # Check if the file exists
-  if (!file.exists(schema_file)) {
-    stop("Schema file not found: ", schema_file)
+generate_schema_diagram <- function(schema_file) {
+  # Load the JSON schema
+  schema <- jsonlite::fromJSON(schema_file)
+  
+  # Create lists to store nodes and edges
+  nodes <- data.frame(id = character(), label = character(), shape = character(), stringsAsFactors = FALSE)
+  edges <- data.frame(from = character(), to = character(), stringsAsFactors = FALSE)
+  
+  # Generate unique IDs for nodes
+  generate_node_id <- function(prefix, name) {
+    paste0(prefix, "_", gsub("[^a-zA-Z0-9]", "_", name))
   }
   
-  # Read and parse the JSON schema
-  schema <- tryCatch(
-    jsonlite::fromJSON(schema_file, simplifyVector = FALSE),
-    error = function(e) {
-      stop("Failed to parse JSON schema: ", e$message)
-    }
-  )
-  
-  # Initialize nodes and edges
-  nodes <- c()
-  edges <- c()
-  
-  # Recursive function to traverse the JSON schema
-  traverse <- function(node, parent = NULL, node_name = "root") {
-    sanitized_name <- sanitize_label(node_name)
-    node_id <- paste0(sanitized_name, "_", digest::digest(c(parent, sanitized_name)))
-    
-    cat("Adding node:", node_id, "\n")
-    
-    # Add the current node
-    nodes <<- c(nodes, sprintf('"%s" [label="%s"]', node_id, sanitized_name))
-    
-    # Add edge to parent
-    if (!is.null(parent)) {
-      cat("Adding edge:", parent, "->", node_id, "\n")
-      edges <<- c(edges, sprintf('"%s" -> "%s";', parent, node_id))
-    }
-    
-    # Recursively process children
-    if (is.list(node) && !is.null(names(node))) {
-      for (child_name in names(node)) {
-        traverse(node[[child_name]], node_id, child_name)
+  # Recursive function to traverse the schema
+  traverse_schema <- function(obj, parent_id = NULL, prefix = "node") {
+    for (name in names(obj)) {
+      node_id <- generate_node_id(prefix, name)
+      label <- paste0(name, " (", class(obj[[name]]), ")")
+      shape <- if (is.list(obj[[name]])) "box" else "ellipse"
+      
+      # Add the current node
+      nodes <<- rbind(nodes, data.frame(id = node_id, label = label, shape = shape, stringsAsFactors = FALSE))
+      
+      # Add an edge from parent to current node
+      if (!is.null(parent_id)) {
+        edges <<- rbind(edges, data.frame(from = parent_id, to = node_id, stringsAsFactors = FALSE))
+      }
+      
+      # Recursively traverse nested objects or arrays
+      if (is.list(obj[[name]])) {
+        traverse_schema(obj[[name]], parent_id = node_id, prefix = node_id)
       }
     }
   }
   
+  # Start traversal from the root
+  traverse_schema(schema)
   
+  # Construct DOT syntax
+  dot_nodes <- paste(sapply(1:nrow(nodes), function(i) {
+    paste0(nodes$id[i], " [label=\"", nodes$label[i], "\", shape=", nodes$shape[i], "];")
+  }), collapse = "\n")
   
-  # Start the traversal with the root node
-  traverse(schema)
+  dot_edges <- paste(sapply(1:nrow(edges), function(i) {
+    paste0(edges$from[i], " -> ", edges$to[i], ";")
+  }), collapse = "\n")
   
-  # Construct the Graphviz string
-  graph_str <- paste0(
-    "digraph json_schema {\n",
-    paste(nodes, collapse = "\n"),
-    "\n",
-    paste(edges, collapse = "\n"),
-    "\n}"
-  )
+  dot_graph <- paste0("digraph schema {\n",
+                      "rankdir=LR;\n",
+                      dot_nodes, "\n",
+                      dot_edges, "\n}")
   
-  # Debugging: Print the Graphviz string if debug is TRUE
-  if (debug) {
-    cat("Generated Graphviz String:\n", graph_str, "\n")
-  }
-  
-  # Create the DiagrammeR graph object
-  tryCatch(
-    DiagrammeR::grViz(graph_str),
-    error = function(e) {
-      stop("Failed to generate DiagrammeR graph: ", e$message)
-    }
-  )
+  # Generate the DiagrammeR graph
+  DiagrammeR::grViz(dot_graph)
 }

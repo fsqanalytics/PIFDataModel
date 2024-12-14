@@ -1,5 +1,5 @@
 test_that("person_schema reads the schema correctly", {
-  schema <- person_schema()
+  schema <- person_json_schema()
   
   # Check that the schema is a non-empty character string
   expect_type(schema, "character")

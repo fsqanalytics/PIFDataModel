@@ -47,11 +47,11 @@ Here is a sample JSON schema:
 
 ## Loading a Schema
 
-The first step is to load a schema using the `load_schema()` function. This function reads a JSON schema file from the package's `inst/schemas/` directory and converts it into an R object.
+The first step is to load a schema using the `load_json_schema()` function. This function reads a JSON schema file from the package's `inst/schemas/` directory and converts it into an R object.
 
 ```{r, eval=TRUE}
 # Load a schema
-schema <- load_schema("user_schema.json")
+schema <- load_json_schema("user_schema.json")
 print(schema)
 ```
 
@@ -69,11 +69,11 @@ validate_schema(json_data, "user_schema.json")
 
 ## Generating Documentation
 
-The document_schema() function creates a human-readable description of a schema in markdown format. This is useful for sharing or documenting the structure of your schemas.
+The document_json_schema() function creates a human-readable description of a schema in markdown format. This is useful for sharing or documenting the structure of your schemas.
 
 ```{r, eval=TRUE}
 # Generate markdown documentation for the schema
-doc <- document_schema("user_schema.json")
+doc <- document_json_schema("user_schema.json")
 
 # Explicitly print the documentation
 if (is.character(doc)) {
@@ -93,9 +93,3 @@ This schema validates user objects.
 - `id`: Integer, required.
 - `name`: String, required.
 - `email`: String, must be a valid email.
-
-
-
-
-
-

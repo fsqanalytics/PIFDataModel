@@ -18,7 +18,7 @@
 #'   document_schema(list(id = 1, name = "Alice"), save_to = "user_schema.json")
 #' }
 #' @export
-document_schema <- function(r_object = NULL, save_to = NULL) {
+document_json_schema <- function(r_object = NULL, save_to = NULL) {
   # Generate a boilerplate schema template
   generate_boilerplate_schema <- function() {
     list(

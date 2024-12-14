@@ -8,7 +8,7 @@
 #' @return A character string containing the JSON schema.
 #' @examples
 #' # Access the schema
-#' schema <- person_schema()
+#' schema <- person_json_schema()
 #' cat(schema)
 #'
 #' # Example validation (requires jsonvalidate package)
@@ -16,7 +16,7 @@
 #' validator <- jsonvalidate::json_validator(schema)
 #' validator('{"name": "Alice", "age": 30}')
 #' @export
-person_schema <- function() {
+person_json_schema <- function() {
   # Locate the schema file in the installed package
   schema_path <- system.file("schemas/person_schema.json", package = "PIFDataModel")
   

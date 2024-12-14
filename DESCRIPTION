@@ -14,7 +14,7 @@ RoxygenNote: 7.3.2
 NeedsCompilation: no
 Imports:
     Rdpack, jsonlite, jsonvalidate, knitr,
-    DiagrammeR, htmltools, shiny, digest
+    DiagrammeR, htmltools, shiny, digest, networkD3, rsvg
 RdMacros: Rdpack
 Suggests:
     testthat,

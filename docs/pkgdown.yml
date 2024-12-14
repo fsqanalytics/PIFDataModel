@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   json_schemas: json_schemas.html
   JsonSchemas: JsonSchemas.html
-last_built: 2024-12-11T18:16Z
+last_built: 2024-12-13T14:31Z
 urls:
   reference: https://fsqanalytics.github.io/PIFDataModel/reference
   article: https://fsqanalytics.github.io/PIFDataModel/articles
