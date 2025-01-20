@@ -5,7 +5,7 @@
 inst/doc
 /doc/
 /Meta/
-./scripts
+/scripts/
 examples.R
 debug_code
 README.Rmd
