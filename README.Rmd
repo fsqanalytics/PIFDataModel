@@ -15,70 +15,31 @@ knitr::opts_chunk$set(
 
 # PIFDataModel
 
-The `PIFDataModel` package ([https://github.com/fsqanalytics/PIFDataModel.git](https://github.com/fsqanalytics/PIFDataModel.git)) helps manage and document JSON schemas in R. It supports loading, validating, and generating documentation for JSON schemas.
+## Overview
+
+The **PIFDataModel** R package is part of the [PIF Database Project](https://pif.esa.ipb.pt/), which aims to facilitate the sharing and usage of the structured data and JSON schemas associated with the Pathogens in Foods (PIF) Database. This package serves as a repository for database structures, schemas, and related resources to support researchers, food safety professionals, and decision-makers in analyzing data related to pathogens in food.
+
+## Features
+
+- Access to PIF database structures.
+- Tools to validate and manipulate PIF database schemas (under development).
 
 ## Installation
 
-```{r, eval=FALSE}
-# Install development version
-devtools::install_github("fsqanalytics/PIFDataModel")
+To install the development version of **PIFDataModel**, use the following commands in R:
+
+```R
+# Install the remotes package if you don't have it
+install.packages("remotes")
+
+# Install the PIFDataModel package
+remotes::install_github("fsqanalytics/PIFDataModel")
 ```
 
-## Usage
+## Acknowledgments
 
-```{r, eval=TRUE}
-library(PIFDataModel)
-```
+The PIF Database and this package are developed as part of a research project funded by the European Food Safety Authority (EFSA). Special thanks to all contributors and collaborators who support this initiative.
 
-### Load a schema
+---
 
-```{r, eval=TRUE}
-# Assuming the package is installed and `inst/schemas/` contains `user_schema.json`
-schema <- load_schema("user_schema.json")
-print(schema)
-
-```
-
-### Validate JSON data
-
-- Success
-
-```{r, eval=TRUE}
-json_data <- list(id = 1, name = "Alice")
-validate_schema(json_data, "user_schema.json")
-# [1] TRUE
-```
-
-
-- Failure
-
-```{r, eval=TRUE}
-#json_data <- list(id = "not_numeric", name = "Alice")
-#validate_schema(json_data, "user_schema.json", verbose = TRUE)
-# Error: Validation failed. Check the JSON data and schema for compatibility.
-```
-
-### Generate documentation
-
-```{r, eval=TRUE}
-schema <- document_schema()
-print(schema)
-```
-
-
-### Table
-
-# JSON Schemas
-
-The following JSON schemas are available:
-
-| Schema Name   | Description                  | Link                                    |
-|---------------|------------------------------|-----------------------------------------|
-| Person Schema | Defines a person structure  | [View Schema](schemas/person_schema.json) |
-| User Schema| Defines an user structure| [View Schema](schemas/user_schema.json)|
-
-You can click the links to view the raw JSON files.
-
-
-
-
+Visit the [PIF Database Website](https://pif.esa.ipb.pt/) for more information on the broader project.

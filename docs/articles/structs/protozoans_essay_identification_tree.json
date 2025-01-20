@@ -1,0 +1,94 @@
+{
+    "label": "Parasite",
+    "Toxoplasma": {
+        "label": "EssayIdentificationType",
+        "Enzymatic": {
+            "label": "EssayIdentificationTypeClass",
+            "Multilocus enzyme electrophoresis": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "WGS Clade and haplogroups": null,
+            "MLST Haplogroups": null,
+            "PCR-RFLP ToxoDB genotype": null,
+            "Microsatellite typing 15 MicroSatellites": null,
+            "Combination": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Giardia": {
+        "label": "EssayIdentificationType",
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ],
+        "Molecular (genotyping)": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR Sequencing analysis": {
+                "label": "EssayIdentificationTypeClass2",
+                "Triosephosphate isomerase (tpi)": null,
+                "Glutamate deshydrogenase (gdh)": null,
+                "ARN 18S or SSU rRNA gene": null,
+                "Beta-giardin(bg)": null,
+                "Other": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "Triosephosphate isomerase (tpi)": null,
+                "glutamate deshydrogenase (gdh)": null,
+                "ARN 18S or SSU rRNA gene": null,
+                "Beta-giardin(bg)": null,
+                "Other": null
+            },
+            "WGS": null,
+            "Multilocus genotyping tool": null,
+            "RAPD (18S)": null,
+            "FISH (Fluorescent in situ hybridization)": null
+        }
+    },
+    "Cryptosporidium": {
+        "label": "EssayIdentificationType",
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "High Resolution Melt (HRM)": null,
+            "Nested PCR-RFLP": null,
+            "MLST multilocus gene sequencing/typing": null,
+            "MLFT multilocus fragment typing tools": null,
+            "18 S DNA sequencing": null,
+            "HSP70 sequencing": null,
+            "COWP sequencing": null,
+            "Cp47 sequencing": null,
+            "GP-60 gene sequencing": null,
+            "T-rich gene fragment": null,
+            "Serine repeat antigen": null,
+            "RPGR": null,
+            "MSC6-7": null,
+            "WGS": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "SampleWeightEnum": {
+        "data": null,
+        "label": "Sample Weight Enum",
+        "type": "number",
+        "required": false
+    },
+    "NSamplesEnum": {
+        "data": null,
+        "label": "Total units tested for enumeration, if different",
+        "type": "number",
+        "required": false
+    },
+    "CountsUnit": {
+        "data": [
+            "Raw",
+            "LOG 10",
+            "LN"
+        ],
+        "label": "Counts Unit",
+        "type": "list",
+        "required": true
+    },
+    "MeanConcentration": {
+        "data": null,
+        "label": "Mean concentration (Number per sample weight unit)",
+        "type": "number",
+        "required": true
+    },
+    "MedianConcentration": {
+        "data": null,
+        "label": "Median concentration (Number per sample weight unit)",
+        "type": "number",
+        "required": false
+    },
+    "StandardDeviation": {
+        "data": null,
+        "label": "Standard Deviation (Number per sample weight unit)",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_1": {
+        "data": null,
+        "label": "Count[i,1]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_2": {
+        "data": null,
+        "label": "Count[i,2]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_3": {
+        "data": null,
+        "label": "Count[i,3]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_4": {
+        "data": null,
+        "label": "Count[i,4]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_5": {
+        "data": null,
+        "label": "Count[i,5]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_6": {
+        "data": null,
+        "label": "Count[i,6]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_7": {
+        "data": null,
+        "label": "Count[i,7]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_8": {
+        "data": null,
+        "label": "Count[i,8]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_9": {
+        "data": null,
+        "label": "Count[i,9]",
+        "type": "number",
+        "required": false
+    },
+    "Min_i_1": {
+        "data": null,
+        "label": "Min (Number per sample weight unit)",
+        "type": "number",
+        "required": false
+    },
+    "Max_i_1": {
+        "data": null,
+        "label": "Max (Number per sample weight unit)",
+        "type": "number",
+        "required": false
+    }
+}

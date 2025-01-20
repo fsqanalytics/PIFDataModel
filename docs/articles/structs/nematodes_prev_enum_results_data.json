@@ -1,0 +1,242 @@
+{
+    "Anisakidae (family)": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Opisthorchiidae (family)": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Heterophyidae (family)": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Bothriocephalidae (family)": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Polymorphidae (family)": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Kudoidae (family)": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Anisakinae (subfamily)": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Contracaecinae (subfamily)": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Anisakis": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Contracaecum": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Phocanema": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Pseudoterranova": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Opisthorchis": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Metorchis": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Pseudamphistomum": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Dibothriocephalus": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Bolbosoma": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Corynosoma": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Kudoa": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Cryptocotyle": {
+        "ParasiteUnit": {
+            "data": [
+                "L2",
+                "L3",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    }
+}

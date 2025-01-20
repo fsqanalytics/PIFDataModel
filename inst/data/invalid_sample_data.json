@@ -1,0 +1,7 @@
+{
+  "SampleWEnum": 1,
+  "LoQ": 2,
+  "GreaterLoQ": 3,
+  "LowerLoQ": 4,
+  "CountsModel": "Impute"
+}

@@ -1,0 +1,78 @@
+{
+    "label": "Parasite",
+    "Toxoplasma": {
+        "label": "EssaySamplePrep",
+        "Centrifugation": null,
+        "Sequence based Magnetic capture (for PCR)": null,
+        "Artificial digestion (trypsin or pepsin or glycin)": null,
+        "Percoll gradients": null,
+        "Floculation with (Fe2(SO4)3+Al2(SO4)3": null,
+        "Flotation": null,
+        "LMS (lectin)": null,
+        "Filtration": null,
+        "Flotation in sucrose": null,
+        "Magnetic based Capture": null,
+        "Other": [
+            {
+                "data": null,
+                "name": "EssaySamplePrepOther",
+                "label": "Specify - EssayPrepOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Giardia": {
+        "label": "EssaySamplePrep",
+        "Immunomagnetic separation (IMS)as ISO 18744": null,
+        "Immunomagnetic separation (IMS)non precise": null,
+        "Centrifugation+IMS": null,
+        "Elution+concentration+IMS": null,
+        "Flow cytometry": null,
+        "Centrifugation": null,
+        "Bailenger concentration method": null,
+        "Umeche technic": null,
+        "Stomaching or stomaching with glycin": null,
+        "Washing or washing +tween": null,
+        "Formol-ether": null,
+        "Other": [
+            {
+                "data": null,
+                "name": "EssaySamplePrepOther",
+                "label": "Specify - EssayPrepOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Cryptosporidium": {
+        "label": "EssaySamplePrep",
+        "Centrifugation": null,
+        "Surface elution centrifugation": null,
+        "Elution+concentration": null,
+        "Concentrator": null,
+        "Flotation": null,
+        "Immunomagnetic separation (IMS)as ISO 18744": null,
+        "Immunomagnetic separation (IMS)as UUtaker et al,2015": null,
+        "Immunomagnetic separation (IMS) not referenced": null,
+        "Microfiltration": null,
+        "Centrifugation+IMS": null,
+        "Elution+concentration+IMS": null,
+        "MIFC merthiolate iodine-formaldehyde concentration": null,
+        "Bailanger method": null,
+        "Sucrose gradient Laberge": null,
+        "Gradient zinc": null,
+        "Gradient phycol": null,
+        "Gradient percoll": null,
+        "Flow cytometry": null,
+        "Other": [
+            {
+                "data": null,
+                "name": "EssaySamplePrepOther",
+                "label": "Specify - EssayPrepOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    }
+}

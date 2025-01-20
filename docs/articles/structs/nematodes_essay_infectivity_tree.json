@@ -1,0 +1,803 @@
+{
+    "label": "Parasite",
+    "Anisakidae (family)": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Opisthorchiidae (family)": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Heterophyidae (family)": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Bothriocephalidae (family)": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Polymorphidae (family)": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Kudoidae (family)": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Anisakinae (subfamily)": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Contracaecinae (subfamily)": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Anisakis": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Contracaecum": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Phocanema": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Pseudoterranova": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Opisthorchis": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Metorchis": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Pseudamphistomum": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Dibothriocephalus": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Bolbosoma": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Corynosoma": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Kudoa": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Cryptocotyle": {
+        "label": "EssayInfectivityType",
+        "Staining": {
+            "label": "EssayInfectivityTypeClass",
+            "Malachite green and microscopy": null,
+            "Exposure to different intensity of fluorescent emission": null,
+            "Other": null
+        },
+        "Immunology": {
+            "label": "EssayInfectivityTypeClass",
+            "Dot blot using rabbit anti-A. simplex crude extract polyclonal antibody and rabbit anti-recombinant (r)Ani s 4 polyclonal antisera": null,
+            "Anti Ani s 4 and IgE western blotting": null
+        },
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Optical": null,
+            "Scanning electron microscopy (SEM)": null,
+            "Environmental scanning electron microscopy (ESEM)": null
+        },
+        "Metabolism": {
+            "label": "EssayInfectivityTypeClass",
+            "Oxygen consumption rate (OCR) of Anisakis larvae": null,
+            "Mobility": null,
+            "Agar penetration test": null
+        },
+        "Molecular": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    }
+}

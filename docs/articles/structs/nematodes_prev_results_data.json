@@ -1,0 +1,14 @@
+{
+    "Detected": {
+        "data": null,
+        "label": "Detected",
+        "type": "number",
+        "required": true
+    },
+    "SampleWeightDet": {
+        "data": null,
+        "label": "Sample Weight Det",
+        "type": "number",
+        "required": true
+    }
+}

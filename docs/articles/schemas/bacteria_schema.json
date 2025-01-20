@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/fsqanalytics/PIFDataModel/docs/articles/schemas/bacteria_data_schema.json",
+    "type": "object",
+    "properties": {
+        "BacteriumLabel": {
+            "type": "string"
+        },
+        "Serotype_Serovar": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": []
+}

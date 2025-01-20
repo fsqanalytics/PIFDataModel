@@ -1,0 +1,14 @@
+{
+    "TotalExam": {
+        "data": null,
+        "label": "Total exam",
+        "type": "number",
+        "required": false
+    },
+    "Infectivity": {
+        "data": null,
+        "label": "Infectivity (0% ~ 100%)",
+        "type": "number",
+        "required": false
+    }
+}

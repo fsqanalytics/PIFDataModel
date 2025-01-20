@@ -1,0 +1,58 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/fsqanalytics/PIFDataModel/docs/articles/schemas/bacteria_count_schema.json",
+    "type": "object",
+    "properties": {
+        "SampleWEnum": {
+            "type": "number"
+        },
+        "LoQ": {
+            "type": "number"
+        },
+        "GreaterLoQ": {
+            "type": "number"
+        },
+        "LowerLoQ": {
+            "type": "number"
+        },
+        "MeanConc": {
+            "type": "number"
+        },
+        "CountsModel": {
+            "type": "string",
+            "enum": [
+                "Impute",
+                "PosCounts"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "SampleWEnum",
+        "LoQ",
+        "GreaterLoQ",
+        "LowerLoQ"
+    ],
+    "if": {
+        "properties": {
+            "MeanConc": {
+                "type": "number"
+            }
+        },
+        "required": [
+            "MeanConc"
+        ]
+    },
+    "then": {
+        "required": [
+            "CountsModel"
+        ]
+    },
+    "else": {
+        "not": {
+            "required": [
+                "CountsModel"
+            ]
+        }
+    }
+}

@@ -1,0 +1,363 @@
+{
+    "label": "Parasite",
+    "Anisakidae (family)": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Opisthorchiidae (family)": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Heterophyidae (family)": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Bothriocephalidae (family)": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Polymorphidae (family)": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Kudoidae (family)": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Anisakinae (subfamily)": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Contracaecinae (subfamily)": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Anisakis": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Contracaecum": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Phocanema": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Pseudoterranova": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Opisthorchis": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Metorchis": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Pseudamphistomum": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Dibothriocephalus": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Bolbosoma": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Corynosoma": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Kudoa": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Cryptocotyle": [
+        {
+            "data": [
+                "s.s",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "s.l",
+                "Other"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+---
+title: "Schemas"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Schemas}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Schemas in PIFDataModel
+
+The following schemas are available in the PIFDataModel package.
+
+
+| **Category**      | **Name**                        | **Description**                                       | **Link**                                               |
+|--------------------|--------------------------------|-------------------------------------------------------|------------------------------------------------------------|
+| **Bacteria**       | Count                          | Schema for bacteria count information                 | [View](./schemas/bacteria_count_schema.json)               |
+|                    | General                        | Schema for general information about bacteria         | [View](./schemas/bacteria_schema.json)                     |
+|                    | Prevalence                     | Schema for bacteria prevalence                        | [View](./schemas/bacteria_prevalence_schema.json)          |
+|                    | Results                        | Schema for results related to bacteria analysis       | [View](./schemas/bacteria_general_results_schema.json)             |
+|                    | Tree                           | Schema for hierarchical tree structure of bacteria    | [View](./schemas/bacteria_tree_schema.json)                |

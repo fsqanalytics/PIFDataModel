@@ -1,0 +1,1443 @@
+{
+    "label": "Parasite",
+    "Anisakidae (family)": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Opisthorchiidae (family)": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Heterophyidae (family)": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Bothriocephalidae (family)": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Polymorphidae (family)": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Kudoidae (family)": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Anisakinae (subfamily)": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Contracaecinae (subfamily)": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Anisakis": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Contracaecum": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Phocanema": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Pseudoterranova": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Opisthorchis": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Metorchis": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Pseudamphistomum": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Dibothriocephalus": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Bolbosoma": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Corynosoma": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Kudoa": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Cryptocotyle": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Morphologic": {
+                "label": "EssayDet",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayDetClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                }
+            },
+            "Automatic nematode identification system": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Morphologic": {
+                "label": "EssayEnum",
+                "Naked eye": null,
+                "Candling table": null,
+                "Naked eye + candling table": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Morphologic + Candling table + Microscopy": null,
+                "Morphologic + Naked eye + Microscopy": null,
+                "Optical (stereomicroscopy incl.)": null,
+                "Scanning electron microscopy (SEM)": null,
+                "Environmental scanning electron microscopy (ESEM)": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative PCR (qPCR)/real time PCR (rtPCR)": {
+                    "label": "EssayEnumClass",
+                    "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                    "Other": null
+                },
+                "Quantitative fluorescence PCR": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

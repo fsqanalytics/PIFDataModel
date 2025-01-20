@@ -1,0 +1,150 @@
+{
+    "label": "Virus",
+    "Norovirus": {
+        "label": "EssayInfectivityType",
+        "Cell culture": {
+            "label": "EssaInfectivityTypeClass",
+            "Stem cell-derived human intestinal enteroids": {
+                "label": "EssaInfectivityTypeClass2",
+                "2D": null,
+                "3D": null
+            },
+            "Others": null
+        },
+        "Animal model": {
+            "label": "EssaInfectivityTypeClass",
+            "Piglet": null,
+            "Mouse immune deficient BALB/c mice": null
+        },
+        "Pre-treatment with intercalating agent: viability dyes before PCR": {
+            "label": "EssaInfectivityTypeClass",
+            "PMA (propidium monoazide) (norovirus and HAV)": null,
+            "EMA (ethidium monoazide (norovirus and HAV)": null,
+            "Platinum compounds": null,
+            "Palladium compounds": null,
+            "Viability dyes+surfactants": null,
+            "Viability marker incubation condition": null,
+            "Viability dyes+enzyme like proteinase/RNase": null,
+            "Other": null
+        },
+        "Viral surrogate": {
+            "label": "EssaInfectivityTypeClass",
+            "Feline calicivirus (FCV)": null,
+            "Murine norovirus (MNV)": null,
+            "Tulane virus (TV)": null,
+            "Other": null
+        },
+        "Bacteriophage": {
+            "label": "EssaInfectivityTypeClass",
+            "F-specific RNA Bacteriophages": null,
+            "Other": null
+        },
+        "Impedancemetry": null,
+        "ICC RT-PCR ": null,
+        "Glycans (HGBA)": null,
+        "Aptamers": null,
+        "Molecular method targeting genome (longer amplicon, RNA)": null,
+        "Electron microscopy": null,
+        "Combination": null,
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": false
+            }
+        ]
+    },
+    "Hepatovirus A": {
+        "label": "EssayInfectivityType",
+        "Cell culture": {
+            "label": "EssaInfectivityTypeClass",
+            "Plaque assay": {
+                "label": "EssaInfectivityTypeClass2",
+                "FRhK-4 cells /p3cells": null,
+                "Huh7-A-1": null
+            },
+            "TCID50 FRhK-4 cells": null,
+            "Other": null
+        },
+        "Pre-treatment with intercalating agent before PCR: viability dyes": {
+            "label": "EssaInfectivityTypeClass",
+            "PMA (propidium monoazide)": null,
+            "EMA (ethidium monoazide)": null,
+            "Platinum compounds": null,
+            "Palladium compounds": null,
+            "Viability dyes+surfactants": null,
+            "Viability marker incubation condition": null,
+            "Viability dyes+enzyme like proteinase": null,
+            "PMAxx photoactivatable dye": null
+        },
+        "Bacteriophage": {
+            "label": "EssaInfectivityTypeClass",
+            "F-specific RNA Bacteriophages": null,
+            "Other": null
+        },
+        "Impedancemetry": null,
+        "ICC RT-PCR": null,
+        "Molecular method targeting genome (longer amplicon, RNA)": null,
+        "Electron microscopy": null,
+        "Combination": null,
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": false
+            }
+        ]
+    },
+    "Orthohepevirus A": {
+        "label": "EssayInfectivityType",
+        "Inoculation of animals": {
+            "label": "EssaInfectivityTypeClass",
+            "pigs": null,
+            "rabbits": null,
+            "gerbils": null,
+            "rats": null,
+            "mice": null,
+            "monkeys": null,
+            "other": null
+        },
+        "Cell culture": [
+            {
+                "data": [
+                    "human liver carcinoma cell lines (PLC/PRF/5 or HepG2/C3A or other)",
+                    "human lung carcinoma cell lines (A549 or other)",
+                    "Immunosuppressed transplant patient"
+                ],
+                "name": "EssaInfectivityTypeClass",
+                "label": "Type",
+                "type": "text",
+                "required": true
+            },
+            {
+                "data": [
+                    "2D",
+                    "3D"
+                ],
+                "name": "EssaInfectivityTypeClass2",
+                "label": "Format",
+                "type": "text",
+                "required": true
+            }
+        ],
+        "Pre-treatment with intercalating agent": null,
+        "RNAsedigestion": null,
+        "Impedancemetry": null,
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": false
+            }
+        ]
+    }
+}

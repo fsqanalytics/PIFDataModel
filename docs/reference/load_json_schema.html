@@ -17,9 +17,7 @@
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto"><li class="active nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
 <li class="nav-item"><a class="nav-link" href="../articles/index.html">Articles</a></li>
-      </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
- <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json"></form></li>
-<li class="nav-item"><a class="external-link nav-link" href="https://github.com/fsqanalytics/PIFDataModel/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
+      </ul><ul class="navbar-nav"><li class="nav-item"><a class="external-link nav-link" href="https://github.com/fsqanalytics/PIFDataModel/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul></div>
 
 
@@ -44,14 +42,14 @@
 
     <div class="section level2">
     <h2 id="source">Source<a class="anchor" aria-label="anchor" href="#source"></a></h2>
-    <p><a href="https://github.com/fsqanalytics/PIFDataModel/blob/main/inst/schemas/user_schema.json" class="external-link">https://github.com/fsqanalytics/PIFDataModel/blob/main/inst/schemas/user_schema.json</a></p>
+    <p><a href="https://github.com/fsqanalytics/PIFDataModel/blob/main/inst/schemas/bacteria_count_schema.json" class="external-link">https://github.com/fsqanalytics/PIFDataModel/blob/main/inst/schemas/bacteria_count_schema.json</a></p>
     </div>
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
 
 
 <dl><dt id="arg-schema-file-name">schema_file_name<a class="anchor" aria-label="anchor" href="#arg-schema-file-name"></a></dt>
-<dd><p>A string representing the name of the JSON schema file (e.g., "user_schema.json").</p></dd>
+<dd><p>A string representing the name of the JSON schema file (e.g., "bacteria_count_schema.json").</p></dd>
 
 
 <dt id="arg-package">package<a class="anchor" aria-label="anchor" href="#arg-package"></a></dt>
@@ -66,79 +64,86 @@
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://fsqanalytics.github.io/PIFDataModel">PIFDataModel</a></span><span class="op">)</span></span></span>
-<span class="r-in"><span><span class="va">my_schema</span> <span class="op">&lt;-</span> <span class="fu">load_json_schema</span><span class="op">(</span>schema_file_name <span class="op">=</span> <span class="st">"user_schema.json"</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="va">my_schema</span> <span class="op">&lt;-</span> <span class="fu">load_json_schema</span><span class="op">(</span>schema_file_name <span class="op">=</span> <span class="st">"bacteria_count_schema.json"</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">my_schema</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $`$schema`</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "http://json-schema.org/draft-07/schema#"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "https://json-schema.org/draft/2020-12/schema"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $`$id`</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "User"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $title</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "User object"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $description</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "A user object for demonstration purposes."</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "https://github.com/fsqanalytics/PIFDataModel/docs/articles/schemas/bacteria_count_schema.json"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $type</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] "object"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $properties</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$id</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$id$type</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "integer"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$id$minimum</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$id$description</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "The unique identifier for a user."</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$SampleWEnum</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$SampleWEnum$type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "number"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$name</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$name$type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$LoQ</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$LoQ$type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "number"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$GreaterLoQ</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$GreaterLoQ$type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "number"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$LowerLoQ</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$LowerLoQ$type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "number"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$MeanConc</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$MeanConc$type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "number"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$CountsModel</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$CountsModel$type</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] "string"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$name$minLength</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$name$maxLength</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 255</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$name$description</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "The user's name."</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$CountsModel$enum</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "Impute"    "PosCounts"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$email</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$email$type</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "string"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$email$format</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "email"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$email$description</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "The user's email address."</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $properties$email$default</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] ""</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $required</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "id"   "name"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $additionalProperties</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] FALSE</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $examples</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   id  name             email</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1  1 Alice alice@example.com</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2  2   Bob              &lt;NA&gt;</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $required</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "SampleWEnum" "LoQ"         "GreaterLoQ"  "LowerLoQ"   </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $`if`</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $`if`$properties</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $`if`$properties$MeanConc</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $`if`$properties$MeanConc$type</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "number"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $`if`$required</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "MeanConc"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $then</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $then$required</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "CountsModel"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $`else`</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $`else`$not</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $`else`$not$required</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "CountsModel"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> attr(,"schema_name")</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "user_schema.json"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "bacteria_count_schema.json"</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> attr(,"schema_path")</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "/tmp/RtmpF3Ka4F/temp_libpath15d51642ca975/PIFDataModel/schemas/user_schema.json"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "/tmp/RtmpER3vni/temp_libpath3b78a525ba8d7/PIFDataModel/schemas/bacteria_count_schema.json"</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
@@ -146,7 +151,7 @@
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by Vasco Cadavez.</p>
+  <p>Developed by Vasco Cadavez, Ursula Gonzales-Barron.</p>
 </div>
 
 <div class="pkgdown-footer-right">

@@ -1,0 +1,25 @@
+{
+    "TotalExam": {
+        "data": null,
+        "label": "Total Exam",
+        "type": "number",
+        "required": true
+    },
+    "Infectivity": {
+        "data": null,
+        "label": "Infectivity (0% ~ 100%)",
+        "type": "number",
+        "required": true
+    },
+    "OriginInfectivitySamples": {
+        "data": [
+            "Positive at detection",
+            "Positive at enumeration",
+            "Both",
+            "Other"
+        ],
+        "label": "Origin of infectivity samples",
+        "type": "list",
+        "required": false
+    }
+}

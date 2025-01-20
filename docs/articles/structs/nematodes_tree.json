@@ -1,0 +1,101 @@
+{
+    "label": "Parasite",
+    "Anisakidae (family)": null,
+    "Opisthorchiidae (family)": null,
+    "Heterophyidae (family)": null,
+    "Bothriocephalidae (family)": null,
+    "Polymorphidae (family)": null,
+    "Kudoidae (family)": null,
+    "Anisakinae (subfamily)": null,
+    "Contracaecinae (subfamily)": null,
+    "Anisakis": {
+        "label": "Specie",
+        "spp": null,
+        "simplex": null,
+        "pegreffii": null,
+        "berlandi": null,
+        "typica": null,
+        "ziphidarum": null,
+        "physeteris": null,
+        "brevispiculata ": null,
+        "nascetti": null,
+        "paggiae": null,
+        "other": null
+    },
+    "Contracaecum": {
+        "label": "Specie",
+        "spp": null,
+        "osculatum": null,
+        "radiatum": null,
+        "baicalensis": null,
+        "mirounga": null,
+        "ogmorhini": null,
+        "margolisi": null,
+        "other": null
+    },
+    "Phocanema": {
+        "label": "Specie",
+        "spp": null,
+        "krabbei": null,
+        "decipiens": null,
+        "bulbosa": null,
+        "azarasi": null,
+        "cattani": null,
+        "other": null
+    },
+    "Pseudoterranova": {
+        "label": "Specie",
+        "spp": null,
+        "decipiens": null,
+        "other": null
+    },
+    "Opisthorchis": {
+        "label": "Specie",
+        "felineus": null,
+        "viverrini": null,
+        "spp": null
+    },
+    "Metorchis": {
+        "label": "Specie",
+        "conjunctus": null,
+        "orientalis": null,
+        "spp": null
+    },
+    "Pseudamphistomum": {
+        "label": "Specie",
+        "truncatum": null,
+        "spp": null
+    },
+    "Dibothriocephalus": {
+        "label": "Specie",
+        "latus": null,
+        "dendriticus": null,
+        "nihonkaiensis": null,
+        "lanceolatus": null,
+        "spp": null
+    },
+    "Bolbosoma": {
+        "label": "Specie",
+        "nipponicum": null,
+        "capitatum": null,
+        "spp": null
+    },
+    "Corynosoma": {
+        "label": "Specie",
+        "strumosum": null,
+        "validum": null,
+        "villosum": null,
+        "spp": null
+    },
+    "Kudoa": {
+        "label": "Specie",
+        "hexapunctata": null,
+        "septempunctata": null,
+        "spp": null
+    },
+    "Cryptocotyle": {
+        "label": "Specie",
+        "lingua": null,
+        "spp": null
+    }
+}

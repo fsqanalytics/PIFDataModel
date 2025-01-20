@@ -1,0 +1,421 @@
+{
+    "label": "Parasite",
+    "Toxoplasma": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Immuno": {
+                "label": "EssayDet",
+                "ELISA": [
+                    {
+                        "data": null,
+                        "name": "EssayDetClassCutoff",
+                        "label": "Cutoff",
+                        "type": "number",
+                        "required": false
+                    }
+                ],
+                "Indirect ELISA": [
+                    {
+                        "data": null,
+                        "name": "EssayDetClassCutoff",
+                        "label": "Cutoff",
+                        "type": "number",
+                        "required": false
+                    }
+                ],
+                "MAT (modified agglutination test)": null,
+                "Other": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Stain Giemsa or haemotoxylin and eosin or wright giemsa": null,
+                "IHC (enzymes)": null,
+                "Fluorescent-conjugated antibodies": null,
+                "Autofluorescence": null,
+                "Other": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Nested PCR (nPCR)": {
+                    "label": "EssayDetClass",
+                    "PCR target B1 gene": null,
+                    "PCR target 529 bp repeat elements": null,
+                    "SAG-2": null,
+                    "Other": null
+                },
+                "Conventional PCR": {
+                    "label": "EssayDetClass",
+                    "PCR target B1 gene": null,
+                    "PCR target 529 bp repeat elements": null,
+                    "Other": null
+                },
+                "Quantitative Real-time PCR (qPCR)": {
+                    "label": "EssayDetClass",
+                    "PCR target B1 gene": null,
+                    "PCR target 529 bp repeat elements": null,
+                    "SAG-2": null,
+                    "Other": null
+                },
+                "LAMP (Loop-mediated isothermal amplification)": null,
+                "LAMP+lateral ﬂow dipstick chromatographic detection": null,
+                "Semi-nested PCR": {
+                    "label": "EssayDetClass",
+                    "PCR target B1 gene": null,
+                    "PCR target 529 bp repeat elements": null,
+                    "Other": null
+                }
+            },
+            "Combination": {
+                "label": "EssayDet",
+                "ELISA+MAT": null,
+                "ELISA+MAT+PCR": null,
+                "CCqPCR (target 529b)": null,
+                "PMA-qPCR (Propidium Monoazide-based qPCR)": null,
+                "Other": null
+            },
+            "Bioassay": {
+                "label": "EssayDet",
+                "Cat bioessay": null,
+                "Mouse bioessay": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative-PCR real time (qPCR)": {
+                    "label": "EssayEnumClass",
+                    "PCR target B1 gene": null,
+                    "PCR target 529 bp repeat elements": null,
+                    "SAG-2": null,
+                    "other": null
+                },
+                "Nested-PCR quantitative (nPCR)": {
+                    "label": "EssayEnumClass",
+                    "PCR target B1 gene": null,
+                    "PCR target 529 bp repeat elements": null,
+                    "SAG2": null,
+                    "Other target": null
+                },
+                "Other": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Giardia": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Immuno": {
+                "label": "EssayDet",
+                "IFA or IFT or DFA or IFM (immunofluorescent assays)": null,
+                "ELISA or EIAS(immunoassays or immunosorbent assay)": [
+                    {
+                        "data": null,
+                        "name": "EssayDetClassCutoff",
+                        "label": "Cutoff",
+                        "type": "number",
+                        "required": false
+                    }
+                ],
+                "Rapid immunochromatograhic assays (dipsticks)": null,
+                "IFM+ELISA": [
+                    {
+                        "data": null,
+                        "name": "EssayDetClassCutoff",
+                        "label": "Cutoff",
+                        "type": "number",
+                        "required": false
+                    }
+                ],
+                "Other": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Trichrome staining": null,
+                "Iodine/iron (lugol)/hematoxylin/giemsa": null,
+                "Saline wet mount": null,
+                "Direct smear": null,
+                "DIC microscopy (differential interference contrast)": null,
+                "Modified Zn staining": null,
+                "Other": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Conventional PCR": {
+                    "label": "EssayDetClass",
+                    "Triosephosphate isomerase (tpi)": null,
+                    "Glutamate deshydrogenase (gdh)": null,
+                    "ARN18S orSSU rRNA gene": null,
+                    "Beta-giardin (bg)": null,
+                    "Multilocus": null,
+                    "Other": null
+                },
+                "PCR-RFLP": {
+                    "label": "EssayDetClass",
+                    "Triosephosphate isomerase (tpi)": null,
+                    "ARN18S orSSU rRNA gene": null,
+                    "Beta-giardin (bg)": null,
+                    "Other": null
+                },
+                "Nested-PCR (nPCR)": {
+                    "label": "EssayDetClass",
+                    "Triosephosphate isomerase (tpi)": null,
+                    "Glutamate deshydrogenase (gdh)": null,
+                    "ARN18S orSSU rRNA gene": null,
+                    "Beta-giardin (bg)": null,
+                    "Other": null
+                },
+                "Quantitative-PCR real time (PCR, qPCR)": {
+                    "label": "EssayDetClass",
+                    "ARN18S orSSU rRNA gene": null,
+                    "Other": null
+                },
+                "Semi-nested PCR": {
+                    "label": "EssayDetClass",
+                    "Triosephosphate isomerase (tpi)": null,
+                    "Glutamate deshydrogenase (gdh)": null,
+                    "ARN18S orSSU rRNA gene": null,
+                    "Beta-giardin (bg)": null,
+                    "Other": null
+                },
+                "Real-time PCR": {
+                    "label": "EssayDetClass",
+                    "ARN18S orSSU rRNA gene": null,
+                    "Other": null
+                },
+                "MicroRNA-based method": null,
+                "Multiplex-tandemPCR": null
+            },
+            "Reference methods": {
+                "label": "EssayDet",
+                "NF T90-455 (AFNOR 2001) (IMSCG+IFA) (water)": null,
+                "1623 USEPA : 2001 (water)": null,
+                "ICR-USEPA : 1995 (water) (filtration+IMS+IFA)": null,
+                "1623 USEPA : 2005 (water) (filtration+IMS+IFA)": null,
+                "ISO 18744:2016 (Cryptosporidium & Giardia)": null,
+                "ISO 15553:2006 (Cryptosporidium & Giardia)": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Immuno": {
+                "label": "EssayEnum",
+                "IFA or IFT or DFA or IFM (Immunofluorescent assays)": null,
+                "ELISA or EIAS (Immunoassays or immunosorbent assay)": null,
+                "Rapid immunochromatograhic assays (Dipsticks)": null,
+                "IFM+ELISA": null,
+                "Other": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Trichrome staining": null,
+                "Iodine/Iron (lugol)/hematoxylin/giemsa": null,
+                "Direct smear": null,
+                "DIC microscopy (differential interference contrast)": null,
+                "Modified Zn staining": null,
+                "Other": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative-PCR real time (qPCR)": {
+                    "label": "EssayEnumClass",
+                    "ARN18S orSSU rRNA gene": null,
+                    "Other": null
+                },
+                "Other": null,
+                "ISO 18744:2016 (Cryptosporidium & Giardia)": null,
+                "ISO 15553:2006 (Cryptosporidium & Giardia)": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Cryptosporidium": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Immuno": {
+                "label": "EssayDet",
+                "IFA or IFT or DFA or IFM (immunofluorescent assays)": null,
+                "ELISA or EIAS(immunoassays or immunosorbent assay)": [
+                    {
+                        "data": null,
+                        "name": "EssayDetClassCutoff",
+                        "label": "Cutoff",
+                        "type": "number",
+                        "required": false
+                    }
+                ],
+                "Rapid immunochromatograhic assays (dipsticks)": null,
+                "IFM+ELISA": [
+                    {
+                        "data": null,
+                        "name": "EssayDetClassCutoff",
+                        "label": "Cutoff",
+                        "type": "number",
+                        "required": false
+                    }
+                ],
+                "Other": null
+            },
+            "Microscopy": {
+                "label": "EssayDet",
+                "Safranin-methylen-blue": null,
+                "Kinyoun Ziehl-Neelsen": null,
+                "Lugol or iodure and lugol+zn staining": null,
+                "Modified Zn staining": null,
+                "Direct smear": null,
+                "Dimethyl sulfoxide-carbol fuchsin-(Heine)": null,
+                "Other": null
+            },
+            "Molecular": {
+                "label": "EssayDet",
+                "Conventional PCR": {
+                    "label": "EssayDetClass",
+                    "ARN 18S or SSU rRNA": null,
+                    "COWP": null,
+                    "SSP70 (not referenced)": null,
+                    "Other or Not specified": null,
+                    "PCR as Hohweyer 2016 (SSP70)": null
+                },
+                "Nested-PCR": {
+                    "label": "EssayDetClass",
+                    "GP60": null,
+                    "ARN 18S or SSU rRNA": null,
+                    "COWP": null,
+                    "Other or Not specified": null
+                },
+                "Quantitative-PCR or real time PCR": {
+                    "label": "EssayDetClass",
+                    "ARN 18S or SSU rRNA": null,
+                    "SSP70": null,
+                    "Other or Not specified": null
+                },
+                "Semi-nested PCR": {
+                    "label": "EssayDetClass",
+                    "GP60": null,
+                    "ARN 18S or SSU rRNA": null,
+                    "COWP ": null,
+                    "Other or Not specified": null
+                },
+                "Multiplex PCR": null,
+                "Combination": {
+                    "label": "EssayDetClass",
+                    "IFM+PCR": null,
+                    "IMS+PCR": null,
+                    "Other combination": null
+                }
+            },
+            "Reference methods": {
+                "label": "EssayDet",
+                "NF T90-455 (AFNOR 2001)": null,
+                "Drinking water inspectorate (2005)": null,
+                "UUtaker et al (2015) (IMS+BFM)": null,
+                "1623 USEPA (2001) (water)": null,
+                "1623 USEPA (2005) (water filtration/IMS+IFA)": null,
+                "ICR-USEPA 1995 (water filtration/IMS-CG+IFA)": null,
+                "ISO 18744:2016 (Cryptosporidium & Giardia)": null,
+                "ISO 15553:2006 (Cryptosporidium & Giardia)": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Immuno": {
+                "label": "EssayEnum",
+                "IFA or IFT or DFA or IFM (immunofluorescent assays)": null,
+                "ELISA or EIAS (immunoassays or immunosorbent assay)": [
+                    {
+                        "data": null,
+                        "name": "EssayEnumClassCutoff",
+                        "label": "Cutoff",
+                        "type": "number",
+                        "required": false
+                    }
+                ],
+                "Rapid immunochromatograhic assays (dipsticks)": null,
+                "IFM+ELISA": [
+                    {
+                        "data": null,
+                        "name": "EssayEnumClassCutoff",
+                        "label": "Cutoff",
+                        "type": "number",
+                        "required": false
+                    }
+                ],
+                "Other": null
+            },
+            "Microscopy": {
+                "label": "EssayEnum",
+                "Safranin-methylen-blue": null,
+                "Kinyoun Ziehl-Neelsen": null,
+                "Lugol or iodure and lugol+zn staining": null,
+                "Modified Zn staining": null,
+                "Direct smear": null,
+                "Dimethyl sulfoxide-carbol fuchsin (Heine)": null,
+                "Other or not specified": null
+            },
+            "Molecular": {
+                "label": "EssayEnum",
+                "Quantitative-PCR or real time (qPCR)": {
+                    "label": "EssayEnumClass",
+                    "ARN 18S or SSU rRNA": null,
+                    "SSP70": null,
+                    "Other or Not specified": null
+                },
+                "Other": null,
+                "ISO 18744:2016 (Cryptosporidium & Giardia)": null,
+                "ISO 15553:2006 (Cryptosporidium & Giardia)": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    }
+}

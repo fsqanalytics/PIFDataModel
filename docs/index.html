@@ -35,9 +35,6 @@
 <li class="nav-item"><a class="nav-link" href="articles/index.html">Articles</a></li>
       </ul>
 <ul class="navbar-nav">
-<li class="nav-item"><form class="form-inline" role="search">
- <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
-</form></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/fsqanalytics/PIFDataModel/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
@@ -49,182 +46,38 @@
   <main id="main" class="col-md-9"><div class="section level1">
 <div class="page-header"><h1 id="pifdatamodel">PIFDataModel<a class="anchor" aria-label="anchor" href="#pifdatamodel"></a>
 </h1></div>
-<p>The <code>PIFDataModel</code> package (<a href="https://github.com/fsqanalytics/PIFDataModel.git" class="external-link uri">https://github.com/fsqanalytics/PIFDataModel.git</a>) helps manage and document JSON schemas in R. It supports loading, validating, and generating documentation for JSON schemas.</p>
+<div class="section level2">
+<h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
+</h2>
+<p>The <strong>PIFDataModel</strong> R package is part of the <a href="https://pif.esa.ipb.pt/" class="external-link">PIF Database Project</a>, which aims to facilitate the sharing and usage of the structured data and JSON schemas associated with the Pathogens in Foods (PIF) Database. This package serves as a repository for database structures, schemas, and related resources to support researchers, food safety professionals, and decision-makers in analyzing data related to pathogens in food.</p>
+</div>
+<div class="section level2">
+<h2 id="features">Features<a class="anchor" aria-label="anchor" href="#features"></a>
+</h2>
+<ul>
+<li>Access to PIF database structures.</li>
+<li>Tools to validate and manipulate PIF database schemas (under development).</li>
+</ul>
+</div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
+<p>To install the development version of <strong>PIFDataModel</strong>, use the following commands in R:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Install development version</span></span>
-<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"fsqanalytics/PIFDataModel"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="co"># Install the remotes package if you don't have it</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"remotes"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Install the PIFDataModel package</span></span>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"fsqanalytics/PIFDataModel"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
-<h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
+<h2 id="acknowledgments">Acknowledgments<a class="anchor" aria-label="anchor" href="#acknowledgments"></a>
 </h2>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://fsqanalytics.github.io/PIFDataModel">PIFDataModel</a></span><span class="op">)</span></span></code></pre></div>
-<div class="section level3">
-<h3 id="load-a-schema">Load a schema<a class="anchor" aria-label="anchor" href="#load-a-schema"></a>
-</h3>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Assuming the package is installed and `inst/schemas/` contains `user_schema.json`</span></span>
-<span><span class="va">schema</span> <span class="op">&lt;-</span> <span class="fu">load_schema</span><span class="op">(</span><span class="st">"user_schema.json"</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">schema</span><span class="op">)</span></span>
-<span><span class="co">#&gt; $`$schema`</span></span>
-<span><span class="co">#&gt; [1] "http://json-schema.org/draft-07/schema#"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $`$id`</span></span>
-<span><span class="co">#&gt; [1] "User"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $title</span></span>
-<span><span class="co">#&gt; [1] "User object"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $description</span></span>
-<span><span class="co">#&gt; [1] "A user object for demonstration purposes."</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $type</span></span>
-<span><span class="co">#&gt; [1] "object"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties</span></span>
-<span><span class="co">#&gt; $properties$id</span></span>
-<span><span class="co">#&gt; $properties$id$type</span></span>
-<span><span class="co">#&gt; [1] "integer"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$id$minimum</span></span>
-<span><span class="co">#&gt; [1] 1</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$id$description</span></span>
-<span><span class="co">#&gt; [1] "The unique identifier for a user."</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$name</span></span>
-<span><span class="co">#&gt; $properties$name$type</span></span>
-<span><span class="co">#&gt; [1] "string"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$name$minLength</span></span>
-<span><span class="co">#&gt; [1] 1</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$name$maxLength</span></span>
-<span><span class="co">#&gt; [1] 255</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$name$description</span></span>
-<span><span class="co">#&gt; [1] "The user's name."</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$email</span></span>
-<span><span class="co">#&gt; $properties$email$type</span></span>
-<span><span class="co">#&gt; [1] "string"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$email$format</span></span>
-<span><span class="co">#&gt; [1] "email"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$email$description</span></span>
-<span><span class="co">#&gt; [1] "The user's email address."</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$email$default</span></span>
-<span><span class="co">#&gt; [1] ""</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $required</span></span>
-<span><span class="co">#&gt; [1] "id"   "name"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $additionalProperties</span></span>
-<span><span class="co">#&gt; [1] FALSE</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $examples</span></span>
-<span><span class="co">#&gt;   id  name             email</span></span>
-<span><span class="co">#&gt; 1  1 Alice alice@example.com</span></span>
-<span><span class="co">#&gt; 2  2   Bob              &lt;NA&gt;</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; attr(,"schema_name")</span></span>
-<span><span class="co">#&gt; [1] "user_schema.json"</span></span>
-<span><span class="co">#&gt; attr(,"schema_path")</span></span>
-<span><span class="co">#&gt; [1] "/home/vcadavez/R/x86_64-pc-linux-gnu-library/4.3/PIFDataModel/schemas/user_schema.json"</span></span></code></pre></div>
-</div>
-<div class="section level3">
-<h3 id="validate-json-data">Validate JSON data<a class="anchor" aria-label="anchor" href="#validate-json-data"></a>
-</h3>
-<ul>
-<li>Success</li>
-</ul>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">json_data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span>id <span class="op">=</span> <span class="fl">1</span>, name <span class="op">=</span> <span class="st">"Alice"</span><span class="op">)</span></span>
-<span><span class="fu"><a href="reference/validate_schema.html">validate_schema</a></span><span class="op">(</span><span class="va">json_data</span>, <span class="st">"user_schema.json"</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] TRUE</span></span>
-<span><span class="co"># [1] TRUE</span></span></code></pre></div>
-<ul>
-<li>Failure</li>
-</ul>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co">#json_data &lt;- list(id = "not_numeric", name = "Alice")</span></span>
-<span><span class="co">#validate_schema(json_data, "user_schema.json", verbose = TRUE)</span></span>
-<span><span class="co"># Error: Validation failed. Check the JSON data and schema for compatibility.</span></span></code></pre></div>
-</div>
-<div class="section level3">
-<h3 id="generate-documentation">Generate documentation<a class="anchor" aria-label="anchor" href="#generate-documentation"></a>
-</h3>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">schema</span> <span class="op">&lt;-</span> <span class="fu">document_schema</span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">schema</span><span class="op">)</span></span>
-<span><span class="co">#&gt; $`$schema`</span></span>
-<span><span class="co">#&gt; [1] "http://json-schema.org/draft-07/schema#"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $title</span></span>
-<span><span class="co">#&gt; [1] "Example Schema"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $type</span></span>
-<span><span class="co">#&gt; [1] "object"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties</span></span>
-<span><span class="co">#&gt; $properties$example_field</span></span>
-<span><span class="co">#&gt; $properties$example_field$type</span></span>
-<span><span class="co">#&gt; [1] "string"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $properties$example_field$description</span></span>
-<span><span class="co">#&gt; [1] "An example field"</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; $required</span></span>
-<span><span class="co">#&gt; [1] "example_field"</span></span></code></pre></div>
-</div>
-<div class="section level3">
-<h3 id="table">Table<a class="anchor" aria-label="anchor" href="#table"></a>
-</h3>
+<p>The PIF Database and this package are developed as part of a research project funded by the European Food Safety Authority (EFSA). Special thanks to all contributors and collaborators who support this initiative.</p>
+<hr>
+<p>Visit the <a href="https://pif.esa.ipb.pt/" class="external-link">PIF Database Website</a> for more information on the broader project.</p>
 </div>
 </div>
-</div>
-<div class="section level1">
-<h1 id="json-schemas">JSON Schemas<a class="anchor" aria-label="anchor" href="#json-schemas"></a>
-</h1>
-<p>The following JSON schemas are available:</p>
-<table class="table">
-<colgroup>
-<col width="33%">
-<col width="33%">
-<col width="33%">
-</colgroup>
-<thead><tr class="header">
-<th>Schema Name</th>
-<th>Description</th>
-<th>Link</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td>Person Schema</td>
-<td>Defines a person structure</td>
-<td><a href="schemas/person_schema.json">View Schema</a></td>
-</tr>
-<tr class="even">
-<td>User Schema</td>
-<td>Defines an user structure</td>
-<td><a href="schemas/user_schema.json">View Schema</a></td>
-</tr>
-</tbody>
-</table>
-<p>You can click the links to view the raw JSON files.</p>
-</div>
-
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
@@ -251,7 +104,8 @@
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>Vasco Cadavez <br><small class="roles"> Author, maintainer </small>  </li>
+<li>Vasco Cadavez <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-3077-7414" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Ursula Gonzales-Barron <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-8462-9775" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 </ul>
 </div>
 
@@ -262,7 +116,7 @@
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by Vasco Cadavez.</p>
+  <p>Developed by Vasco Cadavez, Ursula Gonzales-Barron.</p>
 </div>
 
 <div class="pkgdown-footer-right">

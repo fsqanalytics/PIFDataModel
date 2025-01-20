@@ -1,0 +1,45 @@
+{
+    "label": "Virus",
+    "Norovirus": {
+        "label": "EssayIdentificationType",
+        "WGS": null,
+        "NGS": null,
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": false
+            }
+        ]
+    },
+    "Hepatovirus A": {
+        "label": "EssayIdentificationType",
+        "WGS": null,
+        "NGS": null,
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": false
+            }
+        ]
+    },
+    "Orthohepevirus A": {
+        "label": "EssayIdentificationType",
+        "WGS": null,
+        "NGS": null,
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": false
+            }
+        ]
+    }
+}

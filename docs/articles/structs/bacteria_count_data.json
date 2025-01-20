@@ -1,0 +1,155 @@
+{
+  "SampleWEnum": {
+    "data": null,
+    "label": "Sample W Enum",
+    "type": "number",
+    "required": true
+  },
+  "LoQ": {
+    "data": null,
+    "label": "LoQ",
+    "type": "number",
+    "required": true
+  },
+  "GreaterLoQ": {
+    "data": null,
+    "label": "Greater LoQ",
+    "type": "number",
+    "required": true
+  },
+  "LowerLoQ": {
+    "data": null,
+    "label": "Lower LoQ",
+    "type": "number",
+    "required": true
+  },
+  "LoQ_1": {
+    "data": null,
+    "label": "[LoQ-1]",
+    "type": "number",
+    "required": false
+  },
+  "LoQ_1_2": {
+    "data": null,
+    "label": "[LoQ/1-2]",
+    "type": "number",
+    "required": false
+  },
+  "2_3": {
+    "data": null,
+    "label": "[2-3]",
+    "type": "number",
+    "required": false
+  },
+  "3_4": {
+    "data": null,
+    "label": "[3-4]",
+    "type": "number",
+    "required": false
+  },
+  "4_5": {
+    "data": null,
+    "label": "[4-5]",
+    "type": "number",
+    "required": false
+  },
+  "5_6": {
+    "data": null,
+    "label": "[5-6]",
+    "type": "number",
+    "required": false
+  },
+  "6_7": {
+    "data": null,
+    "label": "[6-7]",
+    "type": "number",
+    "required": false
+  },
+  "7_8": {
+    "data": null,
+    "label": "[7-8]",
+    "type": "number",
+    "required": false
+  },
+  "MeanConc": {
+    "data": null,
+    "label": "Mean Conc",
+    "type": "number",
+    "required": false
+  },
+  "StDev": {
+    "data": null,
+    "label": "St Dev",
+    "type": "number",
+    "required": false
+  },
+  "CountsModel": {
+    "data": [
+      "Impute",
+      "PosCounts"
+    ],
+    "label": "Counts Model",
+    "type": "list",
+    "required": true
+  },
+  "Count_i_1": {
+    "data": null,
+    "label": "Count [i,1]",
+    "type": "number",
+    "required": false
+  },
+  "Count_i_2": {
+    "data": null,
+    "label": "Count [i,2]",
+    "type": "number",
+    "required": false
+  },
+  "Count_i_3": {
+    "data": null,
+    "label": "Count [i,3]",
+    "type": "number",
+    "required": false
+  },
+  "Count_i_4": {
+    "data": null,
+    "label": "Count [i,4]",
+    "type": "number",
+    "required": false
+  },
+  "Count_i_5": {
+    "data": null,
+    "label": "Count [i,5]",
+    "type": "number",
+    "required": false
+  },
+  "Count_i_6": {
+    "data": null,
+    "label": "Count [i,6]",
+    "type": "number",
+    "required": false
+  },
+  "Count_i_7": {
+    "data": null,
+    "label": "Count [i,7]",
+    "type": "number",
+    "required": false
+  },
+  "Count_i_8": {
+    "data": null,
+    "label": "Count [i,8]",
+    "type": "number",
+    "required": false
+  },
+  "Count_i_9": {
+    "data": null,
+    "label": "Count [i,9]",
+    "type": "number",
+    "required": false
+  },
+  "Max_i": {
+    "data": null,
+    "label": "Max [i]",
+    "type": "number",
+    "required": false
+  }
+}

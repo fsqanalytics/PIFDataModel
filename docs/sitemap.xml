@@ -1,29 +1,12 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url><loc>https://fsqanalytics.github.io/PIFDataModel/404.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/articles/JsonSchemas.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/articles/UsingPIFDataModel.html</loc></url>
 <url><loc>https://fsqanalytics.github.io/PIFDataModel/articles/index.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/articles/json_schemas.html</loc></url>
+<url><loc>https://fsqanalytics.github.io/PIFDataModel/articles/schemas.html</loc></url>
+<url><loc>https://fsqanalytics.github.io/PIFDataModel/articles/structs.html</loc></url>
 <url><loc>https://fsqanalytics.github.io/PIFDataModel/authors.html</loc></url>
 <url><loc>https://fsqanalytics.github.io/PIFDataModel/index.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/display_json_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/document_json_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/document_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/food_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/generate_html_tree.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/generate_schema_diagram.html</loc></url>
 <url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/index.html</loc></url>
 <url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/load_json_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/load_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/person_json_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/person_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/plot_json_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/read_json_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/run_schema_viewer.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/shiny_schema_viewer.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/study_json_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/user_json_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/user_schema.html</loc></url>
-<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/validate_schema.html</loc></url>
+<url><loc>https://fsqanalytics.github.io/PIFDataModel/reference/validate_json_schema.html</loc></url>
 </urlset>
 

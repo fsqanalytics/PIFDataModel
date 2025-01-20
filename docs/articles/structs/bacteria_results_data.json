@@ -1,0 +1,50 @@
+{
+  "SampleWUnit": {
+    "data": [
+      "g",
+      "ml",
+      "cm2",
+      "unit"
+    ],
+    "label": "Sample W Unit",
+    "type": "list",
+    "required": true
+  },
+  "TotalUnitsTested": {
+    "data": null,
+    "label": "Total units tested",
+    "type": "number",
+    "required": true
+  },
+  "BiasPotential": {
+    "data": [
+      "0",
+      "1"
+    ],
+    "label": "Bias Potential",
+    "type": "list",
+    "required": true
+  },
+  "Reason": {
+    "data": null,
+    "label": "Reason",
+    "type": "text",
+    "required": false
+  },
+  "Comments": {
+    "data": null,
+    "label": "Comments",
+    "type": "text",
+    "required": false
+  },
+  "Confirmation": {
+    "data": [
+      "Yes",
+      "No",
+      "NA"
+    ],
+    "label": "Confirmation",
+    "type": "list",
+    "required": true
+  }
+}

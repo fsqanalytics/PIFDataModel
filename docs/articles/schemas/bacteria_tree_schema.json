@@ -1,0 +1,987 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/fsqanalytics/PIFDataModel/docs/articles/schemas/bacteria_tree_schema.json",
+    "type": "object",
+    "maxProperties": 1,
+    "properties": {
+        "Bacillus cereus": {
+            "type": "object",
+            "minProperties": 1,
+            "properties": {
+                "prevalence": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "BacillusSelective",
+                                    "MYP"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "count": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "MPN",
+                                    "MYP",
+                                    "APHA 2001",
+                                    "ISO 7932:1993",
+                                    "ISO 7932:1997",
+                                    "PHLS F15",
+                                    "PEMBA",
+                                    "BacillusSelective",
+                                    "ISO 7932:2004 Bacillus cereus",
+                                    "ISO 7932:2004/Amd 1:2020 (Bacillus cereus)",
+                                    "NMKL 67, 2021, 8th ed (Bacillus cereus)"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        },
+        "Campylobacter": {
+            "type": "object",
+            "minProperties": 1,
+            "properties": {
+                "prevalence": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "Campy-BAP",
+                                    "CampylobacterSelective",
+                                    "CCA",
+                                    "Columbia",
+                                    "ExeterSelective",
+                                    "FAO",
+                                    "ISO 10272-1:1995",
+                                    "ISO 10272-1:2006",
+                                    "mCCDA",
+                                    "Preston+Virion",
+                                    "PHLS F21",
+                                    "ISO 10272-1:2017 Campylobacter",
+                                    "ISO 17995:2019 (Campylobacter)",
+                                    "NMKL 119, 2007, 3rd Ed Termotolerante Campylobacter"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "VIDAS CAM"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "count": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "MPN",
+                                    "CampyCefex",
+                                    "CCDA",
+                                    "mCCDA",
+                                    "ISO 10272-2:2006",
+                                    "ISO 17995:2019 (Campylobacter)",
+                                    "NMKL 119, 2007, 3rd Ed Termotolerante Campylobacter",
+                                    "ISO 10272-2:2017 Campylobacter"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        },
+        "Clostridium perfringens": {
+            "type": "object",
+            "minProperties": 1,
+            "properties": {
+                "prevalence": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "ISO/CD TS 15213-3 (Clostridium perfringens)"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "count": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "MPN",
+                                    "ISO 15213:2003",
+                                    "ISO 7937:1997",
+                                    "BS 5763-9:1993",
+                                    "PHLS F14",
+                                    "TSC",
+                                    "Sulfite-polymyxin-sulfadiazine",
+                                    "Perfringens",
+                                    "APHA 2001",
+                                    "Trypticase-sulfite-neomycin",
+                                    "Lactose-Sulfite",
+                                    "Wilson-Blair",
+                                    "AOAC 1998",
+                                    "ISO 7937:2004 (Clostridium perfringens)",
+                                    "ISO 15213-1:2023",
+                                    "ISO/DIS 15213-2 (Clostridium perfringens)",
+                                    "ISO 14189:2013 (Clostridium perfringens)",
+                                    "NMKL 95, 2009, 5th ed (Clostridium perfringens)"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        },
+        "Listeria monocytogenes": {
+            "type": "object",
+            "minProperties": 1,
+            "properties": {
+                "prevalence": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "AFNOR BRD 07/4-09/98",
+                                    "APHA 2001",
+                                    "FSIS-USDA",
+                                    "I+ALOA",
+                                    "I+ALOA+ListeriaSelective",
+                                    "I+ALOA+Oxford",
+                                    "I+Chromogenic",
+                                    "I+II+ALOA",
+                                    "I+II+ALOA+Oxford",
+                                    "I+II+Chromogenic",
+                                    "I+II+ListeriaSelective",
+                                    "I+II+ListeriaSelective/Oxford",
+                                    "I+II+Oxford",
+                                    "I+II+Oxford/PALCAM",
+                                    "I+II+PALCAM",
+                                    "I+II+RAPID",
+                                    "I+ListeriaSelective",
+                                    "I+ListeriaSelective/PALCAM",
+                                    "I+LPM/Blood",
+                                    "I+Oxford",
+                                    "I+Oxford/PALCAM",
+                                    "I+PALCAM",
+                                    "IMS+ListeriaSelective",
+                                    "IMS+Oxford",
+                                    "IMS+PALCAM",
+                                    "IMS+PALCAM/Oxford",
+                                    "ISO 11290-1:1996",
+                                    "PHLS F19",
+                                    "ISO 11290-1:2017 Listeria",
+                                    "ISO 11290-1:1996/Amd 1:2004 Listeria",
+                                    "NMKL 136, 5th ed 2010, Listeria monocytogenes"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "IMS+PCR",
+                                    "iQ-Check",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "AFNOR BIO 12/11-03/04",
+                                    "VIDAS LMO2"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "count": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "MPN",
+                                    "ISO 11290-2:1998",
+                                    "PHLS F19",
+                                    "ListeriaSelective",
+                                    "Oxford",
+                                    "PALCAM",
+                                    "ALOA",
+                                    "FSIS-USDA",
+                                    "Chromogenic",
+                                    "FDA",
+                                    "ISO 11290-2:2017 Listeria",
+                                    "ISO 11290-2:1998/Amd 1:2004 Listeria",
+                                    "NMKL 136, 5th ed 2010, Listeria monocytogenes"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        },
+        "Salmonella": {
+            "type": "object",
+            "minProperties": 1,
+            "properties": {
+                "prevalence": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "AOAC 1998",
+                                    "APHA 2001",
+                                    "BS EN 12824:1998",
+                                    "DIASSALM+Rambach",
+                                    "IDF Standard 93B",
+                                    "IMS+HE/XLD",
+                                    "IMS+XLD",
+                                    "ISO 6579:1993",
+                                    "ISO 6579:2004",
+                                    "ISO 6785:2001",
+                                    "NF V08-052",
+                                    "PHLS F13",
+                                    "RAPIDCapsule+Agar",
+                                    "RV/SC+BG",
+                                    "RV/SC+BG/BS",
+                                    "RV/SC+BG/HE",
+                                    "RV/SC+BG/SS",
+                                    "RV/SC+BG/XLD",
+                                    "RV/SC+BS/SS",
+                                    "RV/SC+HE",
+                                    "RV/SC+HE/SS/XLD",
+                                    "RV/SC+Rambach",
+                                    "RV/SC+XLD",
+                                    "RV/TT+BG",
+                                    "RV/TT+BG/BS/XLD",
+                                    "RV/TT+BG/XLD",
+                                    "RV/TT+BS/HE/XLD",
+                                    "RV/TT+Chromogenic",
+                                    "RV/TT+HE/SS",
+                                    "RV/TT+HE/XLD",
+                                    "RV/TT+McConkey/XLD",
+                                    "RV/TT+Rambach/XLD",
+                                    "RV/TT+XLD",
+                                    "RV+BG",
+                                    "RV+BG/HE",
+                                    "RV+BG/HE/XLD",
+                                    "RV+BG/XLD",
+                                    "RV+Chromogenic",
+                                    "RV+Rambach",
+                                    "RV+SS",
+                                    "RV+XLD",
+                                    "SC/TT+BG/HE/XLD",
+                                    "SC/TT+BG/SS/XLD",
+                                    "SC/TT+XLD",
+                                    "SC+BG/BS",
+                                    "SC+BS",
+                                    "SC+BS/SS",
+                                    "SC+Chromogenic",
+                                    "SC+Rambach",
+                                    "SC+SS",
+                                    "SC+XLD",
+                                    "Standard M19",
+                                    "TT+BG/BS/XLD",
+                                    "TT+HE",
+                                    "TT+McConkey/XLD",
+                                    "TT+SS",
+                                    "TT+XLD",
+                                    "ISO 6579:2002 Salmonella",
+                                    "ISO 6579:2002/Amd 1:2007 (Annex D of ISO 6579) Salmonella",
+                                    "NMKL 71, 1999, 5th Ed Salmonella",
+                                    "ISO 6579-1:2017 Salmonella",
+                                    "ISO 6579-1:2017/Amd 1:2020 (Salmonella)",
+                                    "ISO/TR 6579-3:2014 (Salmonella)",
+                                    "NMKL 187, 2007, Salmonella",
+                                    "NMKL 187, 2018, 3rd ed (Salmonella)",
+                                    "ISO 19250:2010 (Salmonella)"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "iQ-Check",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "ELISA",
+                                    "VIDAS SLM"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "count": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "MPN",
+                                    "ISO/TS 6579-2:2012 (Salmonella)",
+                                    "ISO/TR 6579-3:2014 (Salmonella)"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        },
+        "Staphylococcus aureus": {
+            "type": "object",
+            "minProperties": 1,
+            "properties": {
+                "prevalence": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "ISO 6888-2:1999",
+                                    "APHA 1992",
+                                    "MHB+Chromogenic",
+                                    "MHB+MRSA-ID",
+                                    "MHB+PHMB+MRSA-ID",
+                                    "MHB+TSB+Chromogenic",
+                                    "ISO 6888-3:2003 (Staphylococci)"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "count": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "MPN",
+                                    "AOAC 1998",
+                                    "APHA 1992",
+                                    "APHA 2001",
+                                    "BP",
+                                    "BP+EY",
+                                    "BP+RabbitPlasma",
+                                    "Columbia+RabbitPlasma",
+                                    "IDF 145A:1997",
+                                    "ISO 6888-1:1999",
+                                    "ISO 6888-2:1999",
+                                    "ISO 6888-3:2003",
+                                    "KRANEP",
+                                    "MS",
+                                    "Petrifilm",
+                                    "PHLS F12",
+                                    "EN ISO 6888-1:1999/Amdt 1:2003",
+                                    "EN ISO 6888-2:1999/Amdt 1:2003",
+                                    "NMKL 66, 2009, 5th ed (Staphylococci)",
+                                    "ISO 6888-1:2021 (Staphylococci)",
+                                    "ISO 6888-2:2021 (Staphylococci)",
+                                    "ISO 6888-1:2021/DAmd 1 (Staphylococci)",
+                                    "ISO 6888-2:2021/DAmd 1 (Staphylococci)",
+                                    "ISO 6888-3:2003 (Staphylococci)"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "VIDAS SLM"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        },
+        "Shiga toxin-producing Escherichia coli": {
+            "type": "object",
+            "minProperties": 1,
+            "properties": {
+                "prevalence": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "APHA 2001",
+                                    "BAM",
+                                    "BGB+SMAC",
+                                    "Biolog MicroStation",
+                                    "BPW+CT-SMAC",
+                                    "IMS+Chromogenic",
+                                    "IMS+CT-SMAC",
+                                    "mEC+CT-SMAC",
+                                    "mEC+SMAC",
+                                    "PHLS F17",
+                                    "TSB+Chromogenic",
+                                    "TSB+CT-SMAC",
+                                    "TSB+SMAC",
+                                    "ISO 16654:2001 or NMKL 164:2005 or DIN 10167",
+                                    "ISO/CD 13136-1 (STEC)",
+                                    "ISO/CD 13136-2 (STEC)",
+                                    "AFNOR BIO 12/25 05/09, ELFA method for E coli O157",
+                                    "NMKL 164, 2005, 2nd Ed Escherichia coli O157"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "GeneDisc",
+                                    "IMS+PCR",
+                                    "iQ-Check",
+                                    "PCR",
+                                    "ISO/TS 13136:2012 (including the EURL adaptation for O104:H4)"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "AFNOR BIO 12/8-07/00",
+                                    "ISO 16654:2001",
+                                    "LatexTest",
+                                    "VIDAS-ECO",
+                                    "VIDAS-ICE"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "count": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "MPN"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        },
+        "Yersinia enterocolitica": {
+            "type": "object",
+            "minProperties": 1,
+            "properties": {
+                "prevalence": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "CIN",
+                                    "ISO 10273:1994",
+                                    "ISO 10273:2003",
+                                    "ITC+CIN",
+                                    "PBS+CIN",
+                                    "PBSS+CIN",
+                                    "TPW+CIN",
+                                    "TSB+BOS+CIN",
+                                    "TSB+CIN",
+                                    "YersiniaBroth+CIN",
+                                    "ISO 10273:2017 Yersinia enterocolitica",
+                                    "NMKL 117, 1996, 3rd ed (Yersinia enterocolitica)"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR",
+                                    "NMKL 163, 2013, 2nd ed (Yersinia enterocolitica & pseudotuberculosis)",
+                                    "ISO/TS 18867:2015 (Yersinia enterocolitica & pseudotuberculosis)"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "ELISA"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "count": {
+                    "type": "object",
+                    "maxProperties": 1,
+                    "minProperties": 1,
+                    "properties": {
+                        "Culture": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "MPN"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "DNA": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S",
+                                    "PCR"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "Immuno": {
+                            "type": "string",
+                            "items": {
+                                "type": "string",
+                                "enum": [
+                                    "N/S"
+                                ]
+                            },
+                            "maxItems": 1
+                        },
+                        "N/S": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}

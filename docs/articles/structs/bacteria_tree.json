@@ -1,0 +1,542 @@
+{
+  "label": "Bacterium",
+  "Bacillus cereus": {
+    "prevalence": {
+      "label": "EssayDetType",
+      "Culture": {
+        "label": "EssayDet",
+        "N/S": null,
+        "BacillusSelective": null,
+        "MYP": null
+      },
+      "DNA": {
+        "label": "EssayDet",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayDet",
+        "N/S": null
+      },
+      "N/S": null
+    },
+    "count": {
+      "label": "EssayEnumType",
+      "Culture": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "MPN": null,
+        "MYP": null,
+        "APHA 2001": null,
+        "ISO 7932:1993": null,
+        "ISO 7932:1997": null,
+        "PHLS F15": null,
+        "PEMBA": null,
+        "BacillusSelective": null,
+        "ISO 7932:2004 Bacillus cereus": null,
+        "ISO 7932:2004/Amd 1:2020 (Bacillus cereus)": null,
+        "NMKL 67, 2021, 8th ed (Bacillus cereus)": null
+      },
+      "DNA": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayEnum",
+        "N/S": null
+      },
+      "N/S": null
+    }
+  },
+  "Campylobacter": {
+    "prevalence": {
+      "label": "EssayDetType",
+      "Culture": {
+        "label": "EssayDet",
+        "N/S": null,
+        "Campy-BAP": null,
+        "CampylobacterSelective": null,
+        "CCA": null,
+        "Columbia": null,
+        "ExeterSelective": null,
+        "FAO": null,
+        "ISO 10272-1:1995": null,
+        "ISO 10272-1:2006": null,
+        "mCCDA": null,
+        "Preston+Virion": null,
+        "PHLS F21": null,
+        "ISO 10272-1:2017 Campylobacter": null,
+        "ISO 17995:2019 (Campylobacter)": null,
+        "NMKL 119, 2007, 3rd Ed Termotolerante Campylobacter": null
+      },
+      "DNA": {
+        "label": "EssayDet",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayDet",
+        "N/S": null,
+        "VIDAS CAM": null
+      },
+      "N/S": null
+    },
+    "count": {
+      "label": "EssayEnumType",
+      "Culture": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "MPN": null,
+        "CampyCefex": null,
+        "CCDA": null,
+        "mCCDA": null,
+        "ISO 10272-2:2006": null,
+        "ISO 17995:2019 (Campylobacter)": null,
+        "NMKL 119, 2007, 3rd Ed Termotolerante Campylobacter": null,
+        "ISO 10272-2:2017 Campylobacter": null
+      },
+      "DNA": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayEnum",
+        "N/S": null
+      },
+      "N/S": null
+    }
+  },
+  "Clostridium perfringens": {
+    "prevalence": {
+      "label": "EssayDetType",
+      "Culture": {
+        "label": "EssayDet",
+        "N/S": null,
+        "ISO/CD TS 15213-3 (Clostridium perfringens)": null
+      },
+      "DNA": {
+        "label": "EssayDet",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayDet",
+        "N/S": null
+      },
+      "N/S": null
+    },
+    "count": {
+      "label": "EssayEnumType",
+      "Culture": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "MPN": null,
+        "ISO 15213:2003": null,
+        "ISO 7937:1997": null,
+        "BS 5763-9:1993": null,
+        "PHLS F14": null,
+        "TSC": null,
+        "Sulfite-polymyxin-sulfadiazine": null,
+        "Perfringens": null,
+        "APHA 2001": null,
+        "Trypticase-sulfite-neomycin": null,
+        "Lactose-Sulfite": null,
+        "Wilson-Blair": null,
+        "AOAC 1998": null,
+        "ISO 7937:2004 (Clostridium perfringens)": null,
+        "ISO 15213-1:2023": null,
+        "ISO/DIS 15213-2 (Clostridium perfringens)": null,
+        "ISO 14189:2013 (Clostridium perfringens)": null,
+        "NMKL 95, 2009, 5th ed (Clostridium perfringens)": null
+      },
+      "DNA": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayEnum",
+        "N/S": null
+      },
+      "N/S": null
+    }
+  },
+  "Listeria monocytogenes": {
+    "prevalence": {
+      "label": "EssayDetType",
+      "Culture": {
+        "label": "EssayDet",
+        "N/S": null,
+        "AFNOR BRD 07/4-09/98": null,
+        "APHA 2001": null,
+        "FSIS-USDA": null,
+        "I+ALOA": null,
+        "I+ALOA+ListeriaSelective": null,
+        "I+ALOA+Oxford": null,
+        "I+Chromogenic": null,
+        "I+II+ALOA": null,
+        "I+II+ALOA+Oxford": null,
+        "I+II+Chromogenic": null,
+        "I+II+ListeriaSelective": null,
+        "I+II+ListeriaSelective/Oxford": null,
+        "I+II+Oxford": null,
+        "I+II+Oxford/PALCAM": null,
+        "I+II+PALCAM": null,
+        "I+II+RAPID": null,
+        "I+ListeriaSelective": null,
+        "I+ListeriaSelective/PALCAM": null,
+        "I+LPM/Blood": null,
+        "I+Oxford": null,
+        "I+Oxford/PALCAM": null,
+        "I+PALCAM": null,
+        "IMS+ListeriaSelective": null,
+        "IMS+Oxford": null,
+        "IMS+PALCAM": null,
+        "IMS+PALCAM/Oxford": null,
+        "ISO 11290-1:1996": null,
+        "PHLS F19": null,
+        "ISO 11290-1:2017 Listeria": null,
+        "ISO 11290-1:1996/Amd 1:2004 Listeria": null,
+        "NMKL 136, 5th ed 2010, Listeria monocytogenes": null
+      },
+      "DNA": {
+        "label": "EssayDet",
+        "N/S": null,
+        "IMS+PCR": null,
+        "iQ-Check": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayDet",
+        "N/S": null,
+        "AFNOR BIO 12/11-03/04": null,
+        "VIDAS LMO2": null
+      },
+      "N/S": null
+    },
+    "count": {
+      "label": "EssayEnumType",
+      "Culture": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "MPN": null,
+        "ISO 11290-2:1998": null,
+        "PHLS F19": null,
+        "ListeriaSelective": null,
+        "Oxford": null,
+        "PALCAM": null,
+        "ALOA": null,
+        "FSIS-USDA": null,
+        "Chromogenic": null,
+        "FDA": null,
+        "ISO 11290-2:2017 Listeria": null,
+        "ISO 11290-2:1998/Amd 1:2004 Listeria": null,
+        "NMKL 136, 5th ed 2010, Listeria monocytogenes": null
+      },
+      "DNA": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayEnum",
+        "N/S": null
+      },
+      "N/S": null
+    }
+  },
+  "Salmonella": {
+    "prevalence": {
+      "label": "EssayDetType",
+      "Culture": {
+        "label": "EssayDet",
+        "N/S": null,
+        "AOAC 1998": null,
+        "APHA 2001": null,
+        "BS EN 12824:1998": null,
+        "DIASSALM+Rambach": null,
+        "IDF Standard 93B": null,
+        "IMS+HE/XLD": null,
+        "IMS+XLD": null,
+        "ISO 6579:1993": null,
+        "ISO 6579:2004": null,
+        "ISO 6785:2001": null,
+        "NF V08-052": null,
+        "PHLS F13": null,
+        "RAPIDCapsule+Agar": null,
+        "RV/SC+BG": null,
+        "RV/SC+BG/BS": null,
+        "RV/SC+BG/HE": null,
+        "RV/SC+BG/SS": null,
+        "RV/SC+BG/XLD": null,
+        "RV/SC+BS/SS": null,
+        "RV/SC+HE": null,
+        "RV/SC+HE/SS/XLD": null,
+        "RV/SC+Rambach": null,
+        "RV/SC+XLD": null,
+        "RV/TT+BG": null,
+        "RV/TT+BG/BS/XLD": null,
+        "RV/TT+BG/XLD": null,
+        "RV/TT+BS/HE/XLD": null,
+        "RV/TT+Chromogenic": null,
+        "RV/TT+HE/SS": null,
+        "RV/TT+HE/XLD": null,
+        "RV/TT+McConkey/XLD": null,
+        "RV/TT+Rambach/XLD": null,
+        "RV/TT+XLD": null,
+        "RV+BG": null,
+        "RV+BG/HE": null,
+        "RV+BG/HE/XLD": null,
+        "RV+BG/XLD": null,
+        "RV+Chromogenic": null,
+        "RV+Rambach": null,
+        "RV+SS": null,
+        "RV+XLD": null,
+        "SC/TT+BG/HE/XLD": null,
+        "SC/TT+BG/SS/XLD": null,
+        "SC/TT+XLD": null,
+        "SC+BG/BS": null,
+        "SC+BS": null,
+        "SC+BS/SS": null,
+        "SC+Chromogenic": null,
+        "SC+Rambach": null,
+        "SC+SS": null,
+        "SC+XLD": null,
+        "Standard M19": null,
+        "TT+BG/BS/XLD": null,
+        "TT+HE": null,
+        "TT+McConkey/XLD": null,
+        "TT+SS": null,
+        "TT+XLD": null,
+        "ISO 6579:2002 Salmonella": null,
+        "ISO 6579:2002/Amd 1:2007 (Annex D of ISO 6579) Salmonella": null,
+        "NMKL 71, 1999, 5th Ed Salmonella": null,
+        "ISO 6579-1:2017 Salmonella": null,
+        "ISO 6579-1:2017/Amd 1:2020 (Salmonella)": null,
+        "ISO/TR 6579-3:2014 (Salmonella)": null,
+        "NMKL 187, 2007, Salmonella": null,
+        "NMKL 187, 2018, 3rd ed (Salmonella)": null,
+        "ISO 19250:2010 (Salmonella)": null
+      },
+      "DNA": {
+        "label": "EssayDet",
+        "N/S": null,
+        "iQ-Check": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayDet",
+        "N/S": null,
+        "ELISA": null,
+        "VIDAS SLM": null
+      },
+      "N/S": null
+    },
+    "count": {
+      "label": "EssayEnumType",
+      "Culture": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "MPN": null,
+        "ISO/TS 6579-2:2012 (Salmonella)": null,
+        "ISO/TR 6579-3:2014 (Salmonella)": null
+      },
+      "DNA": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayEnum",
+        "N/S": null
+      },
+      "N/S": null
+    }
+  },
+  "Staphylococcus aureus": {
+    "prevalence": {
+      "label": "EssayDetType",
+      "Culture": {
+        "label": "EssayDet",
+        "N/S": null,
+        "ISO 6888-2:1999": null,
+        "APHA 1992": null,
+        "MHB+Chromogenic": null,
+        "MHB+MRSA-ID": null,
+        "MHB+PHMB+MRSA-ID": null,
+        "MHB+TSB+Chromogenic": null,
+        "ISO 6888-3:2003 (Staphylococci)": null
+      },
+      "DNA": {
+        "label": "EssayDet",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayEnum",
+        "N/S": null
+      },
+      "N/S": null
+    },
+    "count": {
+      "label": "EssayEnumType",
+      "Culture": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "MPN": null,
+        "AOAC 1998": null,
+        "APHA 1992": null,
+        "APHA 2001": null,
+        "BP": null,
+        "BP+EY": null,
+        "BP+RabbitPlasma": null,
+        "Columbia+RabbitPlasma": null,
+        "IDF 145A:1997": null,
+        "ISO 6888-1:1999": null,
+        "ISO 6888-2:1999": null,
+        "ISO 6888-3:2003": null,
+        "KRANEP": null,
+        "MS": null,
+        "Petrifilm": null,
+        "PHLS F12": null,
+        "EN ISO 6888-1:1999/Amdt 1:2003": null,
+        "EN ISO 6888-2:1999/Amdt 1:2003": null,
+        "NMKL 66, 2009, 5th ed (Staphylococci)": null,
+        "ISO 6888-1:2021 (Staphylococci)": null,
+        "ISO 6888-2:2021 (Staphylococci)": null,
+        "ISO 6888-1:2021/DAmd 1 (Staphylococci)": null,
+        "ISO 6888-2:2021/DAmd 1 (Staphylococci)": null,
+        "ISO 6888-3:2003 (Staphylococci)": null
+      },
+      "DNA": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "VIDAS-SET": null
+      },
+      "N/S": null
+    }
+  },
+  "Shiga toxin-producing Escherichia coli": {
+    "prevalence": {
+      "label": "EssayDetType",
+      "Culture": {
+        "label": "EssayDet",
+        "N/S": null,
+        "APHA 2001": null,
+        "BAM": null,
+        "BGB+SMAC": null,
+        "Biolog MicroStation": null,
+        "BPW+CT-SMAC": null,
+        "IMS+Chromogenic": null,
+        "IMS+CT-SMAC": null,
+        "mEC+CT-SMAC": null,
+        "mEC+SMAC": null,
+        "PHLS F17": null,
+        "TSB+Chromogenic": null,
+        "TSB+CT-SMAC": null,
+        "TSB+SMAC": null,
+        "ISO 16654:2001 or NMKL 164:2005 or DIN 10167": null,
+        "ISO/CD 13136-1 (STEC)": null,
+        "ISO/CD 13136-2 (STEC)": null,
+        "AFNOR BIO 12/25 05/09, ELFA method for E coli O157": null,
+        "NMKL 164, 2005, 2nd Ed Escherichia coli O157": null
+      },
+      "DNA": {
+        "label": "EssayDet",
+        "N/S": null,
+        "GeneDisc": null,
+        "IMS+PCR": null,
+        "iQ-Check": null,
+        "PCR": null,
+        "ISO/TS 13136:2012 (including the EURL adaptation for O104:H4)": null
+      },
+      "Immuno": {
+        "label": "EssayDet",
+        "N/S": null,
+        "AFNOR BIO 12/8-07/00": null,
+        "ISO 16654:2001": null,
+        "LatexTest": null,
+        "VIDAS-ECO": null,
+        "VIDAS-ICE": null
+      },
+      "N/S": null
+    },
+    "count": {
+      "label": "EssayEnumType",
+      "Culture": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "MPN": null
+      },
+      "DNA": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayEnum",
+        "N/S": null
+      },
+      "N/S": null
+    }
+  },
+  "Yersinia enterocolitica": {
+    "prevalence": {
+      "label": "EssayDetType",
+      "Culture": {
+        "label": "EssayDet",
+        "N/S": null,
+        "CIN": null,
+        "ISO 10273:1994": null,
+        "ISO 10273:2003": null,
+        "ITC+CIN": null,
+        "PBS+CIN": null,
+        "PBSS+CIN": null,
+        "TPW+CIN": null,
+        "TSB+BOS+CIN": null,
+        "TSB+CIN": null,
+        "YersiniaBroth+CIN": null,
+        "ISO 10273:2017 Yersinia enterocolitica": null,
+        "NMKL 117, 1996, 3rd ed (Yersinia enterocolitica)": null
+      },
+      "DNA": {
+        "label": "EssayDet",
+        "N/S": null,
+        "PCR": null,
+        "NMKL 163, 2013, 2nd ed (Yersinia enterocolitica & pseudotuberculosis)": null,
+        "ISO/TS 18867:2015 (Yersinia enterocolitica & pseudotuberculosis)": null
+      },
+      "Immuno": {
+        "label": "EssayDet",
+        "N/S": null,
+        "ELISA": null
+      },
+      "N/S": null
+    },
+    "count": {
+      "label": "EssayEnumType",
+      "Culture": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "MPN": null
+      },
+      "DNA": {
+        "label": "EssayEnum",
+        "N/S": null,
+        "PCR": null
+      },
+      "Immuno": {
+        "label": "EssayEnum",
+        "N/S": null
+      },
+      "N/S": null
+    }
+  }
+}

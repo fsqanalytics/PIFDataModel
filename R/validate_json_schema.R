@@ -1,42 +1,33 @@
-#' Validate JSON Data Against a Schema
+#' Validate JSON Against a Schema
 #'
-#' Validates a JSON object against a specified JSON schema.
-#'
-#' @param json_data A JSON string or an R object that can be serialized to JSON.
-#' @param schema_name The name of the JSON schema file in `inst/schemas/`.
-#' @param verbose Logical. If `TRUE`, provides detailed error messages on validation failure.
-#' @return Logical `TRUE` if validation succeeds; otherwise, an error is thrown.
+#' Validates a JSON file against a given JSON schema.
+#' @param schema_file Path to the JSON schema file.
+#' @param json_file Path to the JSON file to validate.
+#' @return Logical value indicating if the JSON is valid.
+#' @importFrom jsonvalidate json_validator
 #' @examples
-#' \dontrun{
-#'   json_data <- '{"id": 1, "name": "Alice"}'
-#'   validate_schema(json_data, "user_schema.json")
-#' }
+#' schema_file <- system.file("schemas", "bacteria_count_schema.json", package = "PIFDataModel")
+#' json_file <- system.file("data", "valid_sample_data.json", package = "PIFDataModel")
+#' validate_json_schema(schema_file, json_file)
+#' json_file <- system.file("data", "invalid_sample_data.json", package = "PIFDataModel")
+#' validate_json_schema(schema_file, json_file)
 #' @export
-validate_schema <- function(json_data, schema_name, verbose = FALSE) {
-  # Validate input
-  if (!is.character(schema_name) || length(schema_name) != 1) {
-    stop("'schema_name' must be a single string.")
+validate_json_schema <- function(schema_file, json_file) {
+  if (!file.exists(schema_file)) {
+    stop("Schema file does not exist: ", schema_file)
+  }
+  if (!file.exists(json_file)) {
+    stop("JSON file does not exist: ", json_file)
   }
   
-  # Get the schema file path
-  schema_path <- system.file("schemas", schema_name, package = "PIFDataModel")
+  schema <- jsonvalidate::json_validator(schema_file, engine = "ajv")
   
-  # Check if the schema file exists
-  if (schema_path == "") {
-    stop("Schema not found: '", schema_name, "' in the 'PIFDataModel' package.")
+  # Validate and return the result
+  result <- schema(json_file, verbose = TRUE)
+  if (!result) {
+    FALSE
+    stop("Schema validation failed")
   }
   
-  # Serialize json_data to JSON if it's not already a JSON string
-  if (!is.character(json_data)) {
-    json_data <- jsonlite::toJSON(json_data, auto_unbox = TRUE)
-  }
-  
-  # Validate the JSON data against the schema file
-  validation_result <- jsonvalidate::json_validate(json_data, schema_path, verbose = verbose)
-  
-  if (!validation_result) {
-    stop("Validation failed. Check the JSON data and schema for compatibility.")
-  }
-  
-  return(TRUE)
+  TRUE
 }

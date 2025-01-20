@@ -1,0 +1,422 @@
+{
+  "label": "FAOArea",
+  "Area 18: Artic Sea": null,
+  "Area 21: Northwest Atlantic": {
+    "label": "FAOSubarea",
+    "Subarea 21.0": {
+      "label": "FAODivision",
+      "Division 21.0A": null,
+      "Division 21.0B": null
+    },
+    "Subarea 21.1": {
+      "label": "FAODivision",
+      "Division 21.1A": null,
+      "Division 21.1B": null,
+      "Division 21.1C": null,
+      "Division 21.1D": null,
+      "Division 21.1E": null,
+      "Division 21.1F": null
+    },
+    "Subarea 21.2": {
+      "label": "FAODivision",
+      "Division 21.2G": null,
+      "Division 21.2H": null,
+      "Division 21.2J": null
+    },
+    "Subarea 21.3": {
+      "label": "FAODivision",
+      "Division 21.3K": null,
+      "Division 21.3L": null,
+      "Division 21.3M": null,
+      "Division 21.3N": null,
+      "Division 21.3O": null,
+      "Division 21.3P": {
+        "label": "FAOSubdivision",
+        "Subdivision 21.3Pn": null,
+        "Subdivision 21.3Ps": null
+      }
+    },
+    "Subarea 21.4": {
+      "label": "FAODivision",
+      "Division 21.4R": null,
+      "Division 21.4S": null,
+      "Division 21.4T": null,
+      "Division 21.4W": null,
+      "Division 21.4X": null,
+      "Division 21.4V": {
+        "label": "FAOSubdivision",
+        "Subdivision 21.4Vn": null,
+        "Subdivision 21.4Vs": null
+      }
+    },
+    "Subarea 21.5": {
+      "label": "FAODivision",
+      "Division 21.5Y": null,
+      "Division 21.5Z": {
+        "label": "FAOSubdivision",
+        "Subdivision 21.5Ze - Eastern": null,
+        "Subdivision 21.5Zw - Western": null
+      }
+    },
+    "Subarea 21.6": {
+      "label": "FAODivision",
+      "Division 21.6A": null,
+      "Division 21.6B": null,
+      "Division 21.6C": null,
+      "Division 21.6D": null,
+      "Division 21.6E": null,
+      "Division 21.6F": null,
+      "Division 21.6G": null,
+      "Division 21.6H": null
+    }
+  },
+  "Area 27: Atlantic, Northeast": {
+    "label": "FAOSubarea",
+    "Subarea 27.1: Northern Coastal": {
+      "label": "FAODivision",
+      "Division 27.1.a: Barents Sea - NEAFC Regulatory Area": null,
+      "Division 27.1.b: Barents Sea Non-NEAFC Regulatory Area": null
+    },
+    "Subarea 27.2: Norwegian Sea, Spitzbergen, and Bear Island": {
+      "label": "FAODivision",
+      "Division 27.2.a.1: Norwegian Sea - NEAFC Regulatory Area": null,
+      "Division 27.2.a.2: Norwegian Sea Non-NEAFC Regulatory Area": null,
+      "Division 27.2.b.1: Spitzbergen and Bear Island - NEAFC Regulatory Area": null,
+      "Division 27.2.b.2: Spitzbergen and Bear Island Non-NEAFC Regulatory Area": null
+    },
+    "Subarea 27.3: Skagerrak, Kattegat, Sound, Belt Sea, and Baltic Sea": {
+      "label": "FAODivision",
+      "Division 27.3.a: Skagerrak and Kattegat": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.3.a.20: Skagerrak": null,
+        "Subdivision 27.3.a.21: Kattegat": null
+      },
+      "Divisions 27.3.b.c: Sound and Belt Sea or the Transition Area": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.3.b.23: Sound": null,
+        "Subdivision 27.3.c.22: Belt Sea": null
+      },
+      "Division 27.3.d Baltic Sea": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.3.d.24: Baltic West of Bornholm": null,
+        "Subdivision 27.3.d.25: Southern Central Baltic - West": null,
+        "Subdivision 27.3.d.26: Southern Central Baltic - East": null,
+        "Subdivision 27.3.d.27: West of Gotland": null,
+        "Subdivision 27.3.d.28: East of Gotland or Gulf of Riga": null,
+        "Subdivision 27.3.d.29: Archipelago Sea": null,
+        "Subdivision 27.3.d.30: Bothnian Sea": null,
+        "Subdivision 27.3.d.31: Bothnian Bay": null,
+        "Subdivision 27.3.d.32: Gulf of Finland": null
+      }
+    },
+    "Subarea 27.4: North Sea": {
+      "label": "FAODivision",
+      "Division 27.4.a: Northern North Sea": null,
+      "Division 27.4.b: Central North Sea": null,
+      "Division 27.4.c: Southern North Sea": null
+    },
+    "Subarea 27.5: Iceland and Faroes Grounds": {
+      "label": "FAODivision",
+      "Division 27.5.a: Iceland Grounds": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.5.a.1: Northern Reykjanes Ridge": null,
+        "Subdivision 27.5.a.2: Icelandic Shelf": null
+      },
+      "Division 27.5.b: Faroes Grounds": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.5.b.1: Faroe Plateau": null,
+        "Subdivision 27.5.b.2: Faroe Bank": null
+      }
+    },
+    "Subarea 27.6: Rockall, Northwest Coast of Scotland and North Ireland": {
+      "label": "FAODivision",
+      "Division 27.6.a: Northwest Coast of Scotland and North Ireland or as the West of Scotland": null,
+      "Division 27.6.b: Rockall": {
+        "Subdivision 27.6.b.1 : Rockall - Part of NEAFC area I": null,
+        "Subdivision 27.6.b.2 : Rockall Non-NEAFC area": null
+      }
+    },
+    "Subarea 27.7: Irish Sea, West of Ireland, Porcupine Bank, Eastern and Western English Channel, etc": {
+      "label": "FAODivision",
+      "Division 27.7.a: Irish Sea": null,
+      "Division 27.7.b: West of Ireland": null,
+      "Division 27.7.d: Eastern English Channel": null,
+      "Division 27.7.e: Western English Channel": null,
+      "Division 27.7.f: Bristol Channel": null,
+      "Division 27.7.g: Celtic Sea North": null,
+      "Division 27.7.h: Celtic Sea South": null,
+      "Division 27.7.c: Porcupine Bank": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.7.c.1 : Porcupine Bank - NEAFC Regulatory Area": null,
+        "Subdivision 27.7.c.2 : Porcupine Bank Non-NEAFC Regulatory Area": null
+      },
+      "Division 27.7.j: Southwest of Ireland - East": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.7.j.1 : Southwest of Ireland - East - Parts of the NEAFC Regulatory Area": null,
+        "Subdivision 27.7.j.2 : Southwest of Ireland - East Non-NEAFC Regulatory Area": null
+      },
+      "Division 27.7.k: Southwest of Ireland - West": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.7.k.1 : Southwest of Ireland - West - Part of the NEAFC Regulatory Area": null,
+        "Subdivision 27.7.k.2 : Southwest of Ireland - West - Part of the Non-NEAFC Area I": null
+      }
+    },
+    "Subarea 27.8: Bay of Biscay": {
+      "label": "FAODivision",
+      "Division 27.8.a: Bay of Biscay - North": null,
+      "Division 27.8.b: Bay of Biscay - Central": null,
+      "Division 27.8.c: Bay of Biscay - South": null,
+      "Division 27.8.d: Bay of Biscay - Offshore": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.8.d.1: Bay of Biscay - Offshore - Parts in NEAFC Regulatory Area": null,
+        "Subdivision 27.8.d.2: Bay of Biscay - Offshore Non-NEAFC Regulatory Area": null
+      },
+      "Division 27.8.e: West of Bay of Biscay": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.8.e.1: West of Bay of Biscay - Parts in NEAFC Regulatory Area": null,
+        "Subdivision 27.8.e.2: West of Bay of Biscay Non-NEAFC Regulatory Area": null
+      }
+    },
+    "Subarea 27.9: Portuguese Waters": {
+      "label": "FAODivision",
+      "Division 27.9.a: Portuguese Waters - East": null,
+      "Division 27.9.b: Portuguese Waters - West": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.9.b.1: Portuguese Waters - West Parts in NEAFC Regulatory Area": null,
+        "Subdivision 27.9.b.2: Portuguese Waters - West Non-NEAFC Regulatory Area": null
+      }
+    },
+    "Subarea 27.10: Azores Grounds and Northeast Atlantic South": {
+      "label": "FAODivision",
+      "Division 27.10.a: Azores Grounds": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.10.a.1: Azores Grounds - Parts of the NEAFC Regulatory Area": null,
+        "Subdivision 27.10.a.2: Azores Grounds Non-NEAFC Regulatory": null
+      },
+      "Division 27.10.b: Northeast Atlantic South": null
+    },
+    "Subarea 27.11": null,
+    "Subarea 27.12: North of Azores": {
+      "label": "FAODivision",
+      "Division 27.12.a: Southern mid-Atlantic Ridge": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.12.a.1: NEAFC Regulatory Area": null,
+        "Subdivision 27.12.a.2: NEAFC Regulatory Area": null,
+        "Subdivision 27.12.a.3: Non-NEAFC Regulatory Area": null,
+        "Subdivision 27.12.a.4: Non-NEAFC Regulatory Area": null
+      },
+      "Division 27.12.b: Western Hatton Bank": null,
+      "Division 27.12.c: Central Northeast Atlantic - South": null
+    },
+    "Subarea 27.13": null,
+    "Subarea 27.14: East Greenland": {
+      "label": "FAODivision",
+      "Division 27.14.a: Northeast Greenland": null,
+      "Division 27.14.b: Southeast Greenland": {
+        "label": "FAOSubdivision",
+        "Subdivision 27.14.b.1: Southeast Greenland - Parts of NEAFC Regulatory Area": null,
+        "Subdivision 27.14.b.2: Southeast Greenland Non-NEAFC Regulatory Area": null
+      }
+    }
+  },
+  "Area 31: Atlantic, Western-Central": null,
+  "Area 34: Atlantic, Eastern Central": {
+    "label": "FAOSubarea",
+    "Subarea 34.1: Northern Coastal": {
+      "label": "FAODivision",
+      "Division 34.1.1: Morocco Coastal": {
+        "label": "FAOSubdivision",
+        "Subdivision 34.1.11": null,
+        "Subdivision 34.1.12": null,
+        "Subdivision 34.1.13": null
+      },
+      "Division 34.1.2: Canaries/Madeira Insular": null,
+      "Division 34.1.3: Sahara Coastal": {
+        "label": "FAOSubdivision",
+        "Subdivision 34.1.31": null,
+        "Subdivision 34.1.32": null
+      }
+    },
+    "Subarea 34.2: Northern Oceanic": null,
+    "Subarea 34.3: Southern Coastal": {
+      "label": "FAODivision",
+      "Division 34.3.1: Cape Verde Coastal": {
+        "label": "FAOSubdivision",
+        "Subdivision 34.3.11": null,
+        "Subdivision 34.3.12": null
+      },
+      "Division 34.3.2: Cape Verde Insular": null,
+      "Division 34.3.3: Sherbro": null,
+      "Division 34.3.4: Western Gulf of Guinea": null,
+      "Division 34.3.5: Central Gulf of Guinea": null,
+      "Division 34.3.6: Southern Gulf of Guinea": null
+    },
+    "Subarea 34.4: Southern Oceanic": {
+      "label": "FAODivision",
+      "Division 34.4.1: Southwest Gulf of Guinea": null,
+      "Division 34.4.2: Southwest Oceanic": null
+    }
+  },
+  "Area 37: Mediterranean and Black sea": {
+    "label": "FAOSubarea",
+    "Subarea 37.1: Western Mediterranean": {
+      "label": "FAODivision",
+      "Division 37.1.1: Balearic": null,
+      "Division 37.1.2: Gulf of Lions": null,
+      "Division 37.1.3: Sardinia": null
+    },
+    "Subarea 37.2: Central Mediterranean": {
+      "label": "FAODivision",
+      "Division 37.2.1: Adriatic": null,
+      "Division 37.2.2: Ionian": null
+    },
+    "Subarea 37.3: Eastern Mediterranean": {
+      "label": "FAODivision",
+      "Division 37.3.1: Aegean": null,
+      "Division 37.3.2: Levant": null
+    },
+    "Subarea 37.4: Black Sea": {
+      "label": "FAODivision",
+      "Division 37.4.1: Marmara Sea": null,
+      "Division 37.4.2: Black Sea": null,
+      "Division 37.4.3: Azov Sea": null
+    }
+  },
+  "Area 41: Atlantic, Southwest": {
+    "label": "FAOSubarea",
+    "Subarea 41.1: Northern": {
+      "label": "FAODivision",
+      "Division 41.1.1: Amazon": null,
+      "Division 41.1.2: Natal": null,
+      "Division 41.1.3: Salvador": null,
+      "Division 41.1.4: Nothern Oceanic": null
+    },
+    "Subarea 41.2: Central": {
+      "label": "FAODivision",
+      "Division 41.2.1: Santos": null,
+      "Division 41.2.2: Rio Grande": null,
+      "Division 41.2.3: Platense": null,
+      "Division 41.2.4: Central Oceanic": null
+    },
+    "Subarea 41.3: Southern": {
+      "label": "FAODivision",
+      "Division 41.3.1: Northern Patagonian": null,
+      "Division 41.3.2: Southern Patagonian": null,
+      "Division 41.3.3: Southern Oceanic": null
+    }
+  },
+  "Area 47 Atlantic, Southwest": {
+    "label": "FAOSubarea",
+    "47.1": {
+      "label": "FAODivision",
+      "Division 47.1.1: Cape Palmeirinhas": null,
+      "Division 47.1.2: Cape Salinas": null,
+      "Division 47.1.3: Cunene": null,
+      "Division 47.1.4: Cape Cross": null,
+      "Division 47.1.5: Orange River": null,
+      "Division 47.1.6: Cape of Good Hope": null
+    },
+    "47.2": {
+      "label": "FAODivision",
+      "Division 47.2.1: Middle Agulhas": null,
+      "Division 47.2.2: Eastern Agulhas": null
+    },
+    "SEAFO": {
+      "label": "FAODivision",
+      "Division 47.A.0: SEAFO": null,
+      "Division 47.A.1: SEAFO": null,
+      "Division 47.B.0: SEAFO": null,
+      "Division 47.B.1: SEAFO": null,
+      "Division 47.C.0: SEAFO": null,
+      "Division 47.C.1: SEAFO": null,
+      "Division 47.D.0: SEAFO": null,
+      "Division 47.D.1: SEAFO": null
+    }
+  },
+  "Area 48 Atlantic, Antarctic": {
+    "label": "FAOSubarea",
+    "Subarea 48.1: Peninsular": null,
+    "Subarea 48.2: South Orkney": null,
+    "Subarea 48.3: South Georgia": null,
+    "Subarea 48.4: South Sandwich": null,
+    "Subarea 48.5: Weddel Sea": null,
+    "Subarea 48.6: Bouvet": null
+  },
+  "Area 51 Indian Ocean, Western": {
+    "label": "FAOSubarea",
+    "Subarea 51.1: Red Sea": null,
+    "Subarea 51.2: Persian Gulf": null,
+    "Subarea 51.3: Western Arabian Sea": null,
+    "Subarea 51.4: Eastern Arabian Sea, Laccadives": null,
+    "Subarea 51.5: Somalia, Kenya and Tanzania": null,
+    "Subarea 51.6: Magascar and Mozambique Channel": null,
+    "Subarea 51.7: Oceanic": null,
+    "Subarea 51.8: Mozambique": null
+  },
+  "Area 57 Indian Ocean, Eastern": {
+    "label": "FAOSubarea",
+    "Subarea 57.1: Bay of Bengal": null,
+    "Subarea 57.2: Northern": null,
+    "Subarea 57.3: Central": null,
+    "Subarea 57.4: Oceanic": null,
+    "Subarea 57.5: Western Australia": {
+      "label": "FAODivision",
+      "Division 57.5.1: Northwest Australia": null,
+      "Division 57.5.2: Southwest Australia": null
+    },
+    "Subarea 57.6: Southern Australia": null
+  },
+  "Area 58 Antarctic and Southern Indian Ocean": {
+    "label": "FAOSubarea",
+    "Subarea 58.4: Enderby-Wilkes": {
+      "label": "FAODivision",
+      "Division 58.4.1: Wikes Land": null,
+      "Division 58.4.2: Prydz Bay": null,
+      "Division 58.4.3: Banzare Bank": null,
+      "Division 58.4.3a": null,
+      "Division 58.4.3b": null,
+      "Division 58.4.4: Ob and Lena Banks": null,
+      "Division 58.4.4a: Ob Bank": null,
+      "Division 58.4.4b: Lena Bank": null
+    },
+    "Subarea 58.5: Kerguelen, McDonald": null,
+    "Subarea 58.6: Crozet": null,
+    "Subarea 58.7: Marion-Edward": null
+  },
+  "Area 61 Pacific, Northwest": null,
+  "Area 67 Pacific, Northeast": null,
+  "Area 71 Pacific, Western central": null,
+  "Area 77 Pacific, Eastern central": null,
+  "Area 81 Pacific, Southwest central": null,
+  "Area 87 Pacific, Southeast": {
+    "label": "FAOSubarea",
+    "Subarea 87.1: Northern": {
+      "label": "FAODivision",
+      "Division 87.1.1: Northern Coastal": null,
+      "Division 87.1.2: Northern Intermediate": null,
+      "Division 87.1.3: Galapagos": null,
+      "Division 87.1.4: Northern Oceanic": null
+    },
+    "Subarea 87.2: Central": {
+      "label": "FAODivision",
+      "Division 87.2.1: Central Coastal": null,
+      "Division 87.2.2: Central Intermediate": null,
+      "Division 87.2.3: San Felix": null,
+      "Division 87.2.4: Juan Fernandez": null,
+      "Division 87.2.5: Pascua": null,
+      "Division 87.2.6: Central Oceanic": null
+    },
+    "Subarea 87.3: Southern": {
+      "label": "FAODivision",
+      "Division 87.3.1: Southern Coastal": null,
+      "Division 87.3.2: Southern Intermediate": null,
+      "Division 87.3.3: Southern Oceanic": null
+    }
+  },
+  "Area 88 Pacific, Antarctic": {
+    "label": "FAOSubarea",
+    "Subarea 88.1: Eastern Ross Sea": null,
+    "Subarea 88.2: Western Ross Sea": null,
+    "Subarea 88.3: Amundsen Sea": null
+  }
+}

@@ -1,0 +1,141 @@
+{
+    "label": "Parasite",
+    "Toxoplasma": {
+        "label": "EssayInfectivityType",
+        "Bioassay": {
+            "label": "EssayInfectivityTypeClass",
+            "Cat bioessay": null,
+            "Mouse bioessay": null
+        },
+        "Culture": {
+            "label": "EssayInfectivityTypeClass",
+            "Vero cell lines": null,
+            "Liquid (fluid samples)": null,
+            "Hep-2 cells": null,
+            "Murine L20B fibroblasts": null,
+            "Human foreskin fibroblasts": null,
+            "Other": null
+        },
+        "Molecular methods": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR or RT-qPCR": {
+                "label": "EssayInfectivityTypeClass2",
+                "SporoSAG": null,
+                "Act11": null,
+                "Other": null
+            },
+            "Other": null
+        },
+        "Excystation": null,
+        "Microscopy - Method based on morphology": null,
+        "Method based on physical properties (electrorotation)": null,
+        "Vital dye exclusion +PMA": null,
+        "Combination": {
+            "label": "EssayInfectivityTypeClass",
+            "CCqPCR (target 529b)": null,
+            "PMA-qPCR (Propidium Monoazide-based qPCR)": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Giardia": {
+        "label": "EssayInfectivityType",
+        "Vital Dyes inclusion exclusion essays": null,
+        "Method based on physical properties (electrorotation)": null,
+        "Bioassay": {
+            "label": "EssayInfectivityTypeClass",
+            "Immunosupressed mongolian gerbill model": null,
+            "Other": null
+        },
+        "Excystation essay": null,
+        "Molecular methods": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR (reverse transcriptase PCR)": {
+                "label": "EssayInfectivityTypeClass2",
+                "Beta-giardin": null,
+                "Other": null
+            },
+            "Duplex-PCR": null,
+            "Other": null
+        },
+        "Combination": {
+            "label": "EssayInfectivityTypeClass",
+            "EMA/PMA +qPCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Cryptosporidium": {
+        "label": "EssayInfectivityType",
+        "Microscopy": {
+            "label": "EssayInfectivityTypeClass",
+            "Method based on morphology": null,
+            "Other": null
+        },
+        "Method based on physical properties (electrorotation)": null,
+        "Vital dye inclusion/exclusion": null,
+        "Bioassay": {
+            "label": "EssayInfectivityTypeClass",
+            "Neonatal mouse model (Balbc or NMRI)": null,
+            "Gnotobiotic pig model": null,
+            "Immunosupressed mongolian gerbill model": null
+        },
+        "Cell culture": {
+            "label": "EssayInfectivityTypeClass",
+            "HCP8": null,
+            "Caco-2": null,
+            "Other": null
+        },
+        "Excystation essay": null,
+        "Molecular methods": {
+            "label": "EssayInfectivityTypeClass",
+            "RT-PCR (reverse transcriptase PCR)": {
+                "label": "EssayInfectivityTypeClass2",
+                "HSP70": null,
+                "Other": null
+            },
+            "FISH (Fluorescent in situ hybridization)": null,
+            "NASBA (Nucleic Acid Sequence Based Amplification)": null
+        },
+        "Combination": {
+            "label": "EssayInfectivityTypeClass",
+            "EMA/PMA +PCR": {
+                "label": "EssayInfectivityTypeClass2",
+                "ARN 18S or SSU rRNA": null,
+                "COWP": null,
+                "SSP70": null,
+                "Other": null
+            },
+            "EMA/PMA +qPCR": {
+                "label": "EssayInfectivityTypeClass2",
+                "ARN 18S or SSU rRNA": null,
+                "SSP70": null,
+                "Other": null
+            }
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayInfectivityOther",
+                "label": "Specify - EssayInfectivityOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    }
+}

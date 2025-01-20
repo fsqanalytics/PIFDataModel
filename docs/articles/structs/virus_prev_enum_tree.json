@@ -1,0 +1,168 @@
+{
+    "label": "Virus",
+    "Norovirus": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Molecular": {
+                "label": "EssayDet",
+                "Conventional RT-PCR": null,
+                "Nested-RT PCR (nPCR)": null,
+                "Quantitative-PCR or real time (RT-qPCR)": null,
+                "Semi-nested RT PCR": null,
+                "Multiplex PCR": null,
+                "Digital PCR RT-dPCR": null,
+                "ISO 15216:2017": null,
+                "Combination": null,
+                "Other": null,
+                "ISO 15216-2:2013 Hepatitis A virus and norovirus": null,
+                "ISO 15216-2:2019 (Hepatitis A & norovirus)": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Quantitative-PCR real time (qPCR)": null,
+            "Reference PCR methods": {
+                "label": "EssayEnum",
+                "ISO/TS 15216:2013": null,
+                "ISO 15216:2019": null,
+                "ISO 15216-1:2017 Hepatitis A virus and norovirus": null,
+                "ISO 15216-1:2017/Amd 1:2021 (Hepatitis A & norovirus)": null
+            },
+            "Digital PCR qPCR": null,
+            "Multiplex qPCR": null,
+            "PCR-NPP": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Hepatovirus A": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Molecular": {
+                "label": "EssayDet",
+                "Conventional RT-PCR": null,
+                "Nested-RT PCR (nPCR)": null,
+                "Quantitative-PCR or real time (RT-qPCR)": null,
+                "Semi-nested RT PCR": null,
+                "Multiplex PCR": null,
+                "Digital PCR RT-dPCR": null,
+                "ISO 15216:2017": null,
+                "Combination": null,
+                "Other": null,
+                "ISO 15216-2:2013 Hepatitis A virus and norovirus": null,
+                "ISO 15216-2:2019 (Hepatitis A & norovirus)": null
+            },
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Quantitative-PCR real time (qPCR)": null,
+            "Reference PCR methods": {
+                "label": "EssayEnum",
+                "ISO/TS 15216:2013": null,
+                "ISO 15216:2019": null,
+                "ISO 15216-1:2017 Hepatitis A virus and norovirus": null,
+                "ISO 15216-1:2017/Amd 1:2021 (Hepatitis A & norovirus)": null
+            },
+            "Digital PCR qPCR": null,
+            "Multiplex qPCR": null,
+            "PCR-NPP": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "Orthohepevirus A": {
+        "EssayDetType": {
+            "label": "EssayDetType",
+            "Molecular": {
+                "label": "EssayDet",
+                "Conventional RT-PCR": null,
+                "Quantitative-PCR or real time (RT-qPCR)": null,
+                "LAMP (reverse transcription-LAMP assay)": null,
+                "Multiplex PCR": null,
+                "Digital PCR RT-dPCR": null,
+                "Other": null
+            },
+            "Immuno": [
+                {
+                    "data": [
+                        "IgM",
+                        "IgG",
+                        "IgA"
+                    ],
+                    "name": "ImmunoClass",
+                    "label": "Immuno Class",
+                    "type": "text",
+                    "required": false
+                },
+                {
+                    "data": [
+                        "Western Blot",
+                        "ELISA or EIA (enzyme immunoassay)"
+                    ],
+                    "name": "ImmunoTechnique",
+                    "label": "Immuno Technique",
+                    "type": "text",
+                    "required": false
+                }
+            ],
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayDetTypeOther",
+                    "label": "Specify - EssayDetTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        "EssayEnumType": {
+            "label": "EssayEnumType",
+            "Quantitative-PCR real time (qPCR)": null,
+            "LAMP (reverse transcription-LAMP assay)": null,
+            "Digital PCR RT-qPCR": null,
+            "Multiplex RT-qPCR": null,
+            "PCR-NPP": null,
+            "Other": [
+                {
+                    "data": null,
+                    "name": "EssayEnumTypeOther",
+                    "label": "Specify - EssayEnumTypeOther",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        }
+    }
+}
