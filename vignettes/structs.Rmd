@@ -11,7 +11,7 @@ vignette: >
 
 The `PIFDataModel` package is designed to standardize data storage and handling for biological studies, particularly focusing on structured JSON schemas. This vignette provides an overview of the available data structures, their purposes, and examples of how to access and utilize them.
 
-# Struct Categories
+# Structures Categories
 
 Below is an overview of the structures included in the `PIFDataModel` package:
 
@@ -73,7 +73,7 @@ library(PIFDataModel)
 ```{r bact}
 library(jsonlite)
 # Load the JSON struct
-bacteria_struct <- jsonlite::read_json("../inst/data/valid_sample_data.json")
+bacteria_struct <- jsonlite::read_json("../inst/extdata/structs/bacteria_count_results.json")
 
 # Print the struct
 print(bacteria_struct)

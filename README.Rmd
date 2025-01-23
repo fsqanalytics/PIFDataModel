@@ -43,21 +43,6 @@ install.packages("remotes")
 remotes::install_github("fsqanalytics/PIFDataModel")
 ```
 
-## Usage Example
-
-Here is a quick example of how to load and use a schema in the **PIFDataModel** package:
-
-```{r test, eval=FALSE}
-# Load the PIFDataModel package
-library(PIFDataModel)
-
-# Load a predefined schema
-bacteria_schema <- jsonlite::read_json("./schemas/bacteria_count_schema.json")
-
-# Print the schema
-print(bacteria_schema)
-```
-
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to the development of this package, please visit the [GitHub repository](https://github.com/fsqanalytics/PIFDataModel) to create issues or submit pull requests.

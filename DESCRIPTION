@@ -1,6 +1,6 @@
 Package: PIFDataModel
 Type: Package
-Title: "PIFDataModel: Manage, Validate, and Document JSON Schemas in R"
+Title: "PIFDataModel: Manage, Validate, and Document PIF JSON Schemas in R"
 Version: 0.0.0.9000
 Authors@R: c(
              person(given="Vasco",
@@ -17,7 +17,7 @@ Authors@R: c(
                     family="Mendes", 
                     role = c("aut"),
                     email = "lrmen14@gmail.com",
-                    comment = c(ORCID = "")),
+                    comment = c(ORCID = "0009-0008-3705-480X")),
              person(given="Ursula",
                     family="Gonzales-Barron", 
                     role = "aut", 
@@ -41,8 +41,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 NeedsCompilation: no
 Imports:
-    jsonlite, jsonvalidate, knitr, readxl,
-    DiagrammeR, htmltools, shiny, networkD3, rsvg
+    jsonlite, jsonvalidate, readxl
 Suggests:
     testthat,
     rmarkdown
