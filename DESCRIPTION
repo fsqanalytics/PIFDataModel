@@ -23,7 +23,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 NeedsCompilation: no
 Imports:
-    jsonlite, jsonvalidate, knitr,
+    jsonlite, jsonvalidate, knitr, readxl,
     DiagrammeR, htmltools, shiny, networkD3, rsvg
 Suggests:
     testthat,

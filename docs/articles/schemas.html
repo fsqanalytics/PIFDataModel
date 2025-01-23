@@ -5,12 +5,12 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Schemas • PIFDataModel</title>
+<title>Schemas in PIF: Validating and Structuring Biological Data • PIFDataModel</title>
 <script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="../deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
 <script src="../deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="../deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="../deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="../deps/headroom-0.11.0/headroom.min.js"></script><script src="../deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="../deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="../deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="../deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="../deps/search-1.0.0/fuse.min.js"></script><script src="../deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Schemas">
+<script src="../deps/headroom-0.11.0/headroom.min.js"></script><script src="../deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="../deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="../deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="../deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="../deps/search-1.0.0/fuse.min.js"></script><script src="../deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Schemas in PIF: Validating and Structuring Biological Data">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -47,7 +47,7 @@
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
 
-      <h1>Schemas</h1>
+      <h1>Schemas in PIF: Validating and Structuring Biological Data</h1>
             
       
       <small class="dont-index">Source: <a href="https://github.com/fsqanalytics/PIFDataModel/blob/HEAD/vignettes/schemas.Rmd" class="external-link"><code>vignettes/schemas.Rmd</code></a></small>
@@ -57,9 +57,19 @@
     
     
 <div class="section level2">
-<h2 id="schemas-in-pifdatamodel">Schemas in PIFDataModel<a class="anchor" aria-label="anchor" href="#schemas-in-pifdatamodel"></a>
+<h2 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
 </h2>
-<p>The following schemas are available in the PIFDataModel package.</p>
+<p>The <code>PIFDataModel</code> package provides standardized schemas
+to validate and structure biological data, ensuring consistency and
+interoperability across applications. This vignette details the schemas
+available in the package, their purpose, and how to utilize them
+effectively.</p>
+</div>
+<div class="section level2">
+<h2 id="schema-categories">Schema Categories<a class="anchor" aria-label="anchor" href="#schema-categories"></a>
+</h2>
+<p>The table below lists the schemas available in the
+<code>PIFDataModel</code> package:</p>
 <table class="table">
 <colgroup>
 <col width="11%">
@@ -107,7 +117,151 @@
 </tbody>
 </table>
 </div>
-  </main>
+<div class="section level2">
+<h2 id="examples">Examples<a class="anchor" aria-label="anchor" href="#examples"></a>
+</h2>
+<p>Below are examples of how to load and use schemas in R:</p>
+<div class="section level3">
+<h3 id="loading-the-pifdatamodel-package">Loading the <code>PIFDataModel</code> Package<a class="anchor" aria-label="anchor" href="#loading-the-pifdatamodel-package"></a>
+</h3>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Load the PIFDataModel package</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://fsqanalytics.github.io/PIFDataModel">PIFDataModel</a></span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="accessing-the-bacteria-count-schema">Accessing the Bacteria Count Schema<a class="anchor" aria-label="anchor" href="#accessing-the-bacteria-count-schema"></a>
+</h3>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Load the JSON schema</span></span>
+<span><span class="va">bacteria_schema</span> <span class="op">&lt;-</span> <span class="fu">jsonlite</span><span class="fu">::</span><span class="fu"><a href="https://jeroen.r-universe.dev/jsonlite/reference/read_json.html" class="external-link">read_json</a></span><span class="op">(</span><span class="st">"../inst/schemas/bacteria_count_schema.json"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Print the schema</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">bacteria_schema</span><span class="op">)</span></span></code></pre></div>
+<pre><code><span><span class="co">## $`$schema`</span></span>
+<span><span class="co">## [1] "https://json-schema.org/draft/2020-12/schema"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $`$id`</span></span>
+<span><span class="co">## [1] "https://github.com/fsqanalytics/PIFDataModel/docs/articles/schemas/bacteria_count_schema.json"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $type</span></span>
+<span><span class="co">## [1] "object"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $properties</span></span>
+<span><span class="co">## $properties$SampleWEnum</span></span>
+<span><span class="co">## $properties$SampleWEnum$type</span></span>
+<span><span class="co">## [1] "number"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $properties$LoQ</span></span>
+<span><span class="co">## $properties$LoQ$type</span></span>
+<span><span class="co">## [1] "number"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $properties$GreaterLoQ</span></span>
+<span><span class="co">## $properties$GreaterLoQ$type</span></span>
+<span><span class="co">## [1] "number"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $properties$LowerLoQ</span></span>
+<span><span class="co">## $properties$LowerLoQ$type</span></span>
+<span><span class="co">## [1] "number"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $properties$MeanConc</span></span>
+<span><span class="co">## $properties$MeanConc$type</span></span>
+<span><span class="co">## [1] "number"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $properties$CountsModel</span></span>
+<span><span class="co">## $properties$CountsModel$type</span></span>
+<span><span class="co">## [1] "string"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $properties$CountsModel$enum</span></span>
+<span><span class="co">## $properties$CountsModel$enum[[1]]</span></span>
+<span><span class="co">## [1] "Impute"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $properties$CountsModel$enum[[2]]</span></span>
+<span><span class="co">## [1] "PosCounts"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $additionalProperties</span></span>
+<span><span class="co">## [1] FALSE</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $required</span></span>
+<span><span class="co">## $required[[1]]</span></span>
+<span><span class="co">## [1] "SampleWEnum"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $required[[2]]</span></span>
+<span><span class="co">## [1] "LoQ"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $required[[3]]</span></span>
+<span><span class="co">## [1] "GreaterLoQ"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $required[[4]]</span></span>
+<span><span class="co">## [1] "LowerLoQ"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $`if`</span></span>
+<span><span class="co">## $`if`$properties</span></span>
+<span><span class="co">## $`if`$properties$MeanConc</span></span>
+<span><span class="co">## $`if`$properties$MeanConc$type</span></span>
+<span><span class="co">## [1] "number"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $`if`$required</span></span>
+<span><span class="co">## $`if`$required[[1]]</span></span>
+<span><span class="co">## [1] "MeanConc"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $then</span></span>
+<span><span class="co">## $then$required</span></span>
+<span><span class="co">## $then$required[[1]]</span></span>
+<span><span class="co">## [1] "CountsModel"</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">## $`else`</span></span>
+<span><span class="co">## $`else`$not</span></span>
+<span><span class="co">## $`else`$not$required</span></span>
+<span><span class="co">## $`else`$not$required[[1]]</span></span>
+<span><span class="co">## [1] "CountsModel"</span></span></code></pre>
+<div class="section level4">
+<h4 id="example-output">Example Output<a class="anchor" aria-label="anchor" href="#example-output"></a>
+</h4>
+<p>Here is a sample of the <code>bacteria_count_schema.json</code>:</p>
+<details><summary>
+Bacteria Count Schema
+</summary><pre>
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bacteria Count Schema",
+  "type": "object",
+  "properties": {
+    "species": {"type": "string"},
+    "count": {"type": "integer"},
+    "location": {"type": "string"},
+    "date": {"type": "string", "format": "date"}
+  },
+  "required": ["species", "count", "location", "date"]
+}
+</pre>
+</details>
+</div>
+</div>
+</div>
+<div class="section level2">
+<h2 id="additional-documentation">Additional Documentation<a class="anchor" aria-label="anchor" href="#additional-documentation"></a>
+</h2>
+<p>For more details on how to use the schemas or integrate them into
+workflows, visit the <a href="https://example.com/documentation" class="external-link"><code>PIFDataModel</code>
+documentation</a>.</p>
+</div>
+  </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
+    </nav></aside>
 </div>
 
 

@@ -1,16 +1,19 @@
 ---
-title: "Schemas"
+title: "Schemas in PIF: Validating and Structuring Biological Data"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Schemas}
+  %\VignetteIndexEntry{Schemas in PIF: Validating and Structuring Biological Data}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-## Schemas in PIFDataModel
+# Introduction
 
-The following schemas are available in the PIFDataModel package.
+The `PIFDataModel` package provides standardized schemas to validate and structure biological data, ensuring consistency and interoperability across applications. This vignette details the schemas available in the package, their purpose, and how to utilize them effectively.
 
+# Schema Categories
+
+The table below lists the schemas available in the `PIFDataModel` package:
 
 | **Category**      | **Name**                        | **Description**                                       | **Link**                                               |
 |--------------------|--------------------------------|-------------------------------------------------------|------------------------------------------------------------|
@@ -19,3 +22,51 @@ The following schemas are available in the PIFDataModel package.
 |                    | Prevalence                     | Schema for bacteria prevalence                        | [View](./schemas/bacteria_prevalence_schema.json)          |
 |                    | Results                        | Schema for results related to bacteria analysis       | [View](./schemas/bacteria_general_results_schema.json)             |
 |                    | Tree                           | Schema for hierarchical tree structure of bacteria    | [View](./schemas/bacteria_tree_schema.json)                |
+
+
+# Examples
+
+Below are examples of how to load and use schemas in R:
+
+## Loading the `PIFDataModel` Package
+
+```r
+# Load the PIFDataModel package
+library(PIFDataModel)
+```
+
+## Accessing the Bacteria Count Schema
+
+```{r}
+# Load the JSON schema
+bacteria_schema <- jsonlite::read_json("../inst/schemas/bacteria_count_schema.json")
+
+# Print the schema
+print(bacteria_schema)
+```
+
+### Example Output
+
+Here is a sample of the `bacteria_count_schema.json`:
+
+<details>
+<summary>Bacteria Count Schema</summary>
+<pre>
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bacteria Count Schema",
+  "type": "object",
+  "properties": {
+    "species": {"type": "string"},
+    "count": {"type": "integer"},
+    "location": {"type": "string"},
+    "date": {"type": "string", "format": "date"}
+  },
+  "required": ["species", "count", "location", "date"]
+}
+</pre>
+</details>
+
+# Additional Documentation
+
+For more details on how to use the schemas or integrate them into workflows, visit the [`PIFDataModel` documentation](https://example.com/documentation).

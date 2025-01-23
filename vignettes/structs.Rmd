@@ -1,16 +1,19 @@
 ---
-title: "Structs"
+title: "Structures in PIF: Standardized JSON for Biological Data"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Structs}
+  %\VignetteIndexEntry{Structures in PIF: Standardized JSON for Biological Data}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-## Structs in PIFDataModel
+# Introduction
 
-The following structs are available in the PIFDataModel package.
+The `PIFDataModel` package is designed to standardize data storage and handling for biological studies, particularly focusing on structured JSON schemas. This vignette provides an overview of the available data structures (structs), their purposes, and examples of how to access and utilize them.
 
+# Struct Categories
+
+Below is an overview of the structs included in the `PIFDataModel` package:
 
 
 | **Category**      | **Name**                               | **Description**                                       | **Link**                                               |
@@ -53,3 +56,46 @@ The following structs are available in the PIFDataModel package.
 |                    | Results Quality Data                  | Stores quality results for virus analysis             | [View](./structs/virus_results_quality_data.json)          |
 |                    | Subtype Tree                          | Defines the subtype tree for viruses                  | [View](./structs/virus_subtype_tree.json)                  |
 | **Study**          | Struct                                | Provides the struct for study data                    | [View](./structs/study_schema.json)                        |
+
+# Examples
+
+Here are examples of how to load and work with the structs in R:
+
+## Loading the `PIFDataModel` Package
+
+```r
+# Load the PIFDataModel package
+library(PIFDataModel)
+```
+
+## Accessing the Bacteria Count Data Struct
+
+```{r bact}
+library(jsonlite)
+# Load the JSON struct
+bacteria_struct <- jsonlite::read_json("../inst/data/valid_sample_data.json")
+
+# Print the struct
+print(bacteria_struct)
+```
+
+### Example Output
+
+Here is a sample of the `bacteria_count_data.json` struct:
+
+<details>
+<summary>Bacteria Count Data Struct</summary>
+<pre>
+{
+  "species": "Escherichia coli",
+  "count": 12345,
+  "location": "River A",
+  "date": "2025-01-22"
+}
+</pre>
+</details>
+
+# Additional Documentation
+
+For more details on how to use the structs or integrate them into your workflows, visit the [`PIFDataModel` documentation](https://example.com/documentation).
+

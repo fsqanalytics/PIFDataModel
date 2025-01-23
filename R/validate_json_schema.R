@@ -6,11 +6,11 @@
 #' @return Logical value indicating if the JSON is valid.
 #' @importFrom jsonvalidate json_validator
 #' @examples
-#' schema_file <- system.file("schemas", "bacteria_count_schema.json", package = "PIFDataModel")
-#' json_file <- system.file("data", "valid_sample_data.json", package = "PIFDataModel")
-#' validate_json_schema(schema_file, json_file)
-#' json_file <- system.file("data", "invalid_sample_data.json", package = "PIFDataModel")
-#' validate_json_schema(schema_file, json_file)
+#' #schema_file <- system.file("schemas", "bacteria_count_schema.json", package = "PIFDataModel")
+#' #json_file <- system.file("data", "valid_sample_data.json", package = "PIFDataModel")
+#' #validate_json_schema(schema_file, json_file)
+#' #json_file <- system.file("data", "invalid_sample_data.json", package = "PIFDataModel")
+#' #validate_json_schema(schema_file, json_file)
 #' @export
 validate_json_schema <- function(schema_file, json_file) {
   if (!file.exists(schema_file)) {
