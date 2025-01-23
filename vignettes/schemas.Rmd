@@ -14,14 +14,14 @@ The `PIFDataModel` package provides standardized schemas to validate and structu
 # Schema Categories
 
 The table below lists the schemas available in the `PIFDataModel` package:
-
-| **Category**      | **Name**                        | **Description**                                       | **Link**                                               |
-|--------------------|--------------------------------|-------------------------------------------------------|------------------------------------------------------------|
-| **Bacteria**       | Count                          | Schema for bacteria count information                 | [View](./schemas/bacteria_count_schema.json)               |
-|                    | General                        | Schema for general information about bacteria         | [View](./schemas/bacteria_schema.json)                     |
-|                    | Prevalence                     | Schema for bacteria prevalence                        | [View](./schemas/bacteria_prevalence_schema.json)          |
-|                    | Results                        | Schema for results related to bacteria analysis       | [View](./schemas/bacteria_general_results_schema.json)             |
-|                    | Tree                           | Schema for hierarchical tree structure of bacteria    | [View](./schemas/bacteria_tree_schema.json)                |
+   
+| **Category**       | **Description**                                       | **Link**                                                                    |
+|--------------------|-------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Bacteria**       | Schema for bacteria count information                 | [View](../../inst/extdata/schemas/bacteria_count_schema.json)               |
+|                    | Schema for bacteria prevalence                        | [View](../../inst/extdata/schemas/bacteria_prevalence_schema.json)          |
+|                    | Schema for results related to bacteria analysis       | [View](../../inst/extdata/schemas/bacteria_general_results_schema.json)     |
+|                    | Schema for hierarchical tree structure of bacteria    | [View](../../inst/extdata/schemas/bacteria_tree_schema.json)                |
+| **Study**          | Schema for study                                      | [View](../../inst/extdata/schemas/study_schema.json)                        |
 
 
 # Examples
@@ -39,8 +39,8 @@ library(PIFDataModel)
 
 ```{r}
 # Load the JSON schema
-bacteria_schema <- jsonlite::read_json("../inst/schemas/bacteria_count_schema.json")
-
+json_file <- system.file("extdata", "schemas/bacteria_count_schema.json", package = "PIFDataModel")
+bacteria_schema = jsonlite::fromJSON(json_file)
 # Print the schema
 print(bacteria_schema)
 ```

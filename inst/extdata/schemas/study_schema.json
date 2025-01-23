@@ -1,0 +1,59 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://github.com/fsqanalytics/PIFDataModel/inst/schemas/study_schema.json",
+    "title": "Study object",
+    "type": "object",
+    "properties": {
+        "StudyID": {
+            "type": "string"
+        },
+        "StudyType": {
+            "type": "string",
+            "enum": [
+                "Comparasion",
+                "Survey",
+                "Other"
+            ]
+        },
+        "CountryPublication": {
+            "type": "string"
+        },
+        "DurationSurvey": {
+            "type": "number"
+        },
+        "Year": {
+            "type": "string"
+        },
+        "Bib.AUTHOR": {
+            "type": "string"
+        },
+        "Bib.TITLE": {
+            "type": "string"
+        },
+        "Bib.JOURNAL": {
+            "type": "string"
+        },
+        "Bib.VOLUME": {
+            "type": "string"
+        },
+        "Bib.PAGES": {
+            "type": "string"
+        },
+        "Bib.DOI": {
+            "type": "string"
+        },
+        "Bib.URL": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "StudyID",
+        "StudyType",
+        "DurationSurvey",
+        "Year",
+        "Bib.AUTHOR",
+        "Bib.TITLE",
+        "Bib.DOI"
+    ]
+}

@@ -72,47 +72,45 @@ effectively.</p>
 <code>PIFDataModel</code> package:</p>
 <table class="table">
 <colgroup>
-<col width="11%">
-<col width="19%">
-<col width="32%">
-<col width="35%">
+<col width="13%">
+<col width="36%">
+<col width="50%">
 </colgroup>
 <thead><tr class="header">
 <th><strong>Category</strong></th>
-<th><strong>Name</strong></th>
 <th><strong>Description</strong></th>
 <th><strong>Link</strong></th>
 </tr></thead>
 <tbody>
 <tr class="odd">
 <td><strong>Bacteria</strong></td>
-<td>Count</td>
 <td>Schema for bacteria count information</td>
-<td><a href="./schemas/bacteria_count_schema.json">View</a></td>
+<td><a href="../../inst/extdata/schemas/bacteria_count_schema.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>General</td>
 <td>Schema for general information about bacteria</td>
-<td><a href="./schemas/bacteria_schema.json">View</a></td>
+<td><a href="../../inst/extdata/schemas/bacteria_schema.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Prevalence</td>
 <td>Schema for bacteria prevalence</td>
-<td><a href="./schemas/bacteria_prevalence_schema.json">View</a></td>
+<td><a href="../../inst/extdata/schemas/bacteria_prevalence_schema.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Results</td>
 <td>Schema for results related to bacteria analysis</td>
-<td><a href="./schemas/bacteria_general_results_schema.json">View</a></td>
+<td><a href="../../inst/extdata/schemas/bacteria_general_results_schema.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Tree</td>
 <td>Schema for hierarchical tree structure of bacteria</td>
-<td><a href="./schemas/bacteria_tree_schema.json">View</a></td>
+<td><a href="../../inst/extdata/schemas/bacteria_tree_schema.json">View</a></td>
+</tr>
+<tr class="even">
+<td><strong>Study</strong></td>
+<td>Schema for study</td>
+<td><a href="../../inst/extdata/schemas/study_schema.json">View</a></td>
 </tr>
 </tbody>
 </table>
@@ -133,8 +131,8 @@ effectively.</p>
 </h3>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Load the JSON schema</span></span>
-<span><span class="va">bacteria_schema</span> <span class="op">&lt;-</span> <span class="fu">jsonlite</span><span class="fu">::</span><span class="fu"><a href="https://jeroen.r-universe.dev/jsonlite/reference/read_json.html" class="external-link">read_json</a></span><span class="op">(</span><span class="st">"../inst/schemas/bacteria_count_schema.json"</span><span class="op">)</span></span>
-<span></span>
+<span><span class="va">json_file</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/system.file.html" class="external-link">system.file</a></span><span class="op">(</span><span class="st">"extdata"</span>, <span class="st">"schemas/bacteria_count_schema.json"</span>, package <span class="op">=</span> <span class="st">"PIFDataModel"</span><span class="op">)</span></span>
+<span><span class="va">bacteria_schema</span> <span class="op">=</span> <span class="fu">jsonlite</span><span class="fu">::</span><span class="fu"><a href="https://jeroen.r-universe.dev/jsonlite/reference/fromJSON.html" class="external-link">fromJSON</a></span><span class="op">(</span><span class="va">json_file</span><span class="op">)</span></span>
 <span><span class="co"># Print the schema</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">bacteria_schema</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">## $`$schema`</span></span>
@@ -177,12 +175,7 @@ effectively.</p>
 <span><span class="co">## [1] "string"</span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## $properties$CountsModel$enum</span></span>
-<span><span class="co">## $properties$CountsModel$enum[[1]]</span></span>
-<span><span class="co">## [1] "Impute"</span></span>
-<span><span class="co">## </span></span>
-<span><span class="co">## $properties$CountsModel$enum[[2]]</span></span>
-<span><span class="co">## [1] "PosCounts"</span></span>
-<span><span class="co">## </span></span>
+<span><span class="co">## [1] "Impute"    "PosCounts"</span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## </span></span>
@@ -190,18 +183,7 @@ effectively.</p>
 <span><span class="co">## [1] FALSE</span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## $required</span></span>
-<span><span class="co">## $required[[1]]</span></span>
-<span><span class="co">## [1] "SampleWEnum"</span></span>
-<span><span class="co">## </span></span>
-<span><span class="co">## $required[[2]]</span></span>
-<span><span class="co">## [1] "LoQ"</span></span>
-<span><span class="co">## </span></span>
-<span><span class="co">## $required[[3]]</span></span>
-<span><span class="co">## [1] "GreaterLoQ"</span></span>
-<span><span class="co">## </span></span>
-<span><span class="co">## $required[[4]]</span></span>
-<span><span class="co">## [1] "LowerLoQ"</span></span>
-<span><span class="co">## </span></span>
+<span><span class="co">## [1] "SampleWEnum" "LoQ"         "GreaterLoQ"  "LowerLoQ"   </span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## $`if`</span></span>
 <span><span class="co">## $`if`$properties</span></span>
@@ -212,22 +194,17 @@ effectively.</p>
 <span><span class="co">## </span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## $`if`$required</span></span>
-<span><span class="co">## $`if`$required[[1]]</span></span>
 <span><span class="co">## [1] "MeanConc"</span></span>
-<span><span class="co">## </span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## $then</span></span>
 <span><span class="co">## $then$required</span></span>
-<span><span class="co">## $then$required[[1]]</span></span>
 <span><span class="co">## [1] "CountsModel"</span></span>
-<span><span class="co">## </span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## $`else`</span></span>
 <span><span class="co">## $`else`$not</span></span>
 <span><span class="co">## $`else`$not$required</span></span>
-<span><span class="co">## $`else`$not$required[[1]]</span></span>
 <span><span class="co">## [1] "CountsModel"</span></span></code></pre>
 <div class="section level4">
 <h4 id="example-output">Example Output<a class="anchor" aria-label="anchor" href="#example-output"></a>
@@ -267,7 +244,7 @@ documentation</a>.</p>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by Vasco Cadavez, Ursula Gonzales-Barron.</p>
+  <p>Developed by Vasco Cadavez, Lucas Silva, Lucas Mendes, Ursula Gonzales-Barron.</p>
 </div>
 
 <div class="pkgdown-footer-right">

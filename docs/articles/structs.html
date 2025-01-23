@@ -62,255 +62,220 @@
 <p>The <code>PIFDataModel</code> package is designed to standardize data
 storage and handling for biological studies, particularly focusing on
 structured JSON schemas. This vignette provides an overview of the
-available data structures (structs), their purposes, and examples of how
-to access and utilize them.</p>
+available data structures, their purposes, and examples of how to access
+and utilize them.</p>
 </div>
 <div class="section level2">
 <h2 id="struct-categories">Struct Categories<a class="anchor" aria-label="anchor" href="#struct-categories"></a>
 </h2>
-<p>Below is an overview of the structs included in the
+<p>Below is an overview of the structures included in the
 <code>PIFDataModel</code> package:</p>
 <table class="table">
 <colgroup>
-<col width="11%">
-<col width="22%">
-<col width="31%">
-<col width="34%">
+<col width="14%">
+<col width="42%">
+<col width="42%">
 </colgroup>
 <thead><tr class="header">
 <th><strong>Category</strong></th>
-<th><strong>Name</strong></th>
 <th><strong>Description</strong></th>
 <th><strong>Link</strong></th>
 </tr></thead>
 <tbody>
 <tr class="odd">
 <td><strong>Bacteria</strong></td>
-<td>Count Data</td>
-<td>Contains bacteria count information</td>
-<td><a href="./structs/bacteria_count_data.json">View</a></td>
+<td>Contains the count data for bacteria</td>
+<td><a href="../../inst/extdata/structs/bacteria_count_results.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>General Data</td>
-<td>Contains general information about bacteria</td>
-<td><a href="./structs/bacteria_data.json">View</a></td>
+<td>Contains the essays related to bacteria research</td>
+<td><a href="../../inst/extdata/structs/bacteria_essays.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Full Structure</td>
-<td>Represents the complete bacteria structure</td>
-<td><a href="./structs/bacteria_full_structure.json">View</a></td>
+<td>Stores general results from bacteria-related studies</td>
+<td><a href="../../inst/extdata/structs/bacteria_general_results.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Prevalence Data</td>
-<td>Contains data on bacteria prevalence</td>
-<td><a href="./structs/bacteria_prevalence_data.json">View</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Results Data</td>
-<td>Stores results related to bacteria analysis</td>
-<td><a href="./structs/bacteria_results_data.json">View</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Tree</td>
-<td>Defines the hierarchical tree structure of bacteria</td>
-<td><a href="./structs/bacteria_tree.json">View</a></td>
+<td>Contains prevalence results for bacteria</td>
+<td><a href="../../inst/extdata/structs/bacteria_prevalence_results.json">View</a></td>
 </tr>
 <tr class="odd">
 <td><strong>FAO</strong></td>
-<td>Information</td>
-<td>Provides information related to FAO</td>
-<td><a href="./structs/fao_info.json">View</a></td>
+<td>Contains information about FAO areas</td>
+<td><a href="../../inst/extdata/structs/fao_areas.json">View</a></td>
 </tr>
 <tr class="even">
-<td></td>
-<td>Tree</td>
-<td>Represents the hierarchical structure of FAO</td>
-<td><a href="./structs/fao_tree.json">View</a></td>
-</tr>
-<tr class="odd">
 <td><strong>Food</strong></td>
-<td>Characteristics</td>
-<td>Contains details about food characteristics</td>
-<td><a href="./structs/food_characteristics.json">View</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Tree</td>
-<td>Represents the hierarchical structure of food</td>
-<td><a href="./structs/food_tree.json">View</a></td>
+<td>Contains characteristics of food</td>
+<td><a href="../../inst/extdata/structs/food_characteristics.json">View</a></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td>Describes the structure of different food types</td>
+<td><a href="../../inst/extdata/structs/food_structure.json">View</a></td>
+</tr>
+<tr class="even">
 <td><strong>Nematodes</strong></td>
-<td>General Data</td>
-<td>Contains general information about nematodes</td>
-<td><a href="./structs/nematodes_data.json">View</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Essay Identification Tree</td>
-<td>Represents essay data for identifying nematodes</td>
-<td><a href="./structs/nematodes_essay_identification_tree.json">View</a></td>
+<td>Contains count results for nematodes</td>
+<td><a href="../../inst/extdata/structs/nematodes_count_results.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Essay Infectivity Tree</td>
-<td>Represents essay data for nematodes infectivity</td>
-<td><a href="./structs/nematodes_essay_infectivity_tree.json">View</a></td>
+<td>Contains essays related to nematodes</td>
+<td><a href="../../inst/extdata/structs/nematodes_essays.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Essay Sample Tree</td>
-<td>Represents essay data for nematode samples</td>
-<td><a href="./structs/nematodes_essay_sample_tree.json">View</a></td>
+<td>Provides food-related information for nematodes</td>
+<td><a href="../../inst/extdata/structs/nematodes_food_info.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Full Structure</td>
-<td>Represents the complete nematodes structure</td>
-<td><a href="./structs/nematodes_full_structure.json">View</a></td>
+<td>Contains general results from nematode studies</td>
+<td><a href="../../inst/extdata/structs/nematodes_general_results.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Food Information</td>
-<td>Provides nematodes-related information for food</td>
-<td><a href="./structs/nematodes_food_info.json">View</a></td>
+<td>Contains essay data for nematode identification</td>
+<td><a href="../../inst/extdata/structs/nematodes_id_essay.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Prevalence Enumeration Results Data</td>
-<td>Contains prevalence enumeration results for nematodes</td>
-<td><a href="./structs/nematodes_prev_enum_results_data.json">View</a></td>
+<td>Contains essay data for nematode infectivity</td>
+<td><a href="../../inst/extdata/structs/nematodes_infec_essay.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Prevalence Results Data</td>
-<td>Stores prevalence results for nematodes analysis</td>
-<td><a href="./structs/nematodes_prev_results_data.json">View</a></td>
+<td>Contains results related to nematode infection</td>
+<td><a href="../../inst/extdata/structs/nematodes_infec_results.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Results Data</td>
-<td>Stores results related to nematodes analysis</td>
-<td><a href="./structs/nematodes_results_data.json">View</a></td>
+<td>Contains prevalence results for nematodes</td>
+<td><a href="../../inst/extdata/structs/nematodes_prev_results.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Subtype Tree</td>
+<td>Contains essay data on nematode sample preparation</td>
+<td><a href="../../inst/extdata/structs/nematodes_sample_prep_essay.json">View</a></td>
+</tr>
+<tr class="odd">
+<td></td>
 <td>Defines the subtype tree for nematodes</td>
-<td><a href="./structs/nematodes_subtype_tree.json">View</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Tree</td>
-<td>Defines the hierarchical tree structure of nematodes</td>
-<td><a href="./structs/nematodes_tree.json">View</a></td>
+<td><a href="../../inst/extdata/structs/nematodes_subtype_tree.json">View</a></td>
 </tr>
 <tr class="even">
+<td></td>
+<td>Describes the nematode types in a hierarchical structure</td>
+<td><a href="../../inst/extdata/structs/nematodes_type.json">View</a></td>
+</tr>
+<tr class="odd">
 <td><strong>Protozoans</strong></td>
-<td>Essay Identification Tree</td>
-<td>Represents essay data for identifying protozoans</td>
-<td><a href="./structs/protozoans_essay_identification_tree.json">View</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Essay Infectivity Tree</td>
-<td>Represents essay data for protozoans infectivity</td>
-<td><a href="./structs/protozoans_essay_infectivity_tree.json">View</a></td>
+<td>Contains enumeration results for protozoans</td>
+<td><a href="../../inst/extdata/structs/protozoans_enum_results.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Essay Sample Tree</td>
-<td>Represents essay data for protozoan samples</td>
-<td><a href="./structs/protozoans_essay_sample_tree.json">View</a></td>
+<td>Contains essays related to protozoans</td>
+<td><a href="../../inst/extdata/structs/protozoans_essays.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Full Structure</td>
-<td>Represents the complete protozoans structure</td>
-<td><a href="./structs/protozoans_full_structure.json">View</a></td>
+<td>Stores general results from protozoan studies</td>
+<td><a href="../../inst/extdata/structs/protozoans_general_results.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Parasite Data</td>
-<td>Contains data related to protozoan parasites</td>
-<td><a href="./structs/protozoans_parasite_data.json">View</a></td>
+<td>Contains essay data for protozoan identification</td>
+<td><a href="../../inst/extdata/structs/protozoans_id_essay.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Parasite Tree</td>
-<td>Represents the hierarchical structure of parasites</td>
-<td><a href="./structs/protozoans_parasite_tree.json">View</a></td>
+<td>Contains essay data for protozoan infectivity</td>
+<td><a href="../../inst/extdata/structs/protozoans_infec_essay.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Prevalence Enumeration Results Data</td>
-<td>Contains prevalence enumeration results for protozoans</td>
-<td><a href="./structs/protozoans_prev_enum_results_data.json">View</a></td>
+<td>Contains results related to protozoan infection</td>
+<td><a href="../../inst/extdata/structs/protozoans_infec_results.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Results Data</td>
-<td>Stores results related to protozoans analysis</td>
-<td><a href="./structs/protozoans_results_data.json">View</a></td>
+<td>Contains prevalence results for protozoans</td>
+<td><a href="../../inst/extdata/structs/protozoans_prev_results.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Subtype Tree</td>
-<td>Defines the subtype tree for protozoans</td>
-<td><a href="./structs/protozoans_subtype_tree.json">View</a></td>
+<td>Contains essay data on protozoan sample preparation</td>
+<td><a href="../../inst/extdata/structs/protozoans_sample_prep_essay.json">View</a></td>
 </tr>
 <tr class="odd">
-<td><strong>Virus</strong></td>
-<td>Essay Identification Tree</td>
-<td>Represents essay data for identifying viruses</td>
-<td><a href="./structs/virus_essay_identification_tree.json">View</a></td>
+<td></td>
+<td>Defines the subtype classification for protozoans</td>
+<td><a href="../../inst/extdata/structs/protozoans_subtype.json">View</a></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>Essay Infectivity Tree</td>
-<td>Represents essay data for virus infectivity</td>
-<td><a href="./structs/virus_essay_infectivity_tree.json">View</a></td>
+<td>Describes the protozoan types in a hierarchical structure</td>
+<td><a href="../../inst/extdata/structs/protozoans_type.json">View</a></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Full Structure</td>
-<td>Represents the complete virus structure</td>
-<td><a href="./structs/virus_full_structure.json">View</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Prevalence Enumeration Results Data</td>
-<td>Contains prevalence enumeration results for viruses</td>
-<td><a href="./structs/virus_prev_enum_results_data.json">View</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Results Infectivity Data</td>
-<td>Stores results related to virus infectivity</td>
-<td><a href="./structs/virus_results_infectivity_data.json">View</a></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Results Quality Data</td>
-<td>Stores quality results for virus analysis</td>
-<td><a href="./structs/virus_results_quality_data.json">View</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Subtype Tree</td>
-<td>Defines the subtype tree for viruses</td>
-<td><a href="./structs/virus_subtype_tree.json">View</a></td>
+<td>Lists the measurement units used for protozoan data</td>
+<td><a href="../../inst/extdata/structs/protozoans_units.json">View</a></td>
 </tr>
 <tr class="even">
 <td><strong>Study</strong></td>
-<td>Struct</td>
-<td>Provides the struct for study data</td>
-<td><a href="./structs/study_schema.json">View</a></td>
+<td>Contains structural data for study schema</td>
+<td><a href="../../inst/extdata/structs/study_structure.json">View</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Virus</strong></td>
+<td>Contains enumeration results for viruses</td>
+<td><a href="../../inst/extdata/structs/virus_enum_results.json">View</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Contains essays related to virus research</td>
+<td><a href="../../inst/extdata/structs/virus_essays.json">View</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Stores general results from virus studies</td>
+<td><a href="../../inst/extdata/structs/virus_general_results.json">View</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Contains essay data for virus identification</td>
+<td><a href="../../inst/extdata/structs/virus_id_essay.json">View</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Contains essay data for virus infectivity</td>
+<td><a href="../../inst/extdata/structs/virus_infec_essay.json">View</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Contains results related to virus infection</td>
+<td><a href="../../inst/extdata/structs/virus_infec_results.json">View</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Contains results for virus quality and molecular analysis</td>
+<td><a href="../../inst/extdata/structs/virus_quality_mol_results.json">View</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Defines the subtype classification for viruses</td>
+<td><a href="../../inst/extdata/structs/virus_subtype.json">View</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Describes the virus types in a hierarchical structure</td>
+<td><a href="../../inst/extdata/structs/virus_type.json">View</a></td>
 </tr>
 </tbody>
 </table>
@@ -318,7 +283,8 @@ to access and utilize them.</p>
 <div class="section level2">
 <h2 id="examples">Examples<a class="anchor" aria-label="anchor" href="#examples"></a>
 </h2>
-<p>Here are examples of how to load and work with the structs in R:</p>
+<p>Here are examples of how to load and work with the structures in
+R:</p>
 <div class="section level3">
 <h3 id="loading-the-pifdatamodel-package">Loading the <code>PIFDataModel</code> Package<a class="anchor" aria-label="anchor" href="#loading-the-pifdatamodel-package"></a>
 </h3>
@@ -375,8 +341,8 @@ Bacteria Count Data Struct
 <div class="section level2">
 <h2 id="additional-documentation">Additional Documentation<a class="anchor" aria-label="anchor" href="#additional-documentation"></a>
 </h2>
-<p>For more details on how to use the structs or integrate them into
-your workflows, visit the <a href="https://example.com/documentation" class="external-link"><code>PIFDataModel</code>
+<p>For more details on how to use the extdata/structs or integrate them
+into your workflows, visit the <a href="https://example.com/documentation" class="external-link"><code>PIFDataModel</code>
 documentation</a>.</p>
 </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
@@ -386,7 +352,7 @@ documentation</a>.</p>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by Vasco Cadavez, Ursula Gonzales-Barron.</p>
+  <p>Developed by Vasco Cadavez, Lucas Silva, Lucas Mendes, Ursula Gonzales-Barron.</p>
 </div>
 
 <div class="pkgdown-footer-right">

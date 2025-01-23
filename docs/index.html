@@ -5,14 +5,14 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Manage and Document JSON Schemas in R • PIFDataModel</title>
+<title>"PIFDataModel: Manage, Validate, and Document JSON Schemas in R" • PIFDataModel</title>
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Manage and Document JSON Schemas in R">
-<meta name="description" content="Provides tools to store, validate, and document JSON schemas for use in R.">
-<meta property="og:description" content="Provides tools to store, validate, and document JSON schemas for use in R.">
+<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="" pifdatamodel: manage validate and document json schemas in r>
+<meta name="description" content='"The `PIFDataModel` package provides tools to manage, validate, and document JSON schemas in R. It is designed to streamline the organization of structured data, particularly for biological and environmental datasets. The package includes a collection of predefined schemas and structs for common use cases, such as bacteria count data, along with functions to read, validate, and visualize JSON data. By ensuring consistency and interoperability, `PIFDataModel` facilitates data-driven research and simplifies the integration of structured data into R workflows.""'>
+<meta property="og:description" content='"The `PIFDataModel` package provides tools to manage, validate, and document JSON schemas in R. It is designed to streamline the organization of structured data, particularly for biological and environmental datasets. The package includes a collection of predefined schemas and structs for common use cases, such as bacteria count data, along with functions to read, validate, and visualize JSON data. By ensuring consistency and interoperability, `PIFDataModel` facilitates data-driven research and simplifies the integration of structured data into R workflows.""'>
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -44,38 +44,71 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="pifdatamodel">PIFDataModel<a class="anchor" aria-label="anchor" href="#pifdatamodel"></a>
+<div class="page-header"><h1 id="pifdatamodel-simplifying-structured-data-management-for-pathogens-in-food-database">PIFDataModel: Simplifying Structured Data Management for Pathogens in Food Database<a class="anchor" aria-label="anchor" href="#pifdatamodel-simplifying-structured-data-management-for-pathogens-in-food-database"></a>
 </h1></div>
 <div class="section level2">
 <h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
 </h2>
-<p>The <strong>PIFDataModel</strong> R package is part of the <a href="https://pif.esa.ipb.pt/" class="external-link">PIF Database Project</a>, which aims to facilitate the sharing and usage of the structured data and JSON schemas associated with the Pathogens in Foods (PIF) Database. This package serves as a repository for database structures, schemas, and related resources to support researchers, food safety professionals, and decision-makers in analyzing data related to pathogens in food.</p>
+<p>The <strong>PIFDataModel</strong> R package is an integral component of the Pathogens in Foods Database Project <a href="https://pif.esa.ipb.pt/" class="external-link">(PIF: https://pif.esa.ipb.pt/)</a>, a comprehensive initiative to facilitate the sharing, analysis, and usage of structured data and JSON schemas related to the <strong>PIF</strong> Database. This package is designed to support researchers, food safety professionals, and decision-makers in accessing and working with well-structured datasets and schemas for analyzing data on foodborne pathogens.</p>
 </div>
 <div class="section level2">
-<h2 id="features">Features<a class="anchor" aria-label="anchor" href="#features"></a>
+<h2 id="key-features">Key Features<a class="anchor" aria-label="anchor" href="#key-features"></a>
 </h2>
 <ul>
-<li>Access to PIF database structures.</li>
-<li>Tools to validate and manipulate PIF database schemas (under development).</li>
+<li>
+<strong>Access Predefined Schemas:</strong> Includes predefined JSON schemas for organizing and validating data, such as bacteria count data.</li>
+<li>
+<strong>Validation Tools:</strong> Provides tools to validate JSON data against schemas (future development).</li>
+<li>
+<strong>Data Management:</strong> Simplifies the integration of structured data into R workflows.</li>
+<li>
+<strong>Documentation and Resources:</strong> Offers extensive documentation to facilitate the use of JSON schemas in research projects.</li>
 </ul>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>To install the development version of <strong>PIFDataModel</strong>, use the following commands in R:</p>
+<p>Install the development version of <strong>PIFDataModel</strong> directly from GitHub:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Install the remotes package if you don't have it</span></span>
+<code class="sourceCode R"><span><span class="co"># Install the remotes package if not already installed</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"remotes"</span><span class="op">)</span></span>
 <span></span>
-<span><span class="co"># Install the PIFDataModel package</span></span>
+<span><span class="co"># Install the PIFDataModel package from GitHub</span></span>
 <span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"fsqanalytics/PIFDataModel"</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="usage-example">Usage Example<a class="anchor" aria-label="anchor" href="#usage-example"></a>
+</h2>
+<p>Here is a quick example of how to load and use a schema in the <strong>PIFDataModel</strong> package:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Load the PIFDataModel package</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://fsqanalytics.github.io/PIFDataModel">PIFDataModel</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Load a predefined schema</span></span>
+<span><span class="va">bacteria_schema</span> <span class="op">&lt;-</span> <span class="fu">jsonlite</span><span class="fu">::</span><span class="fu"><a href="https://jeroen.r-universe.dev/jsonlite/reference/read_json.html" class="external-link">read_json</a></span><span class="op">(</span><span class="st">"./schemas/bacteria_count_schema.json"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Print the schema</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">bacteria_schema</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="contributing">Contributing<a class="anchor" aria-label="anchor" href="#contributing"></a>
+</h2>
+<p>Contributions are welcome! If you’d like to contribute to the development of this package, please visit the <a href="https://github.com/fsqanalytics/PIFDataModel" class="external-link">GitHub repository</a> to create issues or submit pull requests.</p>
 </div>
 <div class="section level2">
 <h2 id="acknowledgments">Acknowledgments<a class="anchor" aria-label="anchor" href="#acknowledgments"></a>
 </h2>
-<p>The PIF Database and this package are developed as part of a research project funded by the European Food Safety Authority (EFSA). Special thanks to all contributors and collaborators who support this initiative.</p>
-<hr>
-<p>Visit the <a href="https://pif.esa.ipb.pt/" class="external-link">PIF Database Website</a> for more information on the broader project.</p>
+<p>The <a href="https://pif.esa.ipb.pt/" class="external-link">PIF Database</a> and the <a href="https://github.com/fsqanalytics/PIFDataModel" class="external-link">PIFDataModel</a> package are developed as part of a research project funded by the <a href="https://www.efsa.europa.eu/en" class="external-link">European Food Safety Authority (EFSA)</a>. We extend our gratitude to all contributors and collaborators who have supported this initiative.</p>
+<p>For more information about the project, please read the paper: <span style="color:blue">Gonzales-Barron et al. (<a href="#ref-Gonzales-BarronMRA2025">2025</a>)</span>.</p>
+</div>
+<div class="section level2">
+<h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
+</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0" line-spacing="2">
+<div id="ref-Gonzales-BarronMRA2025" class="csl-entry">
+Gonzales-Barron, U., Faria, A. S., Thebault, A., Guillier, L., Mendes, L. R., Silva, L. R., Messens, W., Kooh, P., &amp; Cadavez, V. (2025). <a href="">Pathogens-in-foods (PIF): An open-access european database of occurrence data of biological hazards in foods</a>. <em>Microbial Risk Analysis</em>, <em>Submited</em>.
+</div>
+</div>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
@@ -105,6 +138,8 @@
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
 <li>Vasco Cadavez <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-3077-7414" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Lucas Silva <br><small class="roles"> Author </small> <a href="https://orcid.org/0009-0008-4110-825X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Lucas Mendes <br><small class="roles"> Author </small>  </li>
 <li>Ursula Gonzales-Barron <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-8462-9775" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 </ul>
 </div>
@@ -116,7 +151,7 @@
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by Vasco Cadavez, Ursula Gonzales-Barron.</p>
+  <p>Developed by Vasco Cadavez, Lucas Silva, Lucas Mendes, Ursula Gonzales-Barron.</p>
 </div>
 
 <div class="pkgdown-footer-right">

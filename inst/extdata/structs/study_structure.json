@@ -1,0 +1,78 @@
+{
+  "StudyID": {
+    "data": null,
+    "label": "Study ID",
+    "type": "text",
+    "required": true
+  },
+  "StudyType": {
+    "data": [
+      "Comparison",
+      "Survey",
+      "Other"
+    ],
+    "label": "Study Type",
+    "type": "list",
+    "required": true
+  },
+  "CountryPublication": {
+    "data": [],
+    "label": "Country Of Publication",
+    "type": "list",
+    "required": false
+  },
+  "DurationSurvey": {
+    "data": null,
+    "label": "Duration of Survey",
+    "type": "number",
+    "required": true
+  },
+  "Year": {
+    "data": null,
+    "label": "Year",
+    "type": "number",
+    "required": true
+  },
+  "Bib.AUTHOR": {
+    "data": null,
+    "label": "Author(s)",
+    "type": "text",
+    "required": true
+  },
+  "Bib.TITLE": {
+    "data": null,
+    "label": "Title",
+    "type": "text",
+    "required": true
+  },
+  "Bib.JOURNAL": {
+    "data": null,
+    "label": "Journal",
+    "type": "text",
+    "required": false
+  },
+  "Bib.VOLUME": {
+    "data": null,
+    "label": "Volume",
+    "type": "number",
+    "required": false
+  },
+  "Bib.PAGES": {
+    "data": null,
+    "label": "Pages",
+    "type": "number",
+    "required": false
+  },
+  "Bib.DOI": {
+    "data": null,
+    "label": "DOI",
+    "type": "text",
+    "required": true
+  },
+  "Bib.URL": {
+    "data": null,
+    "label": "URL",
+    "type": "text",
+    "required": false
+  }
+}
