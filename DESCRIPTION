@@ -1,6 +1,6 @@
 Package: PIFDataModel
 Type: Package
-Title: Manage and Document JSON Schemas in R
+Title: "Manage, Validate, and Document JSON Schemas in R""
 Version: 0.0.0.9000
 Authors@R: c(
              person(given="Vasco",
@@ -8,13 +8,31 @@ Authors@R: c(
                     role = c("aut", "cre"),
                     email = "vcadavez@ipb.pt",
                     comment = c(ORCID = "0000-0002-3077-7414")),
+            person(given="Lucas",
+                    family="Silva", 
+                    role = c("aut"),
+                    email = "lucasrsilva.dev@gmail.com",
+                    comment = c(ORCID = "")),
+            person(given="Lucas",
+                    family="Mendes", 
+                    role = c("aut"),
+                    email = "lrmen14@gmail.com",
+                    comment = c(ORCID = "")),
              person(given="Ursula",
                     family="Gonzales-Barron", 
                     role = "aut", 
                     email = "ubarron@ipb.pt",
                     comment = c(ORCID = "0000-0002-8462-9775"))
             )
-Description: Provides tools to store, validate, and document JSON schemas for use in R.
+Description: "The `PIFDataModel` package provides tools to manage, validate, 
+              and document JSON schemas in R. It is designed to streamline the
+              organization of structured data, particularly for biological and 
+              environmental datasets. The package includes a collection of 
+              predefined schemas and structs for common use cases,
+              such as bacteria count data, along with functions to read, 
+              validate, and visualize JSON data. By ensuring consistency and
+              interoperability, `PIFDataModel` facilitates data-driven 
+              research and simplifies the integration of structured data into R workflows.""
 License: GPL-3
 Encoding: UTF-8
 LazyLoad: yes

@@ -1,45 +1,74 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# PIFDataModel
+# PIFDataModel: Simplifying Structured Data Management for Pathogens in Food Database
 
 ## Overview
 
-The **PIFDataModel** R package is part of the [PIF Database
-Project](https://pif.esa.ipb.pt/), which aims to facilitate the sharing
-and usage of the structured data and JSON schemas associated with the
-Pathogens in Foods (PIF) Database. This package serves as a repository
-for database structures, schemas, and related resources to support
-researchers, food safety professionals, and decision-makers in analyzing
-data related to pathogens in food.
+The **PIFDataModel** R package is an integral component of the Pathogens
+in Foods Database Project [(PIF:
+https://pif.esa.ipb.pt/)](https://pif.esa.ipb.pt/), a comprehensive
+initiative to facilitate the sharing, analysis, and usage of structured
+data and JSON schemas related to the **PIF** Database. This package is
+designed to support researchers, food safety professionals, and
+decision-makers in accessing and working with well-structured datasets
+and schemas for analyzing data on foodborne pathogens.
 
-## Features
+## Key Features
 
-- Access to PIF database structures.
-- Tools to validate and manipulate PIF database schemas (under
-  development).
+- **Access Predefined Schemas:** Includes predefined JSON schemas for
+  organizing and validating data, such as bacteria count data.
+- **Validation Tools:** Provides tools to validate JSON data against
+  schemas (future development).
+- **Data Management:** Simplifies the integration of structured data
+  into R workflows.
+- **Documentation and Resources:** Offers extensive documentation to
+  facilitate the use of JSON schemas in research projects.
 
 ## Installation
 
-To install the development version of **PIFDataModel**, use the
-following commands in R:
+Install the development version of **PIFDataModel** directly from
+GitHub:
 
 ``` r
-# Install the remotes package if you don't have it
+# Install the remotes package if not already installed
 install.packages("remotes")
 
-# Install the PIFDataModel package
+# Install the PIFDataModel package from GitHub
 remotes::install_github("fsqanalytics/PIFDataModel")
 ```
 
+## Usage Example
+
+Here is a quick example of how to load and use a schema in the
+**PIFDataModel** package:
+
+``` r
+# Load the PIFDataModel package
+library(PIFDataModel)
+
+# Load a predefined schema
+bacteria_schema <- jsonlite::read_json("./schemas/bacteria_count_schema.json")
+
+# Print the schema
+print(bacteria_schema)
+```
+
+## Contributing
+
+Contributions are welcome! If you’d like to contribute to the
+development of this package, please visit the [GitHub
+repository](https://github.com/fsqanalytics/PIFDataModel) to create
+issues or submit pull requests.
+
 ## Acknowledgments
 
-The PIF Database and this package are developed as part of a research
-project funded by the European Food Safety Authority (EFSA). Special
-thanks to all contributors and collaborators who support this
-initiative.
+The PIF Database and the **PIFDataModel** package are developed as part
+of a research project funded by the [European Food Safety Authority
+(EFSA)](https://www.efsa.europa.eu/en). We extend our gratitude to all
+contributors and collaborators who have supported this initiative.
 
 ------------------------------------------------------------------------
 
-Visit the [PIF Database Website](https://pif.esa.ipb.pt/) for more
-information on the broader project.
+For more information about the broader project, please visit the [PIF
+Database Website](https://pif.esa.ipb.pt/).

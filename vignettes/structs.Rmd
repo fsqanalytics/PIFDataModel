@@ -9,11 +9,11 @@ vignette: >
 
 # Introduction
 
-The `PIFDataModel` package is designed to standardize data storage and handling for biological studies, particularly focusing on structured JSON schemas. This vignette provides an overview of the available data structures (structs), their purposes, and examples of how to access and utilize them.
+The `PIFDataModel` package is designed to standardize data storage and handling for biological studies, particularly focusing on structured JSON schemas. This vignette provides an overview of the available data structures, their purposes, and examples of how to access and utilize them.
 
 # Struct Categories
 
-Below is an overview of the structs included in the `PIFDataModel` package:
+Below is an overview of the structures included in the `PIFDataModel` package:
 
 
 | **Category**      | **Name**                               | **Description**                                       | **Link**                                               |
@@ -59,11 +59,11 @@ Below is an overview of the structs included in the `PIFDataModel` package:
 
 # Examples
 
-Here are examples of how to load and work with the structs in R:
+Here are examples of how to load and work with the structures in R:
 
 ## Loading the `PIFDataModel` Package
 
-```r
+```{r lib}
 # Load the PIFDataModel package
 library(PIFDataModel)
 ```
