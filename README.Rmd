@@ -1,11 +1,16 @@
 ---
 output: github_document
+bibliography: ./inst/REFERENCES.bib
+link-citations: true
+csl: ./inst/apa.csl
+css: ./inst/styles.css
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
+  citation = "color: lightblue;",
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/",
@@ -59,8 +64,9 @@ Contributions are welcome! If you'd like to contribute to the development of thi
 
 ## Acknowledgments
 
-The PIF Database and the **PIFDataModel** package are developed as part of a research project funded by the [European Food Safety Authority (EFSA)](https://www.efsa.europa.eu/en). We extend our gratitude to all contributors and collaborators who have supported this initiative.
+The [PIF Database](https://pif.esa.ipb.pt/) and the [PIFDataModel](https://github.com/fsqanalytics/PIFDataModel) package are developed as part of a research project funded by the [European Food Safety Authority (EFSA)](https://www.efsa.europa.eu/en). We extend our gratitude to all contributors and collaborators who have supported this initiative.
 
----
+For more information about the project, please read the paper:
+<span style="color:blue">@Gonzales-BarronMRA2025</span>.
 
-For more information about the broader project, please visit the [PIF Database Website](https://pif.esa.ipb.pt/).
+## References

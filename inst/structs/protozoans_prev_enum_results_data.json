@@ -1,0 +1,42 @@
+{
+    "Toxoplasma": {
+        "ParasiteUnit": {
+            "data": [
+                "Oocysts",
+                "Tachyzoites",
+                "Cysts",
+                "Other",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Giardia": {
+        "ParasiteUnit": {
+            "data": [
+                "Cysts",
+                "Trophozoites",
+                "Other",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    },
+    "Cryptosporidium": {
+        "ParasiteUnit": {
+            "data": [
+                "Oocysts",
+                "Sporozoites",
+                "Other",
+                "NA"
+            ],
+            "label": "Parasite Unit",
+            "type": "list",
+            "required": true
+        }
+    }
+}

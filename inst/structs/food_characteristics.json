@@ -1,0 +1,71 @@
+{
+  "Label": {
+    "data": null,
+    "label": "Label",
+    "type": "text",
+    "required": true
+  },
+  "TempRetail": {
+    "data": [
+      "Ambient",
+      "Chill",
+      "Frozen",
+      "Various",
+      "NA"
+    ],
+    "label": "Temp Retail",
+    "type": "list",
+    "required": true
+  },
+  "RTE": {
+    "data": [
+      "Yes",
+      "No"
+    ],
+    "label": "RTE",
+    "type": "list",
+    "required": true
+  },
+  "PackStatus": {
+    "data": [
+      "Packed",
+      "Unpacked",
+      "Various",
+      "NA"
+    ],
+    "label": "Pack Status",
+    "type": "list",
+    "required": true
+  },
+  "PackStatusType": {
+    "data": [
+      "In air",
+      "In modified atmosphere",
+      "Vacuum-packing",
+      "Unknown packing material"
+    ],
+    "label": "Pack Status Type",
+    "type": "list",
+    "required": true
+  },
+  "SamplingStage": {
+    "data": [
+      "Primary production",
+      "Manufacturing",
+      "Distribution"
+    ],
+    "label": "Sampling Stage",
+    "type": "list",
+    "required": true
+  },
+  "SamplingStage2": {
+    "data": [
+      "Storage",
+      "Retail",
+      "Restaurant"
+    ],
+    "label": "Sampling Stage 2",
+    "type": "list",
+    "required": true
+  }
+}

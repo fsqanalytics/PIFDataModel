@@ -1,0 +1,108 @@
+{
+    "SampleWeightEnum": {
+        "data": null,
+        "label": "Sample Weight Enum",
+        "type": "number",
+        "required": false
+    },
+    "CountsUnit": {
+        "data": [
+            "Raw",
+            "LOG 10",
+            "LN"
+        ],
+        "label": "Counts Unit",
+        "type": "list",
+        "required": true
+    },
+    "Mean_i": {
+        "data": null,
+        "label": "Mean concentration (counts unit of genome copies per sample weight unit)",
+        "type": "number",
+        "required": true
+    },
+    "Median_i": {
+        "data": null,
+        "label": "Median concentration (counts unit of genome copies per sample weight unit)",
+        "type": "number",
+        "required": false
+    },
+    "StandardDeviation": {
+        "data": null,
+        "label": "Standard deviation (counts unit of genome copies per sample weight unit)",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_1": {
+        "data": null,
+        "label": "count [i,1]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_2": {
+        "data": null,
+        "label": "count [i,2]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_3": {
+        "data": null,
+        "label": "count [i,3]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_4": {
+        "data": null,
+        "label": "count [i,4]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_5": {
+        "data": null,
+        "label": "count [i,5]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_6": {
+        "data": null,
+        "label": "count [i,6]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_7": {
+        "data": null,
+        "label": "count [i,7]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_8": {
+        "data": null,
+        "label": "count [i,8]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_9": {
+        "data": null,
+        "label": "count [i,9]",
+        "type": "number",
+        "required": false
+    },
+    "Count_i_10": {
+        "data": null,
+        "label": "count [i,10]",
+        "type": "number",
+        "required": false
+    },
+    "Mix_i": {
+        "data": null,
+        "label": "Min (counts unit of genome copies per sample weight unit)",
+        "type": "number",
+        "required": false
+    },
+    "Max_i": {
+        "data": null,
+        "label": "Max (counts unit of genome copies per sample weight unit)",
+        "type": "number",
+        "required": false
+    }
+}

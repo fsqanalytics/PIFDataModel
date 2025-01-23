@@ -1,0 +1,14 @@
+{
+  "BacteriumLabel": {
+    "data": null,
+    "label": "Bacterium Label",
+    "type": "text",
+    "required": false
+  },
+  "Serotype_Serovar": {
+    "data": null,
+    "label": "Serotype/Serovar",
+    "type": "text",
+    "required": false
+  }
+}

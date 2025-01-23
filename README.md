@@ -63,12 +63,30 @@ issues or submit pull requests.
 
 ## Acknowledgments
 
-The PIF Database and the **PIFDataModel** package are developed as part
-of a research project funded by the [European Food Safety Authority
-(EFSA)](https://www.efsa.europa.eu/en). We extend our gratitude to all
-contributors and collaborators who have supported this initiative.
+The [PIF Database](https://pif.esa.ipb.pt/) and the
+[PIFDataModel](https://github.com/fsqanalytics/PIFDataModel) package are
+developed as part of a research project funded by the [European Food
+Safety Authority (EFSA)](https://www.efsa.europa.eu/en). We extend our
+gratitude to all contributors and collaborators who have supported this
+initiative.
 
-------------------------------------------------------------------------
+For more information about the project, please read the paper:
+<span style="color:blue">Gonzales-Barron et al.
+([2025](#ref-Gonzales-BarronMRA2025))</span>.
 
-For more information about the broader project, please visit the [PIF
-Database Website](https://pif.esa.ipb.pt/).
+## References
+
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0" line-spacing="2">
+
+<div id="ref-Gonzales-BarronMRA2025" class="csl-entry">
+
+Gonzales-Barron, U., Faria, A. S., Thebault, A., Guillier, L., Mendes,
+L. R., Silva, L. R., Messens, W., Kooh, P., & Cadavez, V. (2025).
+[Pathogens-in-foods (PIF): An open-access european database of
+occurrence data of biological hazards in foods](). *Microbial Risk
+Analysis*, *Submited*.
+
+</div>
+
+</div>

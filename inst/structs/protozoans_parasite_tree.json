@@ -1,0 +1,27 @@
+{
+    "label": "Parasite",
+    "Toxoplasma": {
+        "label": "Specie",
+        "gondi": null,
+        "spp": null
+    },
+    "Giardia": {
+        "label": "Specie",
+        "duodenalis": null,
+        "spp": null
+    },
+    "Cryptosporidium": {
+        "label": "Specie",
+        "parvum": null,
+        "hominis": null,
+        "meleagridis": null,
+        "ubiquitum": null,
+        "canis": null,
+        "cuniculus": null,
+        "felis": null,
+        "muris": null,
+        "viatorum": null,
+        "spp": null,
+        "others": null
+    }
+}

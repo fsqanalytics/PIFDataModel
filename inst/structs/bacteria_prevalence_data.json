@@ -1,0 +1,20 @@
+{
+  "SampleWDet": {
+    "data": null,
+    "label": "Sample W Det",
+    "type": "number",
+    "required": true
+  },
+  "LoD": {
+    "data": null,
+    "label": "LoD",
+    "type": "number",
+    "required": false
+  },
+  "DetecEnrichment": {
+    "data": null,
+    "label": "Detect Enrichment",
+    "type": "number",
+    "required": true
+  }
+}

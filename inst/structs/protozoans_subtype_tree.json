@@ -1,0 +1,76 @@
+{
+    "label": "Parasite",
+    "Toxoplasma": [
+        {
+            "data": [
+                "GI",
+                "GII",
+                "GIII",
+                "Atypical",
+                "Mixed"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        },
+        {
+            "data": [
+                "Clade A",
+                "Clade B",
+                "Clade C",
+                "Clade D",
+                "Clade E",
+                "Clade F",
+                "Mixed"
+            ],
+            "name": "SubTypeOld",
+            "label": "SubTypeOld",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Giardia": [
+        {
+            "data": [
+                "Assemblage A",
+                "Assemblage B",
+                "Assemblage C",
+                "Assemblage D",
+                "Assemblage E",
+                "Assemblage F",
+                "Assemblage G",
+                "Assemblage H",
+                "Mixed"
+            ],
+            "name": "SubTypeNew",
+            "label": "SubTypeNew",
+            "type": "text",
+            "required": false
+        },
+        {
+            "data": [
+                "Enteritica",
+                "Canis",
+                "Bovis",
+                "Cati",
+                "Simondi",
+                "Duodenalis",
+                "Psittaci"
+            ],
+            "name": "SubTypeOld",
+            "label": "SubTypeOld",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Cryptosporidium": [
+        {
+            "data": null,
+            "name": "SubTypeClass",
+            "label": "Custom SubType",
+            "type": "text",
+            "required": false
+        }
+    ]
+}

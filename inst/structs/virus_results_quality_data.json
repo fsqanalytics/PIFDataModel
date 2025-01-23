@@ -1,0 +1,67 @@
+{
+    "Inhibition": {
+        "data": null,
+        "label": "Amplification Inhibition (%)",
+        "type": "number",
+        "required": false
+    },
+    "ExtractionEfficiencyNature": {
+        "data": [
+            "Murine norovirus (MNV)",
+            "Mengovirus",
+            "Tulane",
+            "MNV and Mengovirus (lower)",
+            "Other"
+        ],
+        "label": "Extraction efficiency: Nature",
+        "type": "list",
+        "required": false
+    },
+    "ExtractionEfficiencyValue": {
+        "data": null,
+        "label": "Extraction efficiency: Value (in %)",
+        "type": "number",
+        "required": false
+    },
+    "ExtractionEfficiencyRange": {
+        "data": [
+            "<1%",
+            "1-10%",
+            ">10%"
+        ],
+        "label": "Extraction efficiency: Range",
+        "type": "list",
+        "required": false
+    },
+    "LOQ": {
+        "data": null,
+        "label": "LOQ",
+        "type": "number",
+        "required": false
+    },
+    "LOD": {
+        "data": null,
+        "label": "LOD",
+        "type": "number",
+        "required": false
+    },
+    "Replication": {
+        "data": [
+            "Duplicate",
+            "Triplicate",
+            "Single Analysis"
+        ],
+        "label": "Replication",
+        "type": "list",
+        "required": false
+    },
+    "CT_Warning": {
+        "data": [
+            "no",
+            "yes"
+        ],
+        "label": "Warning (at least one quantitative result is kept with CT>39 or extra dilution)",
+        "type": "list",
+        "required": false
+    }
+}

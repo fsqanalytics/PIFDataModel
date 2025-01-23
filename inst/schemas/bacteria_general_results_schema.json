@@ -1,0 +1,113 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/fsqanalytics/PIFDataModel/docs/articles/schemas/bacteria_results_schema.json",
+    "type": "object",
+    "properties": {
+        "SampleWUnit": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "g",
+                    "ml",
+                    "cm2",
+                    "unit"
+                ]
+            },
+            "maxItems": 1
+        },
+        "TotalUnitsTested": {
+            "type": "number"
+        },
+        "BiasPotential": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "0",
+                    "1"
+                ]
+            },
+            "maxItems": 1
+        },
+        "BiasType": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Selection bias",
+                    "Aggregation bias",
+                    "Detection bias",
+                    "Reporting quality",
+                    "Multiple",
+                    "Other"
+                ]
+            },
+            "maxItems": 1
+        },
+        "Reason": {
+            "type": "string"
+        },
+        "Comments": {
+            "type": "string"
+        },
+        "Confirmation": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "Yes",
+                    "No",
+                    "NA"
+                ]
+            },
+            "maxItems": 1
+        },
+        "NSamplesIsolated": {
+            "type": "number"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "SampleWUnit",
+        "TotalUnitsTested",
+        "BiasPotential",
+        "Confirmation"
+    ],
+    "allOf": [
+        {
+            "if": {
+                "properties": {
+                    "BiasPotential": {
+                        "const": "1"
+                    }
+                },
+                "required": [
+                    "BiasPotential"
+                ]
+            },
+            "then": {
+                "required": [
+                    "BiasType"
+                ]
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "Confirmation": {
+                        "const": "Yes"
+                    }
+                },
+                "required": [
+                    "Confirmation"
+                ]
+            },
+            "then": {
+                "required": [
+                    "NSamplesIsolated"
+                ]
+            }
+        }
+    ]
+}

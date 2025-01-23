@@ -1,0 +1,61 @@
+{
+    "CountryConsumption": {
+        "data": null,
+        "label": "Countries of consumption",
+        "type": "text",
+        "required": false
+    },
+    "SamplingStartMonth": {
+        "data": null,
+        "label": "Sampling start month",
+        "type": "date",
+        "required": false
+    },
+    "SamplingEndMonth": {
+        "data": null,
+        "label": "Sampling end month",
+        "type": "date",
+        "required": false
+    },
+    "HostFamily": {
+        "data": null,
+        "label": "Host family",
+        "type": "text",
+        "required": false
+    },
+    "HostGenus": {
+        "data": null,
+        "label": "Host genus",
+        "type": "text",
+        "required": false
+    },
+    "HostSpecie": {
+        "data": null,
+        "label": "Host specie",
+        "type": "text",
+        "required": false
+    },
+    "OtherCommercialName": {
+        "data": null,
+        "label": "Other commercial name",
+        "type": "text",
+        "required": false
+    },
+    "TypeSample": {
+        "data": [
+            "Whole",
+            "Gutted",
+            "Fillets",
+            "Other"
+        ],
+        "label": "Type of sample",
+        "type": "text",
+        "required": true
+    },
+    "FoodClassSpecieOld": {
+        "data": null,
+        "label": "Food Class Specie Old",
+        "type": "text",
+        "required": false
+    }
+}

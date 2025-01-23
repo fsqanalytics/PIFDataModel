@@ -1,0 +1,186 @@
+{
+    "label": "Virus",
+    "Norovirus": [
+        {
+            "data": [
+                "GI",
+                "GII",
+                "GIII",
+                "GIV",
+                "GV",
+                "GVI",
+                "GVII"
+            ],
+            "name": "SubTypeOldGenogroup",
+            "label": "SubTypeOld Genogroup",
+            "type": "text",
+            "required": false
+        },
+        {
+            "data": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25"
+            ],
+            "name": "SubTypeOldGenotype",
+            "label": "SubTypeOld Genotype",
+            "type": "text",
+            "required": false
+        },
+        {
+            "data": [
+                "GI",
+                "GII",
+                "GIII",
+                "GIV",
+                "GV",
+                "GVI",
+                "GVII",
+                "GVIII",
+                "GIX",
+                "GX"
+            ],
+            "name": "SubTypeNewGenogroup",
+            "label": "SubTypeNew Genogroup",
+            "type": "text",
+            "required": false
+        },
+        {
+            "data": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49"
+            ],
+            "name": "SubTypeNewGenotype",
+            "label": "SubTypeNew Genotype",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Hepatovirus A": [
+        {
+            "data": [
+                "GI",
+                "GII",
+                "GIII",
+                "GIV",
+                "GV",
+                "GVI"
+            ],
+            "name": "Genotype",
+            "label": "Genotype",
+            "type": "text",
+            "required": false
+        },
+        {
+            "data": [
+                "A",
+                "B"
+            ],
+            "name": "Subgenotype",
+            "label": "Subgenotype",
+            "type": "text",
+            "required": false
+        }
+    ],
+    "Orthohepevirus A": [
+        {
+            "data": [
+                "GI",
+                "GII",
+                "GIII",
+                "GIV",
+                "GV",
+                "GVI",
+                "GVII"
+            ],
+            "name": "Genotype",
+            "label": "Genotype",
+            "type": "text",
+            "required": false
+        },
+        {
+            "data": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+            ],
+            "name": "Subgenotype",
+            "label": "Subgenotype",
+            "type": "text",
+            "required": false
+        }
+    ]
+}

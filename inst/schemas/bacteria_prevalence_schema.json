@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/fsqanalytics/PIFDataModel/docs/articles/schemas/bacteria_prevalence_schema.json",
+    "type": "object",
+    "properties": {
+        "SampleWDet": {
+            "type": "number"
+        },
+        "LoD": {
+            "type": "number"
+        },
+        "DetecEnrichment": {
+            "type": "number"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "SampleWDet",
+        "DetecEnrichment"
+    ]
+}

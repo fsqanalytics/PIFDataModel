@@ -1,0 +1,1283 @@
+{
+    "label": "Parasite",
+    "Anisakidae (family)": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Opisthorchiidae (family)": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Heterophyidae (family)": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Bothriocephalidae (family)": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Polymorphidae (family)": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Kudoidae (family)": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Anisakinae (subfamily)": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Contracaecinae (subfamily)": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Anisakis": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Contracaecum": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Phocanema": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Pseudoterranova": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Opisthorchis": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Metorchis": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Pseudamphistomum": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Dibothriocephalus": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Bolbosoma": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Corynosoma": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Kudoa": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    },
+    "Cryptocotyle": {
+        "label": "EssayIdentificationType",
+        "Morphologic": {
+            "label": "EssayIdentificationTypeClass",
+            "Naked eye": null,
+            "Microscopy": null,
+            "Other": null
+        },
+        "Biochemical": {
+            "label": "EssayIdentificationTypeClass",
+            "MEE/isoenzyme typing": null,
+            "ELISA antigene Ani s 7": null,
+            "Other": null
+        },
+        "Molecular": {
+            "label": "EssayIdentificationTypeClass",
+            "PCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 or ssrRNA or IsrRNA or ITS-1 or ITS-2 or ITS1-5.8S-ITS2": null,
+                "Other ribosomal DNA sequence": null
+            },
+            "PCR-RFLP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS1+ITS2 or COX2 or rDNA 28S": null,
+                "Other": null
+            },
+            "PCR-SSCP": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-2 rDNA": null,
+                "Other": null
+            },
+            "PCR-multiplex": {
+                "label": "EssayIdentificationTypeClass2",
+                "mtDNA cytb or COX 1 or COX 2 ITS-1 or, ITS-2 or 18S": null,
+                "Other": null
+            },
+            "Multiplex Quantitative PCR (qPCR)/ real time PCR (rtPCR)": null,
+            "Quantitative PCR (qPCR) real time PCR (rtPCR)": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1 or ITS-2 or ITS1-5.8S-ITS2 or rDNA 18S or COX2": null,
+                "Other": null
+            },
+            "Post-qPCR": {
+                "label": "EssayIdentificationTypeClass2",
+                "ITS-1": null,
+                "Other": null
+            },
+            "PCR+Sanger": null,
+            "Nested PCR": null,
+            "LAMP": null,
+            "HAT-RAPD": null,
+            "Species specific PCR": null,
+            "Other": null
+        },
+        "Other": [
+            {
+                "data": null,
+                "name": "EssayIdentificationOther",
+                "label": "Specify - EssayIdentificationOther",
+                "type": "text",
+                "required": true
+            }
+        ]
+    }
+}
