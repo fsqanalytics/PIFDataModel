@@ -20,7 +20,7 @@ Below is an overview of the structures included in the `PIFDataModel` package:
 | **Bacteria**        | Contains the count data for bacteria                          | [View](./structs/bacteria_count_results.json)  |
 |                     | Contains the essays related to bacteria research              | [View](./structs/bacteria_essays.json)        |
 |                     | Stores general results from bacteria-related studies          | [View](./structs/bacteria_general_results.json)|
-|                     | Contains prevalence results for bacteria                      | [View](./structs/bacteria_prevalence_results.json)|
+|                     | Contains prevalence results for bacteria                      | [View](./structs/bacteria_prev_results.json)|
 | **FAO**             | Contains information about FAO areas                         | [View](./structs/fao_areas.json)              |
 | **Food**            | Contains characteristics of food                              | [View](./structs/food_characteristics.json)   |
 |                     | Describes the structure of different food types               | [View](./structs/food_structure.json)         |
