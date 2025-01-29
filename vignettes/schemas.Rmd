@@ -17,11 +17,11 @@ The table below lists the schemas available in the `PIFDataModel` package:
    
 | **Category**       | **Description**                                       | **Link**                                                                    |
 |--------------------|-------------------------------------------------------|-----------------------------------------------------------------------------|
-| **Bacteria**       | Schema for bacteria count information                 | [View](../../inst/extdata/schemas/bacteria_count_schema.json)               |
-|                    | Schema for bacteria prevalence                        | [View](../../inst/extdata/schemas/bacteria_prevalence_schema.json)          |
-|                    | Schema for results related to bacteria analysis       | [View](../../inst/extdata/schemas/bacteria_general_results_schema.json)     |
-|                    | Schema for hierarchical tree structure of bacteria    | [View](../../inst/extdata/schemas/bacteria_tree_schema.json)                |
-| **Study**          | Schema for study                                      | [View](../../inst/extdata/schemas/study_schema.json)                        |
+| **Bacteria**       | Schema for bacteria count information                 | [View](./schemas/bacteria_count_schema.json)               |
+|                    | Schema for bacteria prevalence                        | [View](./schemas/bacteria_prevalence_schema.json)          |
+|                    | Schema for results related to bacteria analysis       | [View](./schemas/bacteria_general_results_schema.json)     |
+|                    | Schema for hierarchical tree structure of bacteria    | [View](./schemas/bacteria_tree_schema.json)                |
+| **Study**          | Schema for study                                      | [View](./schemas/study_schema.json)                        |
 
 
 # Examples
