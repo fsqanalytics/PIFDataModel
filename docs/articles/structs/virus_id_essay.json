@@ -1,5 +1,5 @@
 {
-    "label": "Virus",
+    "label": "Virus Essay Identification",
     "Norovirus": {
         "label": "EssayIdentificationType",
         "WGS": null,

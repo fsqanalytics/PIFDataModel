@@ -1,8 +1,0 @@
-{
-    "ParasiteLabel": {
-        "data": null,
-        "label": "Parasite Label",
-        "type": "text",
-        "required": false
-    }
-}
