@@ -19,7 +19,7 @@ reference:
        - excel_to_json_schema
 
 articles:
-  - title: "Structs of the PIF database."
+  - title: "Structures of the PIF database."
     contents:
       - structs
   - title: "Schemas of the PIF database."
