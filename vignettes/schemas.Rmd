@@ -21,7 +21,7 @@ The table below lists the schemas available in the `PIFDataModel` package:
 |                    | Schema for bacteria prevalence                        | [View](./schemas/bacteria_prevalence_schema.json)          |
 |                    | Schema for results related to bacteria analysis       | [View](./schemas/bacteria_general_results_schema.json)     |
 |                    | Schema for hierarchical tree structure of bacteria    | [View](./schemas/bacteria_tree_schema.json)                |
-| **Study**          | Schema for study                                      | [View](./schemas/study_schema.json)                        |
+| **Study**          | Schema for study                                      | [View](./schemas/bacteria_schema.json)                        |
 
 
 # Examples
