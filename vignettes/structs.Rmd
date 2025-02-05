@@ -15,48 +15,47 @@ The `PIFDataModel` package is designed to standardize data storage and handling 
 
 Below is an overview of the structures included in the `PIFDataModel` package:
 
-| **Category**        | **Description**                                              | **Link**                                                        |
-|---------------------|--------------------------------------------------------------|--------------------------------------------------------------|
-| **Bacteria**        | Contains the count data for bacteria                          | [View](./structs/bacteria_count_results.json)  |
-|                     | Contains the essays related to bacteria research              | [View](./structs/bacteria_essays.json)        |
-|                     | Stores general results from bacteria-related studies          | [View](./structs/bacteria_general_results.json)|
-|                     | Contains prevalence results for bacteria                      | [View](./structs/bacteria_prev_results.json)|
-| **FAO**             | Contains information about FAO areas                         | [View](./structs/fao_areas.json)              |
-| **Food**            | Contains characteristics of food                              | [View](./structs/food_characteristics.json)   |
-|                     | Describes the structure of different food types               | [View](./structs/food_structure.json)         |
-| **Nematodes**       | Contains count results for nematodes                          | [View](./structs/nematodes_count_results.json)|
-|                     | Contains essays related to nematodes                          | [View](./structs/nematodes_essays.json)       |
-|                     | Provides food-related information for nematodes               | [View](./structs/nematodes_food_info.json)    |
-|                     | Contains general results from nematode studies                | [View](./structs/nematodes_general_results.json)|
-|                     | Contains essay data for nematode identification               | [View](./structs/nematodes_id_essay.json)     |
-|                     | Contains essay data for nematode infectivity                  | [View](./structs/nematodes_infec_essay.json)  |
-|                     | Contains results related to nematode infection                | [View](./structs/nematodes_infec_results.json)|
-|                     | Contains prevalence results for nematodes                     | [View](./structs/nematodes_prev_results.json) |
-|                     | Contains essay data on nematode sample preparation            | [View](./structs/nematodes_sample_prep_essay.json)|
-|                     | Defines the subtype tree for nematodes                        | [View](./structs/nematodes_subtype_tree.json) |
-|                     | Describes the nematode types in a hierarchical structure      | [View](./structs/nematodes_type.json)         |
-| **Protozoans**      | Contains enumeration results for protozoans                   | [View](./structs/protozoans_enum_results.json)|
-|                     | Contains essays related to protozoans                         | [View](./structs/protozoans_essays.json)      |
-|                     | Stores general results from protozoan studies                 | [View](./structs/protozoans_general_results.json)|
-|                     | Contains essay data for protozoan identification              | [View](./structs/protozoans_id_essay.json)    |
-|                     | Contains essay data for protozoan infectivity                 | [View](./structs/protozoans_infec_essay.json) |
-|                     | Contains results related to protozoan infection               | [View](./structs/protozoans_infec_results.json)|
-|                     | Contains prevalence results for protozoans                    | [View](./structs/protozoans_prev_results.json)|
-|                     | Contains essay data on protozoan sample preparation           | [View](./structs/protozoans_sample_prep_essay.json)|
-|                     | Defines the subtype classification for protozoans             | [View](./structs/protozoans_subtype.json)     |
-|                     | Describes the protozoan types in a hierarchical structure     | [View](./structs/protozoans_type.json)        |
-|                     | Lists the measurement units used for protozoan data           | [View](./structs/protozoans_units.json)       |
-| **Study**           | Contains structural data for study schema                    | [View](./structs/study_structure.json)        |
-| **Virus**           | Contains enumeration results for viruses                      | [View](./structs/virus_enum_results.json)     |
-|                     | Contains essays related to virus research                     | [View](./structs/virus_essays.json)           |
-|                     | Stores general results from virus studies                     | [View](./structs/virus_general_results.json)  |
-|                     | Contains essay data for virus identification                  | [View](./structs/virus_id_essay.json)         |
-|                     | Contains essay data for virus infectivity                     | [View](./structs/virus_infec_essay.json)      |
-|                     | Contains results related to virus infection                   | [View](./structs/virus_infec_results.json)    |
-|                     | Contains results for virus quality and molecular analysis     | [View](./structs/virus_quality_mol_results.json)|
-|                     | Defines the subtype classification for viruses                | [View](./structs/virus_subtype.json)          |
-|                     | Describes the virus types in a hierarchical structure         | [View](./structs/virus_type.json)             |
-
+| **Category**        | **Description**                                              | **Link**                                            |
+|---------------------|--------------------------------------------------------------|-----------------------------------------------------|
+| **Study**           | Contains structural data for study schema                    | [View](./structs/study_structure.json)              |
+| **FAO**             | Contains information about FAO areas                         | [View](./structs/fao_areas.json)                    |
+| **Food**            | Contains characteristics of food                             | [View](./structs/food_characteristics.json)         |
+|                     | Describes the structure of different food types              | [View](./structs/food_structure.json)               |
+| **Bacteria**        | Contains the essays related to bacteria research             | [View](./structs/bacteria_essays.json)              |
+|                     | Stores general results from bacteria-related studies         | [View](./structs/bacteria_general_results.json)     |
+|                     | Contains prevalence results for bacteria                     | [View](./structs/bacteria_prev_results.json)        |
+|                     | Contains the count data for bacteria                         | [View](./structs/bacteria_count_results.json)       |
+| **Virus**           | Describes the virus types in a hierarchical structure        | [View](./structs/virus_type.json)                   |
+|                     | Defines the subtype classification for viruses               | [View](./structs/virus_subtype.json)                |
+|                     | Contains essays related to virus research                    | [View](./structs/virus_essays.json)                 |
+|                     | Contains essay data for virus infectivity                    | [View](./structs/virus_infec_essay.json)            |
+|                     | Contains essay data for virus identification                 | [View](./structs/virus_id_essay.json)               |
+|                     | Stores general results from virus studies                    | [View](./structs/virus_general_results.json)        |
+|                     | Contains results related to virus infection                  | [View](./structs/virus_infec_results.json)          |
+|                     | Contains enumeration results for viruses                     | [View](./structs/virus_enum_results.json)           |
+|                     | Contains results for virus quality and molecular analysis    | [View](./structs/virus_quality_mol_results.json)    |
+| **Nematodes**       | Describes the nematodes types in a hierarchical structure    | [View](./structs/nematodes_type.json)               |
+|                     | Defines the subtype tree for nematodes                       | [View](./structs/nematodes_subtype_tree.json)       |
+|                     | Contains essays related to nematodes                         | [View](./structs/nematodes_essays.json)             |
+|                     | Contains essay data on nematodes sample preparation          | [View](./structs/nematodes_sample_prep_essay.json)  |
+|                     | Contains essay data for nematodes identification             | [View](./structs/nematodes_id_essay.json)           |
+|                     | Contains essay data for nematodes infectivity                | [View](./structs/nematodes_infec_essay.json)        |
+|                     | Provides food-related information for nematodes              | [View](./structs/nematodes_food_info.json)          |
+|                     | Contains general results from nematodes studies              | [View](./structs/nematodes_general_results.json)    |
+|                     | Contains prevalence results for nematodes                    | [View](./structs/nematodes_prev_results.json)       |
+|                     | Contains count results for nematodes                         | [View](./structs/nematodes_count_results.json)      |
+|                     | Contains results related to nematodes infection              | [View](./structs/nematodes_infec_results.json)      |
+| **Protozoans**      | Describes the protozoan types in a hierarchical structure    | [View](./structs/protozoans_type.json)              |
+|                     | Defines the subtype classification for protozoans            | [View](./structs/protozoans_subtype.json)           |
+|                     | Contains essays related to protozoans                        | [View](./structs/protozoans_essays.json)            |
+|                     | Contains essay data on protozoan sample preparation          | [View](./structs/protozoans_sample_prep_essay.json) |
+|                     | Contains essay data for protozoan identification             | [View](./structs/protozoans_id_essay.json)          |
+|                     | Contains essay data for protozoan infectivity                | [View](./structs/protozoans_infec_essay.json)       |
+|                     | Lists the measurement units used for protozoan data          | [View](./structs/protozoans_units.json)             |
+|                     | Stores general results from protozoan studies                | [View](./structs/protozoans_general_results.json)   |
+|                     | Contains prevalence results for protozoans                   | [View](./structs/protozoans_prev_results.json)      |
+|                     | Contains enumeration results for protozoans                  | [View](./structs/protozoans_enum_results.json)      |
+|                     | Contains results related to protozoan infection              | [View](./structs/protozoans_infec_results.json)     
 # Examples
 
 Here are examples of how to load and work with the structures in R:
