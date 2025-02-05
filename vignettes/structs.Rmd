@@ -55,7 +55,7 @@ Below is an overview of the structures included in the `PIFDataModel` package:
 |                     | Stores general results from protozoan studies                | [View](./structs/protozoans_general_results.json)   |
 |                     | Contains prevalence results for protozoans                   | [View](./structs/protozoans_prev_results.json)      |
 |                     | Contains enumeration results for protozoans                  | [View](./structs/protozoans_enum_results.json)      |
-|                     | Contains results related to protozoan infection              | [View](./structs/protozoans_infec_results.json)     
+|                     | Contains results related to protozoan infection              | [View](./structs/protozoans_infec_results.json)     |
 # Examples
 
 Here are examples of how to load and work with the structures in R:
